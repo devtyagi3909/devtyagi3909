@@ -21,7 +21,7 @@ Interrupt driven descriptor DMA with configurable burst lengths, AXI4-MM and AXI
 **AXI4-Lite Verification IP**  `SystemVerilog` `UVM`
 Full UVM testbench with constrained random sequences, self-checking scoreboard, and SVA AMBA compliance checks. 100% functional coverage on address, data, and response channels.
 
-**ConstraintForge**  `Tcl` `Python` `GitHub Actions` — [github.com/devtyagi3909/constraintforge](https://github.com/devtyagi3909/constraintforge)
+**ConstraintForge**  `Tcl` `Python` `GitHub Actions` [github.com/devtyagi3909/constraintforge](https://github.com/devtyagi3909/constraintforge)
 OpenSource annotated XDC/SDC/LPF constraint library for 14+ interfaces across 13 boards. Every file CI validated on PR.
 **[View the Live ConstraintForge Documentation](https://devtyagi3909.github.io/constraintforge/)**
 
