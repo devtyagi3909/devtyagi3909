@@ -10,18 +10,18 @@ Final-year ECE student at VIT Chennai. Interning at **IIT Palakkad** on neural n
 
 ## Projects
 
-**Out-of-Order Superscalar RISC-V Processor** — `SystemVerilog` `UltraScale+`
+**Out-of-Order Superscalar RISC-V Processor** `SystemVerilog` `UltraScale+`
 Full RV32I superscalar core with Tomasulo's algorithm, ROB, CDB, speculative execution, and precise exception handling across a 7-stage pipeline. 250 MHz timing closure post synthesis. >95% functional coverage closure. Passed full RISC-V ISA compliance suite.
 **→ 1st Place + Special Jury Award, SanDisk Hardware Hackathon (100+ teams)**
 
-**High-Throughput AXI4 DMA Engine** — `SystemVerilog` `PYNQ-Z2`
+**High-Throughput AXI4 DMA Engine**  `SystemVerilog` `PYNQ-Z2`
 Interrupt driven descriptor DMA with configurable burst lengths, AXI4-MM and AXI-Stream endpoints, and outstanding transaction tracking. 1 GB/s sustained throughput on real AXI traffic.
 **→ 2nd Place, FPGA Makeathon**
 
-**AXI4-Lite Verification IP** — `SystemVerilog` `UVM`
+**AXI4-Lite Verification IP**  `SystemVerilog` `UVM`
 Full UVM testbench with constrained random sequences, self-checking scoreboard, and SVA AMBA compliance checks. 100% functional coverage on address, data, and response channels.
 
-**ConstraintForge** — `Tcl` `Python` `GitHub Actions` — [github.com/devtyagi3909/constraintforge](https://github.com/devtyagi3909/constraintforge)
+**ConstraintForge**  `Tcl` `Python` `GitHub Actions` — [github.com/devtyagi3909/constraintforge](https://github.com/devtyagi3909/constraintforge)
 OpenSource annotated XDC/SDC/LPF constraint library for 14+ interfaces across 13 boards. Every file CI validated on PR.
 **[View the Live ConstraintForge Documentation](https://devtyagi3909.github.io/constraintforge/)**
 
