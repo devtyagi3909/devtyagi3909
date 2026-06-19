@@ -1,6 +1,6 @@
 # Dev Tyagi
 
-**RTL & FPGA Design Engineer — AI Inference Silicon, Out-of-Order Microarchitecture, AXI Subsystems**
+**RTL & AI on FPGA Design Engineer , AI Inference Silicon, Out-of-Order Superscalar Microarchitecture, AXI Subsystems, LLM/RAG Acceleration**
 
 The AI industry's center of gravity has shifted from training to inference. Custom ASICs now command 40% of the inference accelerator market, the bottleneck has narrowed to a single discipline: writing RTL that moves data faster than arithmetic can consume it. That is the problem I work on.
 
