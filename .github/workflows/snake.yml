@@ -14,12 +14,19 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
       - name: Generate snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg?color_snake=%23cc3d10&color_dots=%230a0a0a,%231e4db7,%238a290b,%23cc3d10,%23ff6230
+            dist/snake-raw.svg?palette=github-dark&color_snake=#cc3d10&color_dots=#0a0a0a,#1e4db7,#8a290b,#cc3d10,#ff6230
+
+      - name: Wrap Snake in FPGA Die
+        run: |
+          python3 wrap_snake.py dist/snake-raw.svg dist/snake.svg
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
