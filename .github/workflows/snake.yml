@@ -21,6 +21,22 @@ jobs:
           outputs: |
             dist/snake.svg?palette=github-dark&color_snake=cc3d10
 
+      - name: Apply portfolio colors
+        run: |
+          # Replace default snake green with portfolio orange-red
+          sed -i 's/color_snake=.*//' dist/snake.svg || true
+          sed -i 's/#3fb950/#cc3d10/g' dist/snake.svg
+          sed -i 's/#2ea043/#cc3d10/g' dist/snake.svg  
+          sed -i 's/#26a641/#cc3d10/g' dist/snake.svg
+          sed -i 's/#006d32/#cc3d10/g' dist/snake.svg
+          sed -i 's/#0e4429/#0a0a0a/g' dist/snake.svg
+          sed -i 's/ebedf0/111111/g' dist/snake.svg
+          sed -i 's/9be9a8/1e4db7/g' dist/snake.svg
+          sed -i 's/40c463/cc3d10/g' dist/snake.svg
+          sed -i 's/30a14e/cc3d10/g' dist/snake.svg
+          sed -i 's/216e39/cc3d10/g' dist/snake.svg
+          echo "Colors applied"
+
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:

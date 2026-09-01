@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/panel-v3.svg" width="100%" alt="Dev Tyagi — FPGA · AI Accelerator · RTL Engineer"/>
+<img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/panel-v3.svg" width="100%" alt="Dev Tyagi"/>
 
 <br/><br/>
 
@@ -20,25 +20,12 @@
 
 ---
 
-CONTRIBUTION GRID
+<img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/panel-chip.svg" width="100%" alt="Contribution Activity"/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/output/snake.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/output/snake.svg"/>
   <img alt="Contribution Snake" src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/output/snake.svg" width="100%"/>
 </picture>
-
----
-
-GITHUB STATS
-
-<a href="https://github.com/devtyagi3909">
-<img height="155" src="https://github-readme-stats.vercel.app/api?username=devtyagi3909&show_icons=true&bg_color=050505&border_color=cc3d10&title_color=cc3d10&icon_color=cc3d10&text_color=f4f4f5&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-</a>
-&nbsp;
-<a href="https://github.com/devtyagi3909">
-<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devtyagi3909&layout=compact&bg_color=050505&border_color=cc3d10&title_color=cc3d10&text_color=f4f4f5&hide_border=false&langs_count=6" alt="Top Languages"/>
-</a>
 
 ---
 
