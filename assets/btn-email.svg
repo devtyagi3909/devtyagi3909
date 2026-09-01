@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 38" width="110" height="38" role="img" aria-label="Email">
+  <rect x="1" y="1" width="108" height="36" rx="9" fill="#06080f" stroke="#1a6cff" stroke-opacity=".6"/>
+  <!-- Envelope icon -->
+  <g transform="translate(14,11)">
+    <rect x="0" y="0" width="18" height="14" rx="2" fill="none" stroke="#1a6cff" stroke-width="1.5"/>
+    <polyline points="0,2 9,9 18,2" fill="none" stroke="#1a6cff" stroke-width="1.5"/>
+  </g>
+  <text x="40" y="24" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#e8eefc" font-weight="700">Email</text>
+</svg>

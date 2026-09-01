@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 38" width="140" height="38" role="img" aria-label="Repositories">
+  <rect x="1" y="1" width="138" height="36" rx="9" fill="#06080f" stroke="#1a6cff" stroke-opacity=".6"/>
+  <!-- Repo icon (simplified) -->
+  <g transform="translate(14,10)" fill="#1a6cff">
+    <rect x="0" y="0" width="3" height="17" rx="1"/>
+    <rect x="7" y="0" width="3" height="17" rx="1"/>
+    <path d="M0 0 Q5,-3 10,0" fill="none" stroke="#1a6cff" stroke-width="1.5"/>
+  </g>
+  <text x="40" y="24" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#e8eefc" font-weight="700">Repositories</text>
+</svg>

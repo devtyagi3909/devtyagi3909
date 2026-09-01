@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 38" width="130" height="38" role="img" aria-label="LinkedIn">
+  <rect x="1" y="1" width="128" height="36" rx="9" fill="#06080f" stroke="#1a6cff" stroke-opacity=".6"/>
+  <!-- LinkedIn icon -->
+  <g transform="translate(14,10)">
+    <rect width="3.5" height="10.5" y="7" fill="#1a6cff"/>
+    <circle cx="1.75" cy="3.5" r="2" fill="#1a6cff"/>
+    <path d="M8 17.5V11c0-1.1.9-2 2-2s2 .9 2 2v6.5h3.5V11A5.5 5.5 0 0 0 4.5 11v6.5z" fill="#1a6cff"/>
+  </g>
+  <text x="42" y="24" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#e8eefc" font-weight="700">LinkedIn</text>
+</svg>

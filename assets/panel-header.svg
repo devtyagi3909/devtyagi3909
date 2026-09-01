@@ -1,0 +1,290 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 600" width="1240" height="600" role="img" aria-label="Dev Tyagi — FPGA · AI Accelerator · Embedded Systems">
+  <defs>
+    <radialGradient id="bg-glow" cx="30%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#1a6cff" stop-opacity=".09"/>
+      <stop offset="100%" stop-color="#1a6cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bg-glow2" cx="90%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity=".05"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a6cff"/>
+      <stop offset="60%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#06080f" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="code-fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000"/>
+      <stop offset="15%" stop-color="#fff"/>
+      <stop offset="85%" stop-color="#fff"/>
+      <stop offset="100%" stop-color="#000"/>
+    </linearGradient>
+    <mask id="code-mask">
+      <rect x="0" y="0" width="546" height="340" fill="url(#code-fade)"/>
+    </mask>
+    <linearGradient id="term-fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#000"/>
+      <stop offset="8%" stop-color="#fff"/>
+      <stop offset="92%" stop-color="#fff"/>
+      <stop offset="100%" stop-color="#000"/>
+    </linearGradient>
+    <mask id="term-mask">
+      <rect x="0" y="0" width="430" height="80" fill="url(#term-fade)"/>
+    </mask>
+    <clipPath id="code-clip">
+      <rect x="0" y="0" width="546" height="340" rx="6"/>
+    </clipPath>
+    <clipPath id="term-clip">
+      <rect x="0" y="0" width="430" height="80" rx="4"/>
+    </clipPath>
+    <clipPath id="wave-clip">
+      <rect x="52" y="28" width="490" height="120"/>
+    </clipPath>
+  </defs>
+
+  <!-- Base background -->
+  <rect width="1240" height="600" fill="#06080f"/>
+  <rect width="1240" height="600" fill="url(#bg-glow)"/>
+  <rect width="1240" height="600" fill="url(#bg-glow2)"/>
+
+  <!-- Subtle circuit grid -->
+  <g opacity="0.035" stroke="#1a6cff" stroke-width="0.5">
+    <line x1="0" y1="100" x2="1240" y2="100"/>
+    <line x1="0" y1="200" x2="1240" y2="200"/>
+    <line x1="0" y1="300" x2="1240" y2="300"/>
+    <line x1="0" y1="400" x2="1240" y2="400"/>
+    <line x1="0" y1="500" x2="1240" y2="500"/>
+    <line x1="200" y1="0" x2="200" y2="600"/>
+    <line x1="600" y1="0" x2="600" y2="600"/>
+    <line x1="1000" y1="0" x2="1000" y2="600"/>
+  </g>
+
+  <!-- ═══ LEFT PANEL — Text ═══ -->
+
+  <!-- Accent bar -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.02;0.05;1" dur="24s" fill="freeze"/>
+    <rect x="40" y="68" width="56" height="3" rx="1.5" fill="url(#accent-line)"/>
+  </g>
+
+  <!-- Name -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.025;0.07;1" dur="24s" fill="freeze"/>
+    <text x="40" y="132"
+      font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
+      font-size="40" fill="#e8eefc" font-weight="700">Dev Tyagi</text>
+  </g>
+
+  <!-- Role -->
+  <text x="40" y="170"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
+    font-size="16" fill="#e8eefc" opacity="0">
+    FPGA  ·  AI Accelerator  ·  RTL Engineer
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.07;0.12;1" dur="24s" fill="freeze"/>
+  </text>
+
+  <!-- Stack 1 -->
+  <text x="40" y="202"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
+    font-size="14" fill="#6a8ab8" opacity="0">
+    Verilog  ·  SystemVerilog  ·  C  ·  Python  ·  RISC-V
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.12;0.16;1" dur="24s" fill="freeze"/>
+  </text>
+
+  <!-- Stack 2 -->
+  <text x="40" y="230"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
+    font-size="13.5" fill="#6a8ab8" opacity="0">
+    FPGA Toolchains · Embedded AI · MicroPython · Assembly
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.16;0.20;1" dur="24s" fill="freeze"/>
+  </text>
+
+  <!-- Stack 3 -->
+  <text x="40" y="258"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
+    font-size="13.5" fill="#6a8ab8" opacity="0">
+    Systolic Arrays · HLS · SLG47910 ForgeFPGA · ns-3
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.20;0.24;1" dur="24s" fill="freeze"/>
+  </text>
+
+  <!-- Stack 4 -->
+  <text x="40" y="286"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
+    font-size="13.5" fill="#6a8ab8" opacity="0">
+    CAN Bus · Wi-Fi 7 · MLO · Network Simulation
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.24;0.28;1" dur="24s" fill="freeze"/>
+  </text>
+
+  <!-- Location -->
+  <text x="40" y="320"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
+    font-size="13" fill="#3d5278" opacity="0">
+    B.Tech ECM  ·  VIT Chennai  ·  India
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.28;0.32;1" dur="24s" fill="freeze"/>
+  </text>
+
+  <!-- Status section -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.34;0.38;1" dur="24s" fill="freeze"/>
+    <rect x="40" y="354" width="520" height="1" fill="#1b2740"/>
+    <circle cx="46" cy="392" r="5.5" fill="#1a6cff">
+      <animate attributeName="opacity" values="1;.2;1" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="62" y="397"
+      font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
+      font-size="14.5" fill="#e8eefc" font-weight="700">
+      Open to internships &amp; contract work in hardware/AI
+    </text>
+    <text x="40" y="426"
+      font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
+      font-size="12.5" fill="#3d5278">
+      FPGA · embedded AI · RISC-V · RTL design · research collab
+    </text>
+  </g>
+
+  <!-- Synthesis terminal scroll -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.41;0.46;1" dur="24s" fill="freeze"/>
+    <g transform="translate(40,458)">
+      <text x="0" y="9"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
+        font-size="11" fill="#3d5278">$ synthesize --target slg47910 --opt area</text>
+      <rect x="0" y="18" width="430" height="76" rx="4" fill="#080e1c"/>
+      <g clip-path="url(#term-clip)" mask="url(#term-mask)">
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+            values="0 0; -760 0" dur="60s" repeatCount="indefinite"/>
+          <text x="8" y="38"
+            font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
+            font-size="10.5" fill="#1a6cff" opacity="0.7" xml:space="preserve">[INFO] Parsing RTL...   [INFO] Yosys synthesis running...   [WARN] BRAM init detected — using LUT fallback   [INFO] CLB LUT5s: 516/1120   [INFO] FFs: 230/1120   [OK] Bitstream: shrike_serv.bin   [INFO] Flashing RP2040...   [OK] SERV RISC-V: 1+2=3   [INFO] Parsing RTL...</text>
+          <text x="8" y="56"
+            font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
+            font-size="10.5" fill="#00d4ff" opacity="0.45" xml:space="preserve">[SIM]  ns-3 MLO: nodes=50  throughput=2.4Gbps   [SIM]  CAN firewall: 0 injections   [PASS] Wi-Fi 7 MLO link aggregation active   [SIM]  DNN inference: acc=94.2%   [SIM]  ns-3 MLO: nodes=50  throughput=2.4Gbps</text>
+          <text x="8" y="74"
+            font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
+            font-size="10.5" fill="#6a8ab8" opacity="0.35" xml:space="preserve">&gt;&gt;&gt; model.fit(X_train, y_train, epochs=50)   Epoch 1/50 loss:0.8432   Epoch 25/50 loss:0.1203   Epoch 50/50 loss:0.0612   val_acc:0.9420   Saved: densenet121.h5</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ═══ RIGHT PANEL — Code Editor ═══ -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.46;0.53;1" dur="24s" fill="freeze"/>
+    <g transform="translate(638, 58)">
+      <rect x="0" y="0" width="562" height="344" rx="8" fill="#080e1c" stroke="#1b2740" stroke-width="1"/>
+      <rect x="0" y="0" width="562" height="32" rx="8" fill="#0d1525"/>
+      <rect x="0" y="24" width="562" height="8" fill="#0d1525"/>
+      <circle cx="18" cy="16" r="5" fill="#ff5f57" opacity="0.8"/>
+      <circle cx="34" cy="16" r="5" fill="#ffbd2e" opacity="0.8"/>
+      <circle cx="50" cy="16" r="5" fill="#28c840" opacity="0.8"/>
+      <rect x="70" y="6" width="130" height="20" rx="3" fill="#141f38"/>
+      <text x="80" y="20" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
+        font-size="11" fill="#6a8ab8">serv_shrike_top.v</text>
+      <rect x="0" y="32" width="36" height="312" fill="#0a1220"/>
+      <g clip-path="url(#code-clip)" mask="url(#code-mask)">
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+            values="0 32; 0 -580" dur="30s" repeatCount="indefinite"/>
+          <!-- Line numbers -->
+          <text font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" fill="#2a3a56">
+            <tspan x="10" y="14">1</tspan><tspan x="10" dy="16">2</tspan><tspan x="10" dy="16">3</tspan><tspan x="10" dy="16">4</tspan><tspan x="10" dy="16">5</tspan><tspan x="10" dy="16">6</tspan><tspan x="10" dy="16">7</tspan><tspan x="10" dy="16">8</tspan><tspan x="10" dy="16">9</tspan><tspan x="8" dy="16">10</tspan><tspan x="8" dy="16">11</tspan><tspan x="8" dy="16">12</tspan><tspan x="8" dy="16">13</tspan><tspan x="8" dy="16">14</tspan><tspan x="8" dy="16">15</tspan><tspan x="8" dy="16">16</tspan><tspan x="8" dy="16">17</tspan><tspan x="8" dy="16">18</tspan><tspan x="8" dy="16">19</tspan><tspan x="8" dy="16">20</tspan><tspan x="8" dy="16">21</tspan><tspan x="8" dy="16">22</tspan><tspan x="8" dy="16">23</tspan><tspan x="8" dy="16">24</tspan><tspan x="8" dy="16">25</tspan><tspan x="8" dy="16">26</tspan><tspan x="8" dy="16">27</tspan><tspan x="8" dy="16">28</tspan><tspan x="8" dy="16">29</tspan><tspan x="8" dy="16">30</tspan><tspan x="8" dy="16">31</tspan><tspan x="8" dy="16">32</tspan><tspan x="8" dy="16">33</tspan><tspan x="8" dy="16">34</tspan><tspan x="8" dy="16">35</tspan><tspan x="8" dy="16">36</tspan><tspan x="8" dy="16">37</tspan><tspan x="8" dy="16">38</tspan><tspan x="8" dy="16">39</tspan><tspan x="8" dy="16">40</tspan>
+          </text>
+          <!-- Code -->
+          <text font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5">
+            <tspan x="44" y="14" fill="#7aa2f7">module</tspan><tspan fill="#e8eefc"> serv_shrike_top (</tspan>
+            <tspan x="44" dy="16" fill="#c0caf5">  input  </tspan><tspan fill="#7aa2f7">wire       </tspan><tspan fill="#e8eefc">clk,</tspan>
+            <tspan x="44" dy="16" fill="#c0caf5">  input  </tspan><tspan fill="#7aa2f7">wire       </tspan><tspan fill="#e8eefc">rst,</tspan>
+            <tspan x="44" dy="16" fill="#c0caf5">  output </tspan><tspan fill="#7aa2f7">wire </tspan><tspan fill="#e8eefc">[1:0] result</tspan>
+            <tspan x="44" dy="16" fill="#e8eefc">);</tspan>
+            <tspan x="44" dy="16"/>
+            <tspan x="44" dy="16" fill="#565f89">  // SERV — world's smallest RISC-V CPU</tspan>
+            <tspan x="44" dy="16" fill="#7aa2f7">  wire </tspan><tspan fill="#e8eefc">[31:0] dbus_dat;</tspan>
+            <tspan x="44" dy="16" fill="#7aa2f7">  wire </tspan><tspan fill="#e8eefc">       dbus_we;</tspan>
+            <tspan x="44" dy="16"/>
+            <tspan x="44" dy="16" fill="#7aa2f7">  serv_top </tspan><tspan fill="#e8eefc">#(</tspan>
+            <tspan x="44" dy="16" fill="#e8eefc">    .RESET_PC(32</tspan><tspan fill="#f7768e">'h0000_0000</tspan><tspan fill="#e8eefc">)</tspan>
+            <tspan x="44" dy="16" fill="#e8eefc">  ) cpu (</tspan>
+            <tspan x="44" dy="16" fill="#e8eefc">    .clk       (clk),</tspan>
+            <tspan x="44" dy="16" fill="#e8eefc">    .i_rst     (rst),</tspan>
+            <tspan x="44" dy="16" fill="#e8eefc">    .o_dbus_dat(dbus_dat),</tspan>
+            <tspan x="44" dy="16" fill="#e8eefc">    .o_dbus_we (dbus_we)</tspan>
+            <tspan x="44" dy="16" fill="#e8eefc">  );</tspan>
+            <tspan x="44" dy="16"/>
+            <tspan x="44" dy="16" fill="#565f89">  // Output 2-bit result via GPIO</tspan>
+            <tspan x="44" dy="16" fill="#7aa2f7">  assign </tspan><tspan fill="#e8eefc">result = dbus_we ? dbus_dat[1:0] : </tspan><tspan fill="#f7768e">2'b00</tspan><tspan fill="#e8eefc">;</tspan>
+            <tspan x="44" dy="16"/>
+            <tspan x="44" dy="16" fill="#7aa2f7">endmodule</tspan>
+            <tspan x="44" dy="24" fill="#565f89">  // Systolic MAC for AI accelerator</tspan>
+            <tspan x="44" dy="16" fill="#7aa2f7">module </tspan><tspan fill="#e8eefc">pe_mac (</tspan>
+            <tspan x="44" dy="16" fill="#c0caf5">  input  </tspan><tspan fill="#e8eefc">signed [7:0] a, b,</tspan>
+            <tspan x="44" dy="16" fill="#c0caf5">  output </tspan><tspan fill="#e8eefc">reg signed [15:0] acc</tspan>
+            <tspan x="44" dy="16" fill="#e8eefc">);</tspan>
+            <tspan x="44" dy="16" fill="#7aa2f7">  always </tspan><tspan fill="#e8eefc">@(*) acc = acc + a * b;</tspan>
+            <tspan x="44" dy="16" fill="#7aa2f7">endmodule</tspan>
+            <tspan x="44" dy="24" fill="#565f89">  // CAN firewall FSM</tspan>
+            <tspan x="44" dy="16" fill="#7aa2f7">always </tspan><tspan fill="#e8eefc">@(</tspan><tspan fill="#c0caf5">posedge </tspan><tspan fill="#e8eefc">clk)</tspan>
+            <tspan x="44" dy="16" fill="#7aa2f7">  if </tspan><tspan fill="#e8eefc">(can_id === </tspan><tspan fill="#f7768e">11'h123</tspan><tspan fill="#e8eefc">)</tspan>
+            <tspan x="44" dy="16" fill="#e8eefc">    state &lt;= BLOCKED;</tspan>
+            <tspan x="44" dy="16" fill="#7aa2f7">  else</tspan>
+            <tspan x="44" dy="16" fill="#e8eefc">    state &lt;= PASS;</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ═══ RIGHT BOTTOM — GTKWave panel ═══ -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.55;0.62;1" dur="24s" fill="freeze"/>
+    <g transform="translate(638, 420)">
+      <rect x="0" y="0" width="562" height="152" rx="8" fill="#080e1c" stroke="#1b2740" stroke-width="1"/>
+      <rect x="0" y="0" width="562" height="28" rx="8" fill="#0d1525"/>
+      <rect x="0" y="20" width="562" height="8" fill="#0d1525"/>
+      <text x="14" y="18" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
+        font-size="11" fill="#3d5278">wave.vcd — GTKWave  ·  3 passed, 0 failed</text>
+      <!-- Signal labels -->
+      <text x="8" y="50" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10" fill="#3d5278">clk</text>
+      <text x="8" y="75" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10" fill="#3d5278">rst</text>
+      <text x="8" y="100" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10" fill="#3d5278">result</text>
+      <text x="8" y="125" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10" fill="#3d5278">dbus_we</text>
+      <line x1="50" y1="28" x2="50" y2="152" stroke="#1b2740" stroke-width="1"/>
+      <!-- Waveforms -->
+      <g clip-path="url(#wave-clip)">
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+            values="0 0; -48 0" dur="1.5s" repeatCount="indefinite"/>
+          <path d="M52,58 L52,42 L76,42 L76,58 L100,58 L100,42 L124,42 L124,58 L148,58 L148,42 L172,42 L172,58 L196,58 L196,42 L220,42 L220,58 L244,58 L244,42 L268,42 L268,58 L292,58 L292,42 L316,42 L316,58 L340,58 L340,42 L364,42 L364,58 L388,58 L388,42 L412,42 L412,58 L436,58 L436,42 L460,42 L460,58 L484,58 L484,42 L508,42 L508,58 L532,58 L532,42 L556,42 L556,58 L580,58 L580,42 L604,42 L604,58"
+            stroke="#1a6cff" stroke-width="1.8" fill="none" opacity="0.85"/>
+          <path d="M52,83 L64,83 L64,68 L80,68 L80,83 L604,83"
+            stroke="#f7768e" stroke-width="1.8" fill="none" opacity="0.7"/>
+          <path d="M52,108 L80,108 L80,95 L84,95 L84,108 L240,108 L240,95 L244,95 L244,108 L400,108 L400,95 L404,95 L404,108 L560,108 L560,95 L564,95 L564,108"
+            stroke="#00d4ff" stroke-width="1.8" fill="none" opacity="0.7"/>
+          <path d="M52,133 L236,133 L236,120 L248,120 L248,133 L396,133 L396,120 L408,120 L408,133 L560,133"
+            stroke="#9ece6a" stroke-width="1.8" fill="none" opacity="0.65"/>
+        </g>
+      </g>
+      <!-- Cursor -->
+      <line x1="220" y1="30" x2="220" y2="150" stroke="#1a6cff" stroke-width="1" stroke-dasharray="3,3" opacity="0.5">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 48 0; 0 0" dur="4s" repeatCount="indefinite"/>
+      </line>
+    </g>
+  </g>
+
+  <!-- Circuit accent dots -->
+  <g opacity="0.35">
+    <circle cx="40" cy="582" r="2" fill="#1a6cff"/>
+    <circle cx="60" cy="582" r="2" fill="#1a6cff"/>
+    <circle cx="80" cy="582" r="2" fill="#1a6cff"/>
+    <line x1="40" y1="582" x2="80" y2="582" stroke="#1a6cff" stroke-width="0.8"/>
+    <line x1="80" y1="582" x2="80" y2="562" stroke="#1a6cff" stroke-width="0.8"/>
+  </g>
+  <g opacity="0.35">
+    <circle cx="1200" cy="582" r="2" fill="#00d4ff"/>
+    <circle cx="1180" cy="582" r="2" fill="#00d4ff"/>
+    <circle cx="1160" cy="582" r="2" fill="#00d4ff"/>
+    <line x1="1200" y1="582" x2="1160" y2="582" stroke="#00d4ff" stroke-width="0.8"/>
+    <line x1="1160" y1="582" x2="1160" y2="562" stroke="#00d4ff" stroke-width="0.8"/>
+  </g>
+
+</svg>
