@@ -1,290 +1,381 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 600" width="1240" height="600" role="img" aria-label="Dev Tyagi — FPGA · AI Accelerator · Embedded Systems">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 600" width="1240" height="600" role="img" aria-label="Dev Tyagi — FPGA RTL Engineer">
   <defs>
-    <radialGradient id="bg-glow" cx="30%" cy="0%" r="80%">
-      <stop offset="0%" stop-color="#1a6cff" stop-opacity=".09"/>
-      <stop offset="100%" stop-color="#1a6cff" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="bg-glow2" cx="90%" cy="100%" r="60%">
-      <stop offset="0%" stop-color="#00d4ff" stop-opacity=".05"/>
-      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1a6cff"/>
-      <stop offset="60%" stop-color="#00d4ff"/>
-      <stop offset="100%" stop-color="#06080f" stop-opacity="0"/>
+    <!-- Portfolio accent: #cc3d10 orange-red -->
+    <linearGradient id="acc-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#cc3d10"/>
+      <stop offset="100%" stop-color="#050505" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="code-fade" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="acc-line-h" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cc3d10"/>
+      <stop offset="100%" stop-color="#050505" stop-opacity="0"/>
+    </linearGradient>
+    <!-- Code panel fade mask (vertical) -->
+    <linearGradient id="code-vfade" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#000"/>
-      <stop offset="15%" stop-color="#fff"/>
-      <stop offset="85%" stop-color="#fff"/>
+      <stop offset="12%" stop-color="#fff"/>
+      <stop offset="88%" stop-color="#fff"/>
       <stop offset="100%" stop-color="#000"/>
     </linearGradient>
     <mask id="code-mask">
-      <rect x="0" y="0" width="546" height="340" fill="url(#code-fade)"/>
+      <rect width="562" height="344" fill="url(#code-vfade)"/>
     </mask>
-    <linearGradient id="term-fade" x1="0" y1="0" x2="1" y2="0">
+    <!-- Terminal scroll fade (horizontal) -->
+    <linearGradient id="term-hfade" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#000"/>
-      <stop offset="8%" stop-color="#fff"/>
-      <stop offset="92%" stop-color="#fff"/>
+      <stop offset="7%" stop-color="#fff"/>
+      <stop offset="93%" stop-color="#fff"/>
       <stop offset="100%" stop-color="#000"/>
     </linearGradient>
     <mask id="term-mask">
-      <rect x="0" y="0" width="430" height="80" fill="url(#term-fade)"/>
+      <rect width="430" height="76" fill="url(#term-hfade)"/>
     </mask>
     <clipPath id="code-clip">
-      <rect x="0" y="0" width="546" height="340" rx="6"/>
+      <rect width="562" height="344" rx="0"/>
     </clipPath>
     <clipPath id="term-clip">
-      <rect x="0" y="0" width="430" height="80" rx="4"/>
+      <rect width="430" height="76" rx="0"/>
     </clipPath>
     <clipPath id="wave-clip">
-      <rect x="52" y="28" width="490" height="120"/>
+      <rect x="52" y="28" width="508" height="120"/>
     </clipPath>
+    <!-- Orange glow for name -->
+    <filter id="orange-glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
 
-  <!-- Base background -->
-  <rect width="1240" height="600" fill="#06080f"/>
-  <rect width="1240" height="600" fill="url(#bg-glow)"/>
-  <rect width="1240" height="600" fill="url(#bg-glow2)"/>
+  <!-- ── BACKGROUND: near-pure black #050505 ── -->
+  <rect width="1240" height="600" fill="#050505"/>
 
-  <!-- Subtle circuit grid -->
-  <g opacity="0.035" stroke="#1a6cff" stroke-width="0.5">
-    <line x1="0" y1="100" x2="1240" y2="100"/>
-    <line x1="0" y1="200" x2="1240" y2="200"/>
-    <line x1="0" y1="300" x2="1240" y2="300"/>
+  <!-- Subtle noise texture via micro dots -->
+  <g opacity="0.018" fill="#cc3d10">
+    <rect x="0" y="0" width="1240" height="600" fill="none"/>
+  </g>
+
+  <!-- Orange-red scan lines (very faint, portfolio aesthetic) -->
+  <g opacity="0.03" stroke="#cc3d10" stroke-width="0.4">
+    <line x1="0" y1="80" x2="1240" y2="80"/>
+    <line x1="0" y1="160" x2="1240" y2="160"/>
+    <line x1="0" y1="240" x2="1240" y2="240"/>
+    <line x1="0" y1="320" x2="1240" y2="320"/>
     <line x1="0" y1="400" x2="1240" y2="400"/>
-    <line x1="0" y1="500" x2="1240" y2="500"/>
-    <line x1="200" y1="0" x2="200" y2="600"/>
-    <line x1="600" y1="0" x2="600" y2="600"/>
-    <line x1="1000" y1="0" x2="1000" y2="600"/>
+    <line x1="0" y1="480" x2="1240" y2="480"/>
+    <line x1="0" y1="560" x2="1240" y2="560"/>
   </g>
 
-  <!-- ═══ LEFT PANEL — Text ═══ -->
+  <!-- Left vertical border accent (portfolio has border-left on sections) -->
+  <rect x="0" y="0" width="3" height="600" fill="#cc3d10" opacity="0.7"/>
 
-  <!-- Accent bar -->
+  <!-- ════════════════════════════════════════
+       LEFT PANEL — Text
+       ════════════════════════════════════════ -->
+
+  <!-- Top accent bar (portfolio accent line style) -->
   <g opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.02;0.05;1" dur="24s" fill="freeze"/>
-    <rect x="40" y="68" width="56" height="3" rx="1.5" fill="url(#accent-line)"/>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.02;0.05;1" dur="22s" fill="freeze"/>
+    <rect x="28" y="56" width="64" height="2" rx="0" fill="#cc3d10"/>
   </g>
 
-  <!-- Name -->
+  <!-- BIOS-style eyebrow label -->
   <g opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.025;0.07;1" dur="24s" fill="freeze"/>
-    <text x="40" y="132"
-      font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
-      font-size="40" fill="#e8eefc" font-weight="700">Dev Tyagi</text>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.04;0.08;1" dur="22s" fill="freeze"/>
+    <text x="28" y="80"
+      font-family="'Space Mono', 'Courier New', monospace"
+      font-size="9" fill="#cc3d10" letter-spacing="3">FPGA / RTL DESIGN ENGINEER</text>
   </g>
 
-  <!-- Role -->
-  <text x="40" y="170"
-    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
-    font-size="16" fill="#e8eefc" opacity="0">
-    FPGA  ·  AI Accelerator  ·  RTL Engineer
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.07;0.12;1" dur="24s" fill="freeze"/>
-  </text>
+  <!-- Name — big, high contrast, portfolio style -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.05;0.10;1" dur="22s" fill="freeze"/>
+    <!-- Glitch shadow layers (orange + blue, like portfolio) -->
+    <text x="25" y="162"
+      font-family="'Space Mono', 'Courier New', monospace"
+      font-size="58" fill="#cc3d10" font-weight="700" opacity="0.25" letter-spacing="-2">Dev Tyagi</text>
+    <text x="31" y="162"
+      font-family="'Space Mono', 'Courier New', monospace"
+      font-size="58" fill="#1e4db7" font-weight="700" opacity="0.25" letter-spacing="-2">Dev Tyagi</text>
+    <!-- Main name -->
+    <text x="28" y="162"
+      font-family="'Space Mono', 'Courier New', monospace"
+      font-size="58" fill="#f4f4f5" font-weight="700" letter-spacing="-2">Dev Tyagi</text>
+    <!-- Accent period (portfolio: .period { color: var(--acc) }) -->
+    <text x="353" y="162"
+      font-family="'Space Mono', 'Courier New', monospace"
+      font-size="58" fill="#cc3d10" font-weight="700">.</text>
+  </g>
 
-  <!-- Stack 1 -->
-  <text x="40" y="202"
-    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
-    font-size="14" fill="#6a8ab8" opacity="0">
+  <!-- Role tagline -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.10;0.15;1" dur="22s" fill="freeze"/>
+    <text x="28" y="196"
+      font-family="'Space Mono', 'Courier New', monospace"
+      font-size="14" fill="#f4f4f5" letter-spacing="1">FPGA  ·  AI Accelerator  ·  RTL Engineer</text>
+  </g>
+
+  <!-- Stack lines (muted, Space Mono, BIOS style) -->
+  <text x="28" y="226"
+    font-family="'Space Mono', 'Courier New', monospace"
+    font-size="12" fill="rgba(244,244,245,0.65)" opacity="0">
     Verilog  ·  SystemVerilog  ·  C  ·  Python  ·  RISC-V
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.12;0.16;1" dur="24s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.15;0.20;1" dur="22s" fill="freeze"/>
   </text>
 
-  <!-- Stack 2 -->
-  <text x="40" y="230"
-    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
-    font-size="13.5" fill="#6a8ab8" opacity="0">
-    FPGA Toolchains · Embedded AI · MicroPython · Assembly
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.16;0.20;1" dur="24s" fill="freeze"/>
+  <text x="28" y="248"
+    font-family="'Space Mono', 'Courier New', monospace"
+    font-size="12" fill="rgba(244,244,245,0.55)" opacity="0">
+    AXI4  ·  UVM  ·  SVA  ·  Zynq-7000  ·  UltraScale+
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.20;0.25;1" dur="22s" fill="freeze"/>
   </text>
 
-  <!-- Stack 3 -->
-  <text x="40" y="258"
-    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
-    font-size="13.5" fill="#6a8ab8" opacity="0">
-    Systolic Arrays · HLS · SLG47910 ForgeFPGA · ns-3
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.20;0.24;1" dur="24s" fill="freeze"/>
+  <text x="28" y="270"
+    font-family="'Space Mono', 'Courier New', monospace"
+    font-size="12" fill="rgba(244,244,245,0.55)" opacity="0">
+    Systolic Arrays  ·  HLS  ·  CAN Bus  ·  DMA  ·  STA
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.25;0.30;1" dur="22s" fill="freeze"/>
   </text>
 
-  <!-- Stack 4 -->
-  <text x="40" y="286"
-    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
-    font-size="13.5" fill="#6a8ab8" opacity="0">
-    CAN Bus · Wi-Fi 7 · MLO · Network Simulation
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.24;0.28;1" dur="24s" fill="freeze"/>
+  <text x="28" y="292"
+    font-family="'Space Mono', 'Courier New', monospace"
+    font-size="12" fill="rgba(244,244,245,0.45)" opacity="0">
+    LLM / RAG Acceleration  ·  Wi-Fi 7  ·  MLO  ·  ns-3
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.30;0.34;1" dur="22s" fill="freeze"/>
   </text>
 
-  <!-- Location -->
-  <text x="40" y="320"
-    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
-    font-size="13" fill="#3d5278" opacity="0">
-    B.Tech ECM  ·  VIT Chennai  ·  India
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.28;0.32;1" dur="24s" fill="freeze"/>
+  <!-- Location (mono, very muted) -->
+  <text x="28" y="320"
+    font-family="'Space Mono', 'Courier New', monospace"
+    font-size="10" fill="rgba(244,244,245,0.32)" opacity="0">
+    B.TECH ECM  ·  VIT CHENNAI  ·  INDIA
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.34;0.38;1" dur="22s" fill="freeze"/>
   </text>
 
-  <!-- Status section -->
+  <!-- Horizontal rule (orange, portfolio border style) -->
   <g opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.34;0.38;1" dur="24s" fill="freeze"/>
-    <rect x="40" y="354" width="520" height="1" fill="#1b2740"/>
-    <circle cx="46" cy="392" r="5.5" fill="#1a6cff">
-      <animate attributeName="opacity" values="1;.2;1" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.38;0.42;1" dur="22s" fill="freeze"/>
+    <rect x="28" y="338" width="1" height="1" fill="#cc3d10" opacity="0"/>
+    <line x1="28" y1="344" x2="580" y2="344" stroke="#cc3d10" stroke-width="2" opacity="0.85"/>
+  </g>
+
+  <!-- Status block (pulsing dot) -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.40;0.44;1" dur="22s" fill="freeze"/>
+    <!-- Pulse dot (portfolio sdot style) -->
+    <circle cx="34" cy="370" r="5" fill="#cc3d10">
+      <animate attributeName="opacity" values="1;.25;1" dur="2.8s" repeatCount="indefinite"/>
     </circle>
-    <text x="62" y="397"
-      font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
-      font-size="14.5" fill="#e8eefc" font-weight="700">
+    <text x="48" y="375"
+      font-family="'Space Mono', 'Courier New', monospace"
+      font-size="13" fill="#f4f4f5" font-weight="700" letter-spacing="0.5">
       Open to internships &amp; contract work in hardware/AI
     </text>
-    <text x="40" y="426"
-      font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
-      font-size="12.5" fill="#3d5278">
-      FPGA · embedded AI · RISC-V · RTL design · research collab
+    <text x="28" y="398"
+      font-family="'Space Mono', 'Courier New', monospace"
+      font-size="10" fill="rgba(244,244,245,0.38)" letter-spacing="1">
+      FPGA · EMBEDDED AI · RISC-V · RTL DESIGN · RESEARCH COLLAB
     </text>
   </g>
 
   <!-- Synthesis terminal scroll -->
   <g opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.41;0.46;1" dur="24s" fill="freeze"/>
-    <g transform="translate(40,458)">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.44;0.49;1" dur="22s" fill="freeze"/>
+    <g transform="translate(28, 422)">
+      <!-- Terminal label (BIOS style) -->
       <text x="0" y="9"
-        font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
-        font-size="11" fill="#3d5278">$ synthesize --target slg47910 --opt area</text>
-      <rect x="0" y="18" width="430" height="76" rx="4" fill="#080e1c"/>
+        font-family="'Space Mono', 'Courier New', monospace"
+        font-size="9" fill="#cc3d10" letter-spacing="2">$ SYNTHESIZE --TARGET ZYNQ-7000 --OPT TIMING</text>
+
+      <rect x="0" y="16" width="430" height="76" rx="0" fill="#0a0a0a" stroke="#cc3d10" stroke-width="1" stroke-opacity="0.4"/>
+
       <g clip-path="url(#term-clip)" mask="url(#term-mask)">
-        <g>
+        <g transform="translate(0,16)">
           <animateTransform attributeName="transform" type="translate"
-            values="0 0; -760 0" dur="60s" repeatCount="indefinite"/>
-          <text x="8" y="38"
-            font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
-            font-size="10.5" fill="#1a6cff" opacity="0.7" xml:space="preserve">[INFO] Parsing RTL...   [INFO] Yosys synthesis running...   [WARN] BRAM init detected — using LUT fallback   [INFO] CLB LUT5s: 516/1120   [INFO] FFs: 230/1120   [OK] Bitstream: shrike_serv.bin   [INFO] Flashing RP2040...   [OK] SERV RISC-V: 1+2=3   [INFO] Parsing RTL...</text>
-          <text x="8" y="56"
-            font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
-            font-size="10.5" fill="#00d4ff" opacity="0.45" xml:space="preserve">[SIM]  ns-3 MLO: nodes=50  throughput=2.4Gbps   [SIM]  CAN firewall: 0 injections   [PASS] Wi-Fi 7 MLO link aggregation active   [SIM]  DNN inference: acc=94.2%   [SIM]  ns-3 MLO: nodes=50  throughput=2.4Gbps</text>
-          <text x="8" y="74"
-            font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
-            font-size="10.5" fill="#6a8ab8" opacity="0.35" xml:space="preserve">&gt;&gt;&gt; model.fit(X_train, y_train, epochs=50)   Epoch 1/50 loss:0.8432   Epoch 25/50 loss:0.1203   Epoch 50/50 loss:0.0612   val_acc:0.9420   Saved: densenet121.h5</text>
+            values="0 16; -820 16" dur="64s" repeatCount="indefinite"/>
+          <text x="8" y="18"
+            font-family="'Space Mono', 'Courier New', monospace"
+            font-size="9.5" fill="#cc3d10" opacity="0.8" xml:space="preserve">[SYNTH]  Parsing RTL...   [INFO]  Running Vivado synthesis...   [INFO]  CLBs: 1247  DSPs: 14  BRAMs: 32   [OK]  Timing closed @ 250 MHz   [INFO]  WNS: +0.42ns  TNS: 0ps   [OK]  DMA throughput: 1 GB/s AXI4   [PASS]  UVM scoreboard: 100% func coverage   [INFO]  Parsing RTL...</text>
+          <text x="8" y="36"
+            font-family="'Space Mono', 'Courier New', monospace"
+            font-size="9.5" fill="#1e4db7" opacity="0.7" xml:space="preserve">[SIM]   AXI4-Lite VIP: 1024 rand txn — 0 errors   [PASS]  AMBA SVA checks passed   [SIM]   Systolic MAC: 8x8 matmul in 64 cycles   [INFO]  DNN inference: acc=94.2%  lat=2.3ms   [PASS]  RV32I ISA compliance suite — all tests passed   [SIM]   AXI4-Lite VIP: 1024 rand txn</text>
+          <text x="8" y="54"
+            font-family="'Space Mono', 'Courier New', monospace"
+            font-size="9.5" fill="rgba(244,244,245,0.3)" xml:space="preserve">&gt;&gt;&gt; model.fit(X_train, y_train, epochs=50)  Epoch 1/50 loss:0.8432  Epoch 25/50 loss:0.1203  Epoch 50/50 loss:0.0612  val_acc:0.9420  [OK] densenet121.h5 saved  &gt;&gt;&gt; zynq_dma.run()</text>
         </g>
       </g>
     </g>
   </g>
 
-  <!-- ═══ RIGHT PANEL — Code Editor ═══ -->
+  <!-- ════════════════════════════════════════
+       RIGHT PANEL — Code Editor (Zynq / AXI DMA style)
+       ════════════════════════════════════════ -->
   <g opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.46;0.53;1" dur="24s" fill="freeze"/>
-    <g transform="translate(638, 58)">
-      <rect x="0" y="0" width="562" height="344" rx="8" fill="#080e1c" stroke="#1b2740" stroke-width="1"/>
-      <rect x="0" y="0" width="562" height="32" rx="8" fill="#0d1525"/>
-      <rect x="0" y="24" width="562" height="8" fill="#0d1525"/>
-      <circle cx="18" cy="16" r="5" fill="#ff5f57" opacity="0.8"/>
-      <circle cx="34" cy="16" r="5" fill="#ffbd2e" opacity="0.8"/>
-      <circle cx="50" cy="16" r="5" fill="#28c840" opacity="0.8"/>
-      <rect x="70" y="6" width="130" height="20" rx="3" fill="#141f38"/>
-      <text x="80" y="20" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
-        font-size="11" fill="#6a8ab8">serv_shrike_top.v</text>
-      <rect x="0" y="32" width="36" height="312" fill="#0a1220"/>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.48;0.55;1" dur="22s" fill="freeze"/>
+
+    <g transform="translate(634, 28)">
+      <!-- Sharp corners (no border-radius) — portfolio is sharp/angular -->
+      <rect x="0" y="0" width="574" height="356" rx="0" fill="#0a0a0a" stroke="#cc3d10" stroke-width="1" stroke-opacity="0.5"/>
+
+      <!-- Title bar -->
+      <rect x="0" y="0" width="574" height="30" rx="0" fill="#0f0f0f"/>
+      <line x1="0" y1="30" x2="574" y2="30" stroke="#cc3d10" stroke-width="1" stroke-opacity="0.5"/>
+
+      <!-- Window dots (red/orange tinted for portfolio feel) -->
+      <circle cx="16" cy="15" r="4.5" fill="#cc3d10" opacity="0.7"/>
+      <circle cx="30" cy="15" r="4.5" fill="#cc3d10" opacity="0.35"/>
+      <circle cx="44" cy="15" r="4.5" fill="#cc3d10" opacity="0.15"/>
+
+      <!-- Filename -->
+      <text x="62" y="19"
+        font-family="'Space Mono', 'Courier New', monospace"
+        font-size="10" fill="rgba(244,244,245,0.55)" letter-spacing="0.5">axi4_dma_engine.sv</text>
+
+      <!-- BIOS indicator -->
+      <text x="440" y="19"
+        font-family="'Space Mono', 'Courier New', monospace"
+        font-size="9" fill="#cc3d10" opacity="0.6" letter-spacing="1">ZYNQ-7000 · VIVADO</text>
+
+      <!-- Line number gutter -->
+      <rect x="0" y="30" width="36" height="326" fill="#080808"/>
+      <line x1="36" y1="30" x2="36" y2="356" stroke="#cc3d10" stroke-width="0.5" stroke-opacity="0.3"/>
+
+      <!-- Scrolling code -->
       <g clip-path="url(#code-clip)" mask="url(#code-mask)">
-        <g>
+        <g transform="translate(0,30)">
           <animateTransform attributeName="transform" type="translate"
-            values="0 32; 0 -580" dur="30s" repeatCount="indefinite"/>
+            values="0 30; 0 -660" dur="34s" repeatCount="indefinite"/>
+
           <!-- Line numbers -->
-          <text font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" fill="#2a3a56">
-            <tspan x="10" y="14">1</tspan><tspan x="10" dy="16">2</tspan><tspan x="10" dy="16">3</tspan><tspan x="10" dy="16">4</tspan><tspan x="10" dy="16">5</tspan><tspan x="10" dy="16">6</tspan><tspan x="10" dy="16">7</tspan><tspan x="10" dy="16">8</tspan><tspan x="10" dy="16">9</tspan><tspan x="8" dy="16">10</tspan><tspan x="8" dy="16">11</tspan><tspan x="8" dy="16">12</tspan><tspan x="8" dy="16">13</tspan><tspan x="8" dy="16">14</tspan><tspan x="8" dy="16">15</tspan><tspan x="8" dy="16">16</tspan><tspan x="8" dy="16">17</tspan><tspan x="8" dy="16">18</tspan><tspan x="8" dy="16">19</tspan><tspan x="8" dy="16">20</tspan><tspan x="8" dy="16">21</tspan><tspan x="8" dy="16">22</tspan><tspan x="8" dy="16">23</tspan><tspan x="8" dy="16">24</tspan><tspan x="8" dy="16">25</tspan><tspan x="8" dy="16">26</tspan><tspan x="8" dy="16">27</tspan><tspan x="8" dy="16">28</tspan><tspan x="8" dy="16">29</tspan><tspan x="8" dy="16">30</tspan><tspan x="8" dy="16">31</tspan><tspan x="8" dy="16">32</tspan><tspan x="8" dy="16">33</tspan><tspan x="8" dy="16">34</tspan><tspan x="8" dy="16">35</tspan><tspan x="8" dy="16">36</tspan><tspan x="8" dy="16">37</tspan><tspan x="8" dy="16">38</tspan><tspan x="8" dy="16">39</tspan><tspan x="8" dy="16">40</tspan>
+          <text font-family="'Space Mono', 'Courier New', monospace" font-size="10.5" fill="#cc3d10" opacity="0.35">
+            <tspan x="8" y="14">1</tspan><tspan x="8" dy="17">2</tspan><tspan x="8" dy="17">3</tspan><tspan x="8" dy="17">4</tspan><tspan x="8" dy="17">5</tspan><tspan x="8" dy="17">6</tspan><tspan x="8" dy="17">7</tspan><tspan x="8" dy="17">8</tspan><tspan x="8" dy="17">9</tspan><tspan x="5" dy="17">10</tspan><tspan x="5" dy="17">11</tspan><tspan x="5" dy="17">12</tspan><tspan x="5" dy="17">13</tspan><tspan x="5" dy="17">14</tspan><tspan x="5" dy="17">15</tspan><tspan x="5" dy="17">16</tspan><tspan x="5" dy="17">17</tspan><tspan x="5" dy="17">18</tspan><tspan x="5" dy="17">19</tspan><tspan x="5" dy="17">20</tspan><tspan x="5" dy="17">21</tspan><tspan x="5" dy="17">22</tspan><tspan x="5" dy="17">23</tspan><tspan x="5" dy="17">24</tspan><tspan x="5" dy="17">25</tspan><tspan x="5" dy="17">26</tspan><tspan x="5" dy="17">27</tspan><tspan x="5" dy="17">28</tspan><tspan x="5" dy="17">29</tspan><tspan x="5" dy="17">30</tspan><tspan x="5" dy="17">31</tspan><tspan x="5" dy="17">32</tspan><tspan x="5" dy="17">33</tspan><tspan x="5" dy="17">34</tspan><tspan x="5" dy="17">35</tspan><tspan x="5" dy="17">36</tspan><tspan x="5" dy="17">37</tspan><tspan x="5" dy="17">38</tspan><tspan x="5" dy="17">39</tspan><tspan x="5" dy="17">40</tspan><tspan x="5" dy="17">41</tspan><tspan x="5" dy="17">42</tspan>
           </text>
-          <!-- Code -->
-          <text font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5">
-            <tspan x="44" y="14" fill="#7aa2f7">module</tspan><tspan fill="#e8eefc"> serv_shrike_top (</tspan>
-            <tspan x="44" dy="16" fill="#c0caf5">  input  </tspan><tspan fill="#7aa2f7">wire       </tspan><tspan fill="#e8eefc">clk,</tspan>
-            <tspan x="44" dy="16" fill="#c0caf5">  input  </tspan><tspan fill="#7aa2f7">wire       </tspan><tspan fill="#e8eefc">rst,</tspan>
-            <tspan x="44" dy="16" fill="#c0caf5">  output </tspan><tspan fill="#7aa2f7">wire </tspan><tspan fill="#e8eefc">[1:0] result</tspan>
-            <tspan x="44" dy="16" fill="#e8eefc">);</tspan>
-            <tspan x="44" dy="16"/>
-            <tspan x="44" dy="16" fill="#565f89">  // SERV — world's smallest RISC-V CPU</tspan>
-            <tspan x="44" dy="16" fill="#7aa2f7">  wire </tspan><tspan fill="#e8eefc">[31:0] dbus_dat;</tspan>
-            <tspan x="44" dy="16" fill="#7aa2f7">  wire </tspan><tspan fill="#e8eefc">       dbus_we;</tspan>
-            <tspan x="44" dy="16"/>
-            <tspan x="44" dy="16" fill="#7aa2f7">  serv_top </tspan><tspan fill="#e8eefc">#(</tspan>
-            <tspan x="44" dy="16" fill="#e8eefc">    .RESET_PC(32</tspan><tspan fill="#f7768e">'h0000_0000</tspan><tspan fill="#e8eefc">)</tspan>
-            <tspan x="44" dy="16" fill="#e8eefc">  ) cpu (</tspan>
-            <tspan x="44" dy="16" fill="#e8eefc">    .clk       (clk),</tspan>
-            <tspan x="44" dy="16" fill="#e8eefc">    .i_rst     (rst),</tspan>
-            <tspan x="44" dy="16" fill="#e8eefc">    .o_dbus_dat(dbus_dat),</tspan>
-            <tspan x="44" dy="16" fill="#e8eefc">    .o_dbus_we (dbus_we)</tspan>
-            <tspan x="44" dy="16" fill="#e8eefc">  );</tspan>
-            <tspan x="44" dy="16"/>
-            <tspan x="44" dy="16" fill="#565f89">  // Output 2-bit result via GPIO</tspan>
-            <tspan x="44" dy="16" fill="#7aa2f7">  assign </tspan><tspan fill="#e8eefc">result = dbus_we ? dbus_dat[1:0] : </tspan><tspan fill="#f7768e">2'b00</tspan><tspan fill="#e8eefc">;</tspan>
-            <tspan x="44" dy="16"/>
-            <tspan x="44" dy="16" fill="#7aa2f7">endmodule</tspan>
-            <tspan x="44" dy="24" fill="#565f89">  // Systolic MAC for AI accelerator</tspan>
-            <tspan x="44" dy="16" fill="#7aa2f7">module </tspan><tspan fill="#e8eefc">pe_mac (</tspan>
-            <tspan x="44" dy="16" fill="#c0caf5">  input  </tspan><tspan fill="#e8eefc">signed [7:0] a, b,</tspan>
-            <tspan x="44" dy="16" fill="#c0caf5">  output </tspan><tspan fill="#e8eefc">reg signed [15:0] acc</tspan>
-            <tspan x="44" dy="16" fill="#e8eefc">);</tspan>
-            <tspan x="44" dy="16" fill="#7aa2f7">  always </tspan><tspan fill="#e8eefc">@(*) acc = acc + a * b;</tspan>
-            <tspan x="44" dy="16" fill="#7aa2f7">endmodule</tspan>
-            <tspan x="44" dy="24" fill="#565f89">  // CAN firewall FSM</tspan>
-            <tspan x="44" dy="16" fill="#7aa2f7">always </tspan><tspan fill="#e8eefc">@(</tspan><tspan fill="#c0caf5">posedge </tspan><tspan fill="#e8eefc">clk)</tspan>
-            <tspan x="44" dy="16" fill="#7aa2f7">  if </tspan><tspan fill="#e8eefc">(can_id === </tspan><tspan fill="#f7768e">11'h123</tspan><tspan fill="#e8eefc">)</tspan>
-            <tspan x="44" dy="16" fill="#e8eefc">    state &lt;= BLOCKED;</tspan>
-            <tspan x="44" dy="16" fill="#7aa2f7">  else</tspan>
-            <tspan x="44" dy="16" fill="#e8eefc">    state &lt;= PASS;</tspan>
+
+          <!-- Code — AXI4 DMA Engine (your actual Zynq project) -->
+          <text font-family="'Space Mono', 'Courier New', monospace" font-size="10.5">
+            <tspan x="44" y="14" fill="#cc3d10">// AXI4 High-Throughput DMA Engine — Zynq-7000</tspan>
+            <tspan x="44" dy="17" fill="#f4f4f5" opacity="0.4">// 1 GB/s sustained · interrupt-driven · burst mode</tspan>
+            <tspan x="44" dy="17"/>
+            <tspan x="44" dy="17" fill="#1e4db7" opacity="0.9">module </tspan><tspan fill="#f4f4f5">axi4_dma_engine #(</tspan>
+            <tspan x="44" dy="17" fill="#f4f4f5">  </tspan><tspan fill="#cc3d10">parameter </tspan><tspan fill="#f4f4f5">DATA_W   = 64,</tspan>
+            <tspan x="44" dy="17" fill="#cc3d10">  parameter </tspan><tspan fill="#f4f4f5">BURST_LEN = 256,</tspan>
+            <tspan x="44" dy="17" fill="#cc3d10">  parameter </tspan><tspan fill="#f4f4f5">ADDR_W   = 32</tspan>
+            <tspan x="44" dy="17" fill="#f4f4f5">) (</tspan>
+            <tspan x="44" dy="17" fill="#f4f4f5">  </tspan><tspan fill="#1e4db7">input  </tspan><tspan fill="#f4f4f5">wire          aclk, aresetn,</tspan>
+            <tspan x="44" dy="17" fill="#f4f4f5">  </tspan><tspan fill="#f4f4f5" opacity="0.4">// AXI4-MM Master</tspan>
+            <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#f4f4f5">wire [ADDR_W-1:0] m_axi_awaddr,</tspan>
+            <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#f4f4f5">wire [7:0]        m_axi_awlen,</tspan>
+            <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#f4f4f5">wire [2:0]        m_axi_awsize,</tspan>
+            <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#f4f4f5">wire [DATA_W-1:0] m_axi_wdata,</tspan>
+            <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#f4f4f5">wire              m_axi_wready,</tspan>
+            <tspan x="44" dy="17" fill="#f4f4f5" opacity="0.4">  // AXI-Stream</tspan>
+            <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#f4f4f5">wire [DATA_W-1:0] s_axis_tdata,</tspan>
+            <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#f4f4f5">wire              s_axis_tvalid,</tspan>
+            <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#f4f4f5">wire              irq</tspan>
+            <tspan x="44" dy="17" fill="#f4f4f5">);</tspan>
+            <tspan x="44" dy="17"/>
+            <tspan x="44" dy="17" fill="#f4f4f5" opacity="0.4">  // Outstanding transaction tracker</tspan>
+            <tspan x="44" dy="17" fill="#1e4db7">  reg  </tspan><tspan fill="#f4f4f5">[7:0] txn_cnt;</tspan>
+            <tspan x="44" dy="17" fill="#1e4db7">  reg  </tspan><tspan fill="#f4f4f5">      irq_r;</tspan>
+            <tspan x="44" dy="17" fill="#1e4db7">  always</tspan><tspan fill="#f4f4f5"> @(posedge aclk)</tspan>
+            <tspan x="44" dy="17" fill="#1e4db7">    if </tspan><tspan fill="#f4f4f5">(!aresetn)   txn_cnt &lt;= </tspan><tspan fill="#cc3d10">8'd0</tspan><tspan fill="#f4f4f5">;</tspan>
+            <tspan x="44" dy="17" fill="#1e4db7">    else if </tspan><tspan fill="#f4f4f5">(issue)   txn_cnt &lt;= txn_cnt + </tspan><tspan fill="#cc3d10">1</tspan><tspan fill="#f4f4f5">;</tspan>
+            <tspan x="44" dy="17" fill="#1e4db7">    else if </tspan><tspan fill="#f4f4f5">(done)    txn_cnt &lt;= txn_cnt - </tspan><tspan fill="#cc3d10">1</tspan><tspan fill="#f4f4f5">;</tspan>
+            <tspan x="44" dy="17" fill="#1e4db7">  assign </tspan><tspan fill="#f4f4f5">irq = irq_r;</tspan>
+            <tspan x="44" dy="17"/>
+            <tspan x="44" dy="17" fill="#1e4db7">endmodule</tspan>
+            <tspan x="44" dy="24" fill="#cc3d10">// Out-of-Order Superscalar RISC-V — SanDisk 1st Place</tspan>
+            <tspan x="44" dy="17" fill="#1e4db7">module </tspan><tspan fill="#f4f4f5">rob_entry #(parameter TAG_W=5) (</tspan>
+            <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#f4f4f5">wire [TAG_W-1:0] tag,</tspan>
+            <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#f4f4f5">wire [31:0]      result,</tspan>
+            <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#f4f4f5">wire             complete,</tspan>
+            <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#f4f4f5">wire             commit</tspan>
+            <tspan x="44" dy="17" fill="#f4f4f5">);</tspan>
+            <tspan x="44" dy="17" fill="#f4f4f5" opacity="0.4">  // Tomasulo · ROB · CDB · 7-stage · 250 MHz</tspan>
+            <tspan x="44" dy="17" fill="#1e4db7">  assign </tspan><tspan fill="#f4f4f5">commit = complete &amp;&amp; (tag == head);</tspan>
+            <tspan x="44" dy="17" fill="#1e4db7">endmodule</tspan>
           </text>
         </g>
       </g>
     </g>
   </g>
 
-  <!-- ═══ RIGHT BOTTOM — GTKWave panel ═══ -->
+  <!-- ════════════════════════════════════════
+       RIGHT BOTTOM — GTKWave / Stats panel
+       ════════════════════════════════════════ -->
   <g opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.55;0.62;1" dur="24s" fill="freeze"/>
-    <g transform="translate(638, 420)">
-      <rect x="0" y="0" width="562" height="152" rx="8" fill="#080e1c" stroke="#1b2740" stroke-width="1"/>
-      <rect x="0" y="0" width="562" height="28" rx="8" fill="#0d1525"/>
-      <rect x="0" y="20" width="562" height="8" fill="#0d1525"/>
-      <text x="14" y="18" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
-        font-size="11" fill="#3d5278">wave.vcd — GTKWave  ·  3 passed, 0 failed</text>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.56;0.63;1" dur="22s" fill="freeze"/>
+    <g transform="translate(634, 402)">
+      <rect x="0" y="0" width="574" height="170" rx="0" fill="#0a0a0a" stroke="#cc3d10" stroke-width="1" stroke-opacity="0.5"/>
+
+      <!-- Title bar -->
+      <rect x="0" y="0" width="574" height="28" rx="0" fill="#0f0f0f"/>
+      <line x1="0" y1="28" x2="574" y2="28" stroke="#cc3d10" stroke-width="1" stroke-opacity="0.5"/>
+
+      <text x="12" y="18"
+        font-family="'Space Mono', 'Courier New', monospace"
+        font-size="9" fill="rgba(244,244,245,0.45)" letter-spacing="1">WAVE.VCD — GTKWAVE</text>
+
+      <!-- Pass indicator (orange) -->
+      <text x="390" y="18"
+        font-family="'Space Mono', 'Courier New', monospace"
+        font-size="9" fill="#cc3d10" letter-spacing="1">3 PASSED · 0 FAILED</text>
+
       <!-- Signal labels -->
-      <text x="8" y="50" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10" fill="#3d5278">clk</text>
-      <text x="8" y="75" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10" fill="#3d5278">rst</text>
-      <text x="8" y="100" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10" fill="#3d5278">result</text>
-      <text x="8" y="125" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10" fill="#3d5278">dbus_we</text>
-      <line x1="50" y1="28" x2="50" y2="152" stroke="#1b2740" stroke-width="1"/>
+      <line x1="52" y1="28" x2="52" y2="170" stroke="#cc3d10" stroke-width="0.5" stroke-opacity="0.4"/>
+      <text x="6" y="52" font-family="'Space Mono', 'Courier New', monospace" font-size="9" fill="rgba(244,244,245,0.4)">aclk</text>
+      <text x="6" y="80" font-family="'Space Mono', 'Courier New', monospace" font-size="9" fill="rgba(244,244,245,0.4)">aresetn</text>
+      <text x="6" y="108" font-family="'Space Mono', 'Courier New', monospace" font-size="9" fill="rgba(244,244,245,0.4)">awvalid</text>
+      <text x="6" y="136" font-family="'Space Mono', 'Courier New', monospace" font-size="9" fill="rgba(244,244,245,0.4)">wready</text>
+      <text x="6" y="162" font-family="'Space Mono', 'Courier New', monospace" font-size="9" fill="rgba(244,244,245,0.4)">irq</text>
+
       <!-- Waveforms -->
       <g clip-path="url(#wave-clip)">
         <g>
           <animateTransform attributeName="transform" type="translate"
-            values="0 0; -48 0" dur="1.5s" repeatCount="indefinite"/>
-          <path d="M52,58 L52,42 L76,42 L76,58 L100,58 L100,42 L124,42 L124,58 L148,58 L148,42 L172,42 L172,58 L196,58 L196,42 L220,42 L220,58 L244,58 L244,42 L268,42 L268,58 L292,58 L292,42 L316,42 L316,58 L340,58 L340,42 L364,42 L364,58 L388,58 L388,42 L412,42 L412,58 L436,58 L436,42 L460,42 L460,58 L484,58 L484,42 L508,42 L508,58 L532,58 L532,42 L556,42 L556,58 L580,58 L580,42 L604,42 L604,58"
-            stroke="#1a6cff" stroke-width="1.8" fill="none" opacity="0.85"/>
-          <path d="M52,83 L64,83 L64,68 L80,68 L80,83 L604,83"
-            stroke="#f7768e" stroke-width="1.8" fill="none" opacity="0.7"/>
-          <path d="M52,108 L80,108 L80,95 L84,95 L84,108 L240,108 L240,95 L244,95 L244,108 L400,108 L400,95 L404,95 L404,108 L560,108 L560,95 L564,95 L564,108"
-            stroke="#00d4ff" stroke-width="1.8" fill="none" opacity="0.7"/>
-          <path d="M52,133 L236,133 L236,120 L248,120 L248,133 L396,133 L396,120 L408,120 L408,133 L560,133"
-            stroke="#9ece6a" stroke-width="1.8" fill="none" opacity="0.65"/>
+            values="0 0; -48 0" dur="1.4s" repeatCount="indefinite"/>
+          <!-- aclk -->
+          <path d="M54,60 L54,40 L78,40 L78,60 L102,60 L102,40 L126,40 L126,60 L150,60 L150,40 L174,40 L174,60 L198,60 L198,40 L222,40 L222,60 L246,60 L246,40 L270,40 L270,60 L294,60 L294,40 L318,40 L318,60 L342,60 L342,40 L366,40 L366,60 L390,60 L390,40 L414,40 L414,60 L438,60 L438,40 L462,40 L462,60 L486,60 L486,40 L510,40 L510,60 L534,60 L534,40 L558,40 L558,60 L582,60 L582,40 L606,40 L606,60"
+            stroke="#cc3d10" stroke-width="1.6" fill="none" opacity="0.9"/>
+          <!-- aresetn (goes high after reset) -->
+          <path d="M54,88 L66,88 L66,70 L70,70 L70,88 L606,88" stroke="#cc3d10" stroke-width="1.6" fill="none" opacity="0.6"/>
+          <!-- awvalid (bursts) -->
+          <path d="M54,116 L90,116 L90,98 L94,98 L94,116 L200,116 L200,98 L204,98 L204,116 L350,116 L350,98 L354,98 L354,116 L500,116 L500,98 L504,98 L504,116 L606,116"
+            stroke="#1e4db7" stroke-width="1.6" fill="none" opacity="0.85"/>
+          <!-- wready (handshake pulses) -->
+          <path d="M54,144 L86,144 L86,128 L100,128 L100,144 L196,144 L196,128 L210,128 L210,144 L346,144 L346,128 L360,128 L360,144 L496,144 L496,128 L510,128 L510,144 L606,144"
+            stroke="#1e4db7" stroke-width="1.6" fill="none" opacity="0.65"/>
+          <!-- irq -->
+          <path d="M54,168 L196,168 L196,154 L202,154 L202,168 L346,168 L346,154 L352,154 L352,168 L496,168 L496,154 L502,154 L502,168 L606,168"
+            stroke="#cc3d10" stroke-width="1.6" fill="none" opacity="0.75"/>
         </g>
       </g>
-      <!-- Cursor -->
-      <line x1="220" y1="30" x2="220" y2="150" stroke="#1a6cff" stroke-width="1" stroke-dasharray="3,3" opacity="0.5">
+
+      <!-- Moving cursor -->
+      <line x1="240" y1="29" x2="240" y2="169" stroke="#cc3d10" stroke-width="1" stroke-dasharray="3,3" opacity="0.5">
         <animateTransform attributeName="transform" type="translate" values="0 0; 48 0; 0 0" dur="4s" repeatCount="indefinite"/>
       </line>
     </g>
   </g>
 
-  <!-- Circuit accent dots -->
-  <g opacity="0.35">
-    <circle cx="40" cy="582" r="2" fill="#1a6cff"/>
-    <circle cx="60" cy="582" r="2" fill="#1a6cff"/>
-    <circle cx="80" cy="582" r="2" fill="#1a6cff"/>
-    <line x1="40" y1="582" x2="80" y2="582" stroke="#1a6cff" stroke-width="0.8"/>
-    <line x1="80" y1="582" x2="80" y2="562" stroke="#1a6cff" stroke-width="0.8"/>
+  <!-- ════════════════════════════════════════
+       CORNER ACCENTS — portfolio angular style
+       ════════════════════════════════════════ -->
+  <!-- Bottom-left corner L-bracket -->
+  <g opacity="0.5" stroke="#cc3d10" stroke-width="1.5" fill="none">
+    <line x1="28" y1="586" x2="28" y2="572"/>
+    <line x1="28" y1="586" x2="42" y2="586"/>
   </g>
-  <g opacity="0.35">
-    <circle cx="1200" cy="582" r="2" fill="#00d4ff"/>
-    <circle cx="1180" cy="582" r="2" fill="#00d4ff"/>
-    <circle cx="1160" cy="582" r="2" fill="#00d4ff"/>
-    <line x1="1200" y1="582" x2="1160" y2="582" stroke="#00d4ff" stroke-width="0.8"/>
-    <line x1="1160" y1="582" x2="1160" y2="562" stroke="#00d4ff" stroke-width="0.8"/>
+  <!-- Bottom-right corner L-bracket -->
+  <g opacity="0.5" stroke="#cc3d10" stroke-width="1.5" fill="none">
+    <line x1="1212" y1="586" x2="1212" y2="572"/>
+    <line x1="1212" y1="586" x2="1198" y2="586"/>
   </g>
+
+  <!-- Right border accent -->
+  <rect x="1237" y="0" width="3" height="600" fill="#cc3d10" opacity="0.3"/>
+
+  <!-- Top border -->
+  <rect x="0" y="0" width="1240" height="2" fill="#cc3d10" opacity="0.4"/>
+  <!-- Bottom border -->
+  <rect x="0" y="598" width="1240" height="2" fill="#cc3d10" opacity="0.4"/>
 
 </svg>

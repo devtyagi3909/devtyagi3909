@@ -1,10 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 38" width="140" height="38" role="img" aria-label="Repositories">
-  <rect x="1" y="1" width="138" height="36" rx="9" fill="#06080f" stroke="#1a6cff" stroke-opacity=".6"/>
-  <!-- Repo icon (simplified) -->
-  <g transform="translate(14,10)" fill="#1a6cff">
-    <rect x="0" y="0" width="3" height="17" rx="1"/>
-    <rect x="7" y="0" width="3" height="17" rx="1"/>
-    <path d="M0 0 Q5,-3 10,0" fill="none" stroke="#1a6cff" stroke-width="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148 38" width="148" height="38" role="img" aria-label="Repositories">
+  <rect x="1" y="1" width="146" height="36" rx="0" fill="#050505" stroke="#cc3d10" stroke-width="1.5" stroke-opacity="0.85"/>
+  <g transform="translate(13,10)" fill="none" stroke="#cc3d10" stroke-width="1.5">
+    <rect x="0" y="0" width="8" height="17" rx="0"/>
+    <rect x="11" y="0" width="8" height="17" rx="0"/>
+    <path d="M0 0 Q9.5,-4 19,0" fill="none"/>
   </g>
-  <text x="40" y="24" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#e8eefc" font-weight="700">Repositories</text>
+  <text x="42" y="24" font-family="'Space Mono', 'Courier New', monospace" font-size="12" fill="#f4f4f5" font-weight="700" letter-spacing="0.5">Repositories</text>
 </svg>
