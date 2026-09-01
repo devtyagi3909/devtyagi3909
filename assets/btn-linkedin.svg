@@ -1,9 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 134 38" width="134" height="38" role="img" aria-label="LinkedIn">
-  <rect x="1" y="1" width="132" height="36" rx="0" fill="#050505" stroke="#cc3d10" stroke-width="1.5" stroke-opacity="0.85"/>
-  <g transform="translate(14,11)">
-    <rect width="3.5" height="10.5" y="7" rx="0" fill="#cc3d10"/>
-    <circle cx="1.75" cy="3.5" r="2" fill="#cc3d10"/>
-    <path d="M8 17.5V11c0-1.1.9-2 2-2s2 .9 2 2v6.5h3.5V11A5.5 5.5 0 0 0 4.5 11v6.5z" fill="#cc3d10"/>
-  </g>
-  <text x="42" y="24" font-family="'Space Mono', 'Courier New', monospace" font-size="12" fill="#f4f4f5" font-weight="700" letter-spacing="0.5">LinkedIn</text>
+  <rect x="1" y="1" width="132" height="36" fill="#050505" stroke="#cc3d10" stroke-width="1.5" stroke-opacity="0.85"/>
+  <path d="M14 11h4v14h-4zm0 0" fill="none"/>
+  <rect x="14" y="18" width="3.5" height="10" fill="#cc3d10"/>
+  <circle cx="15.75" cy="13.5" r="2" fill="#cc3d10"/>
+  <path d="M21 18c0-1.1.9-2 2-2s2 .9 2 2v7h3.5v-7a5.5 5.5 0 0 0-11 0v7H21z" fill="#cc3d10"/>
+  <text x="44" y="24" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#f4f4f5" font-weight="700" letter-spacing="0.5">LinkedIn</text>
 </svg>

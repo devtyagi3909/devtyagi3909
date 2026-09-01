@@ -1,8 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 38" width="112" height="38" role="img" aria-label="Email">
-  <rect x="1" y="1" width="110" height="36" rx="0" fill="#050505" stroke="#cc3d10" stroke-width="1.5" stroke-opacity="0.85"/>
-  <g transform="translate(14,12)">
-    <rect x="0" y="0" width="18" height="13" rx="0" fill="none" stroke="#cc3d10" stroke-width="1.5"/>
-    <polyline points="0,1 9,8 18,1" fill="none" stroke="#cc3d10" stroke-width="1.5"/>
-  </g>
-  <text x="40" y="24" font-family="'Space Mono', 'Courier New', monospace" font-size="12" fill="#f4f4f5" font-weight="700" letter-spacing="0.5">Email</text>
+  <rect x="1" y="1" width="110" height="36" fill="#050505" stroke="#cc3d10" stroke-width="1.5" stroke-opacity="0.85"/>
+  <rect x="14" y="12" width="18" height="13" fill="none" stroke="#cc3d10" stroke-width="1.5"/>
+  <polyline points="14,13 23,20 32,13" fill="none" stroke="#cc3d10" stroke-width="1.5"/>
+  <text x="40" y="24" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#f4f4f5" font-weight="700" letter-spacing="0.5">Email</text>
 </svg>
