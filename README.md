@@ -20,6 +20,11 @@
 
 ---
 
+<img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/panel-skyline.svg" width="100%" alt="Merge Skyline"/>
+
+
+---
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/output/snake.svg"/>
   <img alt="Contribution Snake" src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/output/snake.svg" width="100%"/>
