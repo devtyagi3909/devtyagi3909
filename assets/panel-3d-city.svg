@@ -2,6 +2,7 @@
   <rect width="1240" height="360" fill="#050505" rx="6" />
   <rect x="10" y="10" width="1220" height="340" fill="#0a0a0a" rx="4" stroke="#1f1f1f" stroke-width="1" />
   <text x="40" y="40" fill="#cc3d10" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" font-weight="bold" letter-spacing="2">3D DASHBOARD // 2025-2026</text>
+  <text x="40" y="60" fill="#888888" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" letter-spacing="1">* TOWER HEIGHT REPRESENTS DAILY CONTRIBUTION INTENSITY</text>
   <g>
     <polygon points="395.0,64.0 925.0,329.0 845.0,369.0 315.0,104.0" fill="#0d1117" />
     <polygon points="315.0,104.0 845.0,369.0 845.0,381.0 315.0,116.0" fill="#090c10" />
