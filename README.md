@@ -20,7 +20,7 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/panel-3d-city.svg?v=2" width="100%" alt="Merge Skyline"/>
+<img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/panel-3d-city.svg?v=3" width="100%" alt="Merge Skyline"/>
 
 
 ---
