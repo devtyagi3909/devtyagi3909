@@ -9,9 +9,13 @@
 <a href="https://github.com/devtyagi3909?tab=repositories"><img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/btn-github.svg?v=11" alt="Repositories"/></a>
 &nbsp;&nbsp;&nbsp;
 <img src="https://komarev.com/ghpvc/?username=devtyagi3909&base=15554&style=flat-square&color=cc3d10&label=PROFILE+VIEWS&labelColor=050505" alt="Profile Views"/>
+
 ---
+
 <img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/panel-work.svg?v=11" width="100%" alt="Work and Hardware"/>
+
 ---
+
 <img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/panel-3d-city.svg?v=11" width="100%" alt="Merge Skyline"/>
 
 ---
@@ -19,7 +23,9 @@
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/output/snake.svg?v=11"/>
   <img alt="Contribution Snake" src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/output/snake.svg?v=11" width="100%"/>
 </picture>
+
 ---
+
 ![SystemVerilog](https://img.shields.io/badge/SystemVerilog-cc3d10?style=flat-square&logoColor=white)
 ![Verilog](https://img.shields.io/badge/Verilog-1e4db7?style=flat-square&logoColor=white)
 ![C](https://img.shields.io/badge/C-f4f4f5?style=flat-square&logo=c&logoColor=050505)
