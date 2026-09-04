@@ -22,7 +22,7 @@
 <rect width="1240" height="600" fill="#050505"/>
 
 <!-- Scan lines -->
-<g opacity="0.025" stroke="#ff6a33" stroke-width="0.5">
+<g opacity="0.025" stroke="#cc3d10" stroke-width="0.5">
   <line x1="0" y1="80"  x2="1240" y2="80"/>
   <line x1="0" y1="160" x2="1240" y2="160"/>
   <line x1="0" y1="240" x2="1240" y2="240"/>
@@ -33,13 +33,13 @@
 </g>
 
 <!-- Border frames -->
-<rect x="0"    y="0" width="3"    height="600" fill="#ff6a33" opacity="0.75"/>
-<rect x="1237" y="0" width="3"    height="600" fill="#ff6a33" opacity="0.3"/>
-<rect x="0"    y="0" width="1240" height="2"   fill="#ff6a33" opacity="0.5"/>
-<rect x="0"  y="598" width="1240" height="2"   fill="#ff6a33" opacity="0.5"/>
+<rect x="0"    y="0" width="3"    height="600" fill="#cc3d10" opacity="0.75"/>
+<rect x="1237" y="0" width="3"    height="600" fill="#cc3d10" opacity="0.3"/>
+<rect x="0"    y="0" width="1240" height="2"   fill="#cc3d10" opacity="0.5"/>
+<rect x="0"  y="598" width="1240" height="2"   fill="#cc3d10" opacity="0.5"/>
 
 <!-- Corner brackets -->
-<g stroke="#ff6a33" stroke-width="1.5" fill="none" opacity="0.6">
+<g stroke="#cc3d10" stroke-width="1.5" fill="none" opacity="0.6">
   <line x1="28"   y1="586" x2="28"   y2="572"/>
   <line x1="28"   y1="586" x2="42"   y2="586"/>
   <line x1="1212" y1="586" x2="1212" y2="572"/>
@@ -50,79 +50,79 @@
 
 <!-- Accent bar: opacity=1, animate starts at 0 -->
 <g opacity="1">
-  
-  <rect x="28" y="54" width="64" height="2" fill="#ff6a33"/>
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.02;0.06;1" dur="22s" fill="freeze"/>
+  <rect x="28" y="54" width="64" height="2" fill="#cc3d10"/>
 </g>
 
 <!-- Eyebrow -->
 <g opacity="1">
-  
-  <text x="28" y="78" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#ff6a33" letter-spacing="3">FPGA / RTL DESIGN ENGINEER</text>
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.04;0.09;1" dur="22s" fill="freeze"/>
+  <text x="28" y="78" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#cc3d10" letter-spacing="3">FPGA / RTL DESIGN ENGINEER</text>
 </g>
 
 <!-- Name + glitch shadows -->
 <g opacity="1">
-  
-  <text x="24" y="162" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="56" fill="#ff6a33" font-weight="700" letter-spacing="-2" opacity="0.22">Dev Tyagi</text>
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.06;0.12;1" dur="22s" fill="freeze"/>
+  <text x="24" y="162" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="56" fill="#cc3d10" font-weight="700" letter-spacing="-2" opacity="0.22">Dev Tyagi</text>
   <text x="32" y="162" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="56" fill="#1e4db7" font-weight="700" letter-spacing="-2" opacity="0.22">Dev Tyagi</text>
-  <text x="28" y="162" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="56" fill="#ffffff" font-weight="700" letter-spacing="-2">Dev Tyagi</text>
-  <text x="348" y="162" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="56" fill="#ff6a33" font-weight="700">.</text>
+  <text x="28" y="162" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="56" fill="#f4f4f5" font-weight="700" letter-spacing="-2">Dev Tyagi</text>
+  <text x="348" y="162" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="56" fill="#cc3d10" font-weight="700">.</text>
 </g>
 
 <!-- Role -->
-<text x="28" y="196" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#ffffff" letter-spacing="1" opacity="1">
+<text x="28" y="196" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#f4f4f5" letter-spacing="1" opacity="1">
   FPGA  ·  AI Accelerator  ·  RTL Engineer
-  
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.12;0.17;1" dur="22s" fill="freeze"/>
 </text>
 
 <!-- Stack lines -->
 <text x="28" y="224" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="rgba(244,244,245,0.6)" opacity="1">
   Verilog  ·  SystemVerilog  ·  C  ·  Python  ·  RISC-V
-  
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.17;0.22;1" dur="22s" fill="freeze"/>
 </text>
 <text x="28" y="246" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="rgba(244,244,245,0.5)" opacity="1">
   AXI4  ·  UVM  ·  SVA  ·  Zynq-7000  ·  UltraScale+
-  
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.22;0.27;1" dur="22s" fill="freeze"/>
 </text>
 <text x="28" y="268" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="rgba(244,244,245,0.5)" opacity="1">
   Systolic Arrays  ·  HLS  ·  CAN Bus  ·  DMA  ·  STA
-  
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.27;0.32;1" dur="22s" fill="freeze"/>
 </text>
 <text x="28" y="290" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="rgba(244,244,245,0.45)" opacity="1">
   LLM / RAG Acceleration  ·  Wi-Fi 7  ·  MLO  ·  ns-3
-  
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.32;0.36;1" dur="22s" fill="freeze"/>
 </text>
 <text x="28" y="316" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="rgba(244,244,245,0.28)" opacity="1">
   B.TECH ECM  ·  VIT CHENNAI  ·  INDIA
-  
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.36;0.40;1" dur="22s" fill="freeze"/>
 </text>
 
 <!-- Orange divider -->
 <g opacity="1">
-  
-  <line x1="28" y1="340" x2="590" y2="340" stroke="#ff6a33" stroke-width="2" opacity="0.8"/>
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.40;0.44;1" dur="22s" fill="freeze"/>
+  <line x1="28" y1="340" x2="590" y2="340" stroke="#cc3d10" stroke-width="2" opacity="0.8"/>
 </g>
 
 <!-- Status dot + text -->
 <g opacity="1">
-  
-  <circle cx="34" cy="368" r="5" fill="#ff6a33">
-    
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.42;0.46;1" dur="22s" fill="freeze"/>
+  <circle cx="34" cy="368" r="5" fill="#cc3d10">
+    <animate attributeName="opacity" values="1;.2;1" dur="2.6s" repeatCount="indefinite"/>
   </circle>
-  <text x="48" y="373" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#ffffff" font-weight="700">Open to internships &amp; contract work in hardware/AI</text>
+  <text x="48" y="373" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#f4f4f5" font-weight="700">Open to internships &amp; contract work in hardware/AI</text>
   <text x="28" y="396" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="rgba(244,244,245,0.35)" letter-spacing="1">FPGA · EMBEDDED AI · RISC-V · RTL DESIGN · RESEARCH</text>
 </g>
 
 <!-- Terminal -->
 <g opacity="1">
-  
-  <text x="28" y="430" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#ff6a33" letter-spacing="2">$ SYNTHESIZE --TARGET ZYNQ-7000 --OPT TIMING</text>
-  <rect x="28" y="436" width="430" height="76" fill="#0a0a0a" stroke="#ff6a33" stroke-width="1" stroke-opacity="0.4"/>
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.46;0.51;1" dur="22s" fill="freeze"/>
+  <text x="28" y="430" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#cc3d10" letter-spacing="2">$ SYNTHESIZE --TARGET ZYNQ-7000 --OPT TIMING</text>
+  <rect x="28" y="436" width="430" height="76" fill="#0a0a0a" stroke="#cc3d10" stroke-width="1" stroke-opacity="0.4"/>
   <g transform="translate(28,436)">
     <g clip-path="url(#tc)" mask="url(#tm)">
       <g transform="translate(0,0)">
-        
-        <text x="8" y="18" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#ff6a33" opacity="0.85" xml:space="preserve">[SYNTH] Parsing RTL...  [INFO] Vivado synthesis...  [INFO] CLBs:1247 DSPs:14  [OK] 250MHz closed WNS:+0.42ns  [OK] DMA: 1GB/s AXI4  [PASS] UVM: 100% coverage  [PASS] RV32I ISA suite  [OK] OoO 7-stage Tomasulo  [SYNTH] Parsing RTL...</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0;-820 0" dur="64s" repeatCount="indefinite"/>
+        <text x="8" y="18" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#cc3d10" opacity="0.85" xml:space="preserve">[SYNTH] Parsing RTL...  [INFO] Vivado synthesis...  [INFO] CLBs:1247 DSPs:14  [OK] 250MHz closed WNS:+0.42ns  [OK] DMA: 1GB/s AXI4  [PASS] UVM: 100% coverage  [PASS] RV32I ISA suite  [OK] OoO 7-stage Tomasulo  [SYNTH] Parsing RTL...</text>
         <text x="8" y="38" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#1e4db7" opacity="0.8" xml:space="preserve">[SIM] AXI4-Lite VIP: 1024 txn 0 errors  [PASS] AMBA SVA checks  [SIM] Systolic MAC: 8x8 matmul 64cy  [INFO] DNN: acc=94.2%  [PASS] ROB commit precise exceptions  [SIM] AXI4-Lite VIP...</text>
         <text x="8" y="58" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="rgba(244,244,245,0.3)" xml:space="preserve">&gt;&gt;&gt; model.fit(epochs=50)  loss:0.843-&gt;0.061  val_acc:0.942  [OK] densenet121.h5  &gt;&gt;&gt; zynq_dma.run()  throughput=1.02GB/s  [OK]</text>
       </g>
@@ -132,65 +132,65 @@
 
 <!-- ====== RIGHT CODE PANEL ====== -->
 <g opacity="1">
-  
-  <rect x="634" y="28" width="574" height="356" fill="#0a0a0a" stroke="#ff6a33" stroke-width="1" stroke-opacity="0.5"/>
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.50;0.57;1" dur="22s" fill="freeze"/>
+  <rect x="634" y="28" width="574" height="356" fill="#0a0a0a" stroke="#cc3d10" stroke-width="1" stroke-opacity="0.5"/>
   <rect x="634" y="28" width="574" height="30" fill="#0d0d0d"/>
-  <line x1="634" y1="58" x2="1208" y2="58" stroke="#ff6a33" stroke-width="1" stroke-opacity="0.5"/>
-  <circle cx="650" cy="43" r="4.5" fill="#ff6a33" opacity="0.75"/>
-  <circle cx="664" cy="43" r="4.5" fill="#ff6a33" opacity="0.35"/>
-  <circle cx="678" cy="43" r="4.5" fill="#ff6a33" opacity="0.15"/>
+  <line x1="634" y1="58" x2="1208" y2="58" stroke="#cc3d10" stroke-width="1" stroke-opacity="0.5"/>
+  <circle cx="650" cy="43" r="4.5" fill="#cc3d10" opacity="0.75"/>
+  <circle cx="664" cy="43" r="4.5" fill="#cc3d10" opacity="0.35"/>
+  <circle cx="678" cy="43" r="4.5" fill="#cc3d10" opacity="0.15"/>
   <text x="696" y="47" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="rgba(244,244,245,0.5)">axi4_dma_engine.sv</text>
-  <text x="1040" y="47" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#ff6a33" opacity="0.65">ZYNQ-7000</text>
+  <text x="1040" y="47" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#cc3d10" opacity="0.65">ZYNQ-7000</text>
   <rect x="634" y="58" width="36" height="326" fill="#080808"/>
-  <line x1="670" y1="58" x2="670" y2="384" stroke="#ff6a33" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="670" y1="58" x2="670" y2="384" stroke="#cc3d10" stroke-width="0.5" stroke-opacity="0.3"/>
   <!-- Code scrolling -->
   <g transform="translate(634,58)">
     <g clip-path="url(#cc)" mask="url(#cm)">
       <g transform="translate(0,0)">
-        
-        <text font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#ff6a33" opacity="0.3">
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -690" dur="34s" repeatCount="indefinite"/>
+        <text font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#cc3d10" opacity="0.3">
           <tspan x="8" y="14">1</tspan><tspan x="8" dy="17">2</tspan><tspan x="8" dy="17">3</tspan><tspan x="8" dy="17">4</tspan><tspan x="8" dy="17">5</tspan><tspan x="8" dy="17">6</tspan><tspan x="8" dy="17">7</tspan><tspan x="8" dy="17">8</tspan><tspan x="8" dy="17">9</tspan><tspan x="5" dy="17">10</tspan><tspan x="5" dy="17">11</tspan><tspan x="5" dy="17">12</tspan><tspan x="5" dy="17">13</tspan><tspan x="5" dy="17">14</tspan><tspan x="5" dy="17">15</tspan><tspan x="5" dy="17">16</tspan><tspan x="5" dy="17">17</tspan><tspan x="5" dy="17">18</tspan><tspan x="5" dy="17">19</tspan><tspan x="5" dy="17">20</tspan><tspan x="5" dy="17">21</tspan><tspan x="5" dy="17">22</tspan><tspan x="5" dy="17">23</tspan><tspan x="5" dy="17">24</tspan><tspan x="5" dy="17">25</tspan><tspan x="5" dy="17">26</tspan><tspan x="5" dy="17">27</tspan><tspan x="5" dy="17">28</tspan><tspan x="5" dy="17">29</tspan><tspan x="5" dy="17">30</tspan><tspan x="5" dy="17">31</tspan><tspan x="5" dy="17">32</tspan><tspan x="5" dy="17">33</tspan><tspan x="5" dy="17">34</tspan><tspan x="5" dy="17">35</tspan><tspan x="5" dy="17">36</tspan><tspan x="5" dy="17">37</tspan><tspan x="5" dy="17">38</tspan><tspan x="5" dy="17">39</tspan><tspan x="5" dy="17">40</tspan><tspan x="5" dy="17">41</tspan><tspan x="5" dy="17">42</tspan>
         </text>
         <text font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5">
-          <tspan x="44" y="14" fill="#ff6a33">// AXI4 DMA Engine -- Zynq-7000  1GB/s burst</tspan>
+          <tspan x="44" y="14" fill="#cc3d10">// AXI4 DMA Engine -- Zynq-7000  1GB/s burst</tspan>
           <tspan x="44" dy="17" fill="rgba(244,244,245,0.3)">// interrupt-driven  AXI4-MM + AXI-Stream</tspan>
           <tspan x="44" dy="17"/>
-          <tspan x="44" dy="17" fill="#1e4db7">module </tspan><tspan fill="#ffffff">axi4_dma_engine #(</tspan>
-          <tspan x="44" dy="17" fill="#ff6a33">  parameter </tspan><tspan fill="#ffffff">DATA_W    = 64,</tspan>
-          <tspan x="44" dy="17" fill="#ff6a33">  parameter </tspan><tspan fill="#ffffff">BURST_LEN = 256,</tspan>
-          <tspan x="44" dy="17" fill="#ff6a33">  parameter </tspan><tspan fill="#ffffff">ADDR_W    = 32</tspan>
-          <tspan x="44" dy="17" fill="#ffffff">) (</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#ffffff">wire              aclk, aresetn,</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">module </tspan><tspan fill="#f4f4f5">axi4_dma_engine #(</tspan>
+          <tspan x="44" dy="17" fill="#cc3d10">  parameter </tspan><tspan fill="#f4f4f5">DATA_W    = 64,</tspan>
+          <tspan x="44" dy="17" fill="#cc3d10">  parameter </tspan><tspan fill="#f4f4f5">BURST_LEN = 256,</tspan>
+          <tspan x="44" dy="17" fill="#cc3d10">  parameter </tspan><tspan fill="#f4f4f5">ADDR_W    = 32</tspan>
+          <tspan x="44" dy="17" fill="#f4f4f5">) (</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#f4f4f5">wire              aclk, aresetn,</tspan>
           <tspan x="44" dy="17" fill="rgba(244,244,245,0.3)">  // AXI4-MM Master</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#ffffff">wire [ADDR_W-1:0] m_axi_awaddr,</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#ffffff">wire [7:0]        m_axi_awlen,</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#ffffff">wire [DATA_W-1:0] m_axi_wdata,</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#ffffff">wire              m_axi_wvalid,</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#ffffff">wire              m_axi_wready,</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#f4f4f5">wire [ADDR_W-1:0] m_axi_awaddr,</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#f4f4f5">wire [7:0]        m_axi_awlen,</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#f4f4f5">wire [DATA_W-1:0] m_axi_wdata,</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#f4f4f5">wire              m_axi_wvalid,</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#f4f4f5">wire              m_axi_wready,</tspan>
           <tspan x="44" dy="17" fill="rgba(244,244,245,0.3)">  // AXI-Stream slave</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#ffffff">wire [DATA_W-1:0] s_axis_tdata,</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#ffffff">wire              s_axis_tvalid,</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#ffffff">wire              irq</tspan>
-          <tspan x="44" dy="17" fill="#ffffff">);</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#f4f4f5">wire [DATA_W-1:0] s_axis_tdata,</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#f4f4f5">wire              s_axis_tvalid,</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#f4f4f5">wire              irq</tspan>
+          <tspan x="44" dy="17" fill="#f4f4f5">);</tspan>
           <tspan x="44" dy="17"/>
           <tspan x="44" dy="17" fill="rgba(244,244,245,0.3)">  // Outstanding transaction tracker</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  reg </tspan><tspan fill="#ffffff">[7:0] txn_cnt;</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  reg       </tspan><tspan fill="#ffffff">irq_r;</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  always </tspan><tspan fill="#ffffff">@(posedge aclk)</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">    if    </tspan><tspan fill="#ffffff">(!aresetn) txn_cnt &lt;= 8&apos;d0;</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">    else if </tspan><tspan fill="#ffffff">(issue)    txn_cnt &lt;= txn_cnt + 1;</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">    else if </tspan><tspan fill="#ffffff">(done)     txn_cnt &lt;= txn_cnt - 1;</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  assign </tspan><tspan fill="#ffffff">irq = irq_r;</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">  reg </tspan><tspan fill="#f4f4f5">[7:0] txn_cnt;</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">  reg       </tspan><tspan fill="#f4f4f5">irq_r;</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">  always </tspan><tspan fill="#f4f4f5">@(posedge aclk)</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">    if    </tspan><tspan fill="#f4f4f5">(!aresetn) txn_cnt &lt;= 8&apos;d0;</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">    else if </tspan><tspan fill="#f4f4f5">(issue)    txn_cnt &lt;= txn_cnt + 1;</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">    else if </tspan><tspan fill="#f4f4f5">(done)     txn_cnt &lt;= txn_cnt - 1;</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">  assign </tspan><tspan fill="#f4f4f5">irq = irq_r;</tspan>
           <tspan x="44" dy="17" fill="#1e4db7">endmodule</tspan>
-          <tspan x="44" dy="22" fill="#ff6a33">// OoO Superscalar RISC-V -- SanDisk 1st Place</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">module </tspan><tspan fill="#ffffff">rob_entry (</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#ffffff">wire [4:0]  tag,</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#ffffff">wire [31:0] result,</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#ffffff">wire        complete,</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#ffffff">wire        commit</tspan>
-          <tspan x="44" dy="17" fill="#ffffff">);</tspan>
+          <tspan x="44" dy="22" fill="#cc3d10">// OoO Superscalar RISC-V -- SanDisk 1st Place</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">module </tspan><tspan fill="#f4f4f5">rob_entry (</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#f4f4f5">wire [4:0]  tag,</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#f4f4f5">wire [31:0] result,</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#f4f4f5">wire        complete,</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#f4f4f5">wire        commit</tspan>
+          <tspan x="44" dy="17" fill="#f4f4f5">);</tspan>
           <tspan x="44" dy="17" fill="rgba(244,244,245,0.3)">  // Tomasulo ROB CDB 7-stage 250 MHz</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  assign </tspan><tspan fill="#ffffff">commit = complete &amp;&amp; (tag == head);</tspan>
+          <tspan x="44" dy="17" fill="#1e4db7">  assign </tspan><tspan fill="#f4f4f5">commit = complete &amp;&amp; (tag == head);</tspan>
           <tspan x="44" dy="17" fill="#1e4db7">endmodule</tspan>
         </text>
       </g>
@@ -200,13 +200,13 @@
 
 <!-- ====== RIGHT WAVEFORM PANEL ====== -->
 <g opacity="1">
-  
-  <rect x="634" y="402" width="574" height="170" fill="#0a0a0a" stroke="#ff6a33" stroke-width="1" stroke-opacity="0.5"/>
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.57;0.65;1" dur="22s" fill="freeze"/>
+  <rect x="634" y="402" width="574" height="170" fill="#0a0a0a" stroke="#cc3d10" stroke-width="1" stroke-opacity="0.5"/>
   <rect x="634" y="402" width="574" height="28" fill="#0d0d0d"/>
-  <line x1="634" y1="430" x2="1208" y2="430" stroke="#ff6a33" stroke-width="1" stroke-opacity="0.5"/>
+  <line x1="634" y1="430" x2="1208" y2="430" stroke="#cc3d10" stroke-width="1" stroke-opacity="0.5"/>
   <text x="646" y="420" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="rgba(244,244,245,0.4)" letter-spacing="1">WAVE.VCD -- GTKWAVE</text>
-  <text x="1010" y="420" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#ff6a33" letter-spacing="1">3 PASSED</text>
-  <line x1="686" y1="430" x2="686" y2="572" stroke="#ff6a33" stroke-width="0.5" stroke-opacity="0.4"/>
+  <text x="1010" y="420" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#cc3d10" letter-spacing="1">3 PASSED</text>
+  <line x1="686" y1="430" x2="686" y2="572" stroke="#cc3d10" stroke-width="0.5" stroke-opacity="0.4"/>
   <text x="639"  y="454" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="rgba(244,244,245,0.38)">aclk</text>
   <text x="639"  y="481" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="rgba(244,244,245,0.38)">aresetn</text>
   <text x="639"  y="508" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="rgba(244,244,245,0.38)">awvalid</text>
@@ -214,19 +214,19 @@
   <text x="639"  y="562" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="rgba(244,244,245,0.38)">irq</text>
   <!-- Waveforms with animation -->
   <g>
-    
+    <animateTransform attributeName="transform" type="translate" values="0 0;-48 0;0 0" dur="3s" repeatCount="indefinite"/>
     <!-- aclk -->
-    <path d="M688,462 L688,442 L712,442 L712,462 L736,462 L736,442 L760,442 L760,462 L784,462 L784,442 L808,442 L808,462 L832,462 L832,442 L856,442 L856,462 L880,462 L880,442 L904,442 L904,462 L928,462 L928,442 L952,442 L952,462 L976,462 L976,442 L1000,442 L1000,462 L1024,462 L1024,442 L1048,442 L1048,462 L1072,462 L1072,442 L1096,442 L1096,462 L1120,462 L1120,442 L1144,442 L1144,462 L1168,462 L1168,442 L1192,442 L1192,462" stroke="#ff6a33" stroke-width="1.6" fill="none" opacity="0.9"/>
+    <path d="M688,462 L688,442 L712,442 L712,462 L736,462 L736,442 L760,442 L760,462 L784,462 L784,442 L808,442 L808,462 L832,462 L832,442 L856,442 L856,462 L880,462 L880,442 L904,442 L904,462 L928,462 L928,442 L952,442 L952,462 L976,462 L976,442 L1000,442 L1000,462 L1024,462 L1024,442 L1048,442 L1048,462 L1072,462 L1072,442 L1096,442 L1096,462 L1120,462 L1120,442 L1144,442 L1144,462 L1168,462 L1168,442 L1192,442 L1192,462" stroke="#cc3d10" stroke-width="1.6" fill="none" opacity="0.9"/>
     <!-- aresetn -->
-    <path d="M688,489 L700,489 L700,471 L704,471 L704,489 L1192,489" stroke="#ff6a33" stroke-width="1.6" fill="none" opacity="0.55"/>
+    <path d="M688,489 L700,489 L700,471 L704,471 L704,489 L1192,489" stroke="#cc3d10" stroke-width="1.6" fill="none" opacity="0.55"/>
     <!-- awvalid -->
     <path d="M688,516 L724,516 L724,498 L728,498 L728,516 L834,516 L834,498 L838,498 L838,516 L984,516 L984,498 L988,498 L988,516 L1134,516 L1134,498 L1138,498 L1138,516 L1192,516" stroke="#1e4db7" stroke-width="1.6" fill="none" opacity="0.9"/>
     <!-- wready -->
     <path d="M688,543 L720,543 L720,525 L734,525 L734,543 L830,543 L830,525 L844,525 L844,543 L980,543 L980,525 L994,525 L994,543 L1130,543 L1130,525 L1144,525 L1144,543 L1192,543" stroke="#1e4db7" stroke-width="1.6" fill="none" opacity="0.65"/>
     <!-- irq -->
-    <path d="M688,568 L830,568 L830,554 L836,554 L836,568 L980,568 L980,554 L986,554 L986,568 L1130,568 L1130,554 L1136,554 L1136,568 L1192,568" stroke="#ff6a33" stroke-width="1.6" fill="none" opacity="0.75"/>
+    <path d="M688,568 L830,568 L830,554 L836,554 L836,568 L980,568 L980,554 L986,554 L986,568 L1130,568 L1130,554 L1136,554 L1136,568 L1192,568" stroke="#cc3d10" stroke-width="1.6" fill="none" opacity="0.75"/>
     <!-- Cursor line -->
-    <line x1="874" y1="431" x2="874" y2="571" stroke="#ff6a33" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+    <line x1="874" y1="431" x2="874" y2="571" stroke="#cc3d10" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
   </g>
 </g>
 

@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 38" width="150" height="38" role="img" aria-label="Repositories">
-  <rect x="1" y="1" width="148" height="36" fill="#050505" stroke="#ff6a33" stroke-width="1.5" stroke-opacity="0.85"/>
-  <g transform="translate(13,10)" stroke="#ff6a33" stroke-width="1.4" fill="none">
+  <rect x="1" y="1" width="148" height="36" fill="#050505" stroke="#cc3d10" stroke-width="1.5" stroke-opacity="0.85"/>
+  <g transform="translate(13,10)" stroke="#cc3d10" stroke-width="1.4" fill="none">
     <rect x="0" y="0" width="8" height="17"/>
     <rect x="11" y="0" width="8" height="17"/>
     <path d="M0,0 Q9.5,-3.5 19,0"/>
   </g>
-  <text x="44" y="24" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffffff" font-weight="700" letter-spacing="0.5">Repositories</text>
+  <text x="44" y="24" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#f4f4f5" font-weight="700" letter-spacing="0.5">Repositories</text>
 </svg>
