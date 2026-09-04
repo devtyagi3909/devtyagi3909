@@ -74,25 +74,20 @@
 </text>
 
 <!-- Stack lines: use fill + fill-opacity NOT rgba() -->
-<text x="28" y="224" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#f4f4f5" fill-opacity="0.9" opacity="1">
-  Verilog  ·  SystemVerilog  ·  C  ·  Python  ·  RISC-V
-  
+<text x="28" y="224" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffffff" fill-opacity="1" font-weight="700">
+  Architectural Contributor @ OpenHW Group &middot; chipsalliance &middot; lowRISC
 </text>
-<text x="28" y="246" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#f4f4f5" fill-opacity="0.9" opacity="1">
-  AXI4  ·  UVM  ·  SVA  ·  Zynq-7000  ·  UltraScale+
-  
+<text x="28" y="246" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffffff" fill-opacity="0.9">
+  Merged Patches: CVA6 &middot; RISC-V Debug &middot; Spike Simulator
 </text>
-<text x="28" y="268" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#f4f4f5" fill-opacity="0.9" opacity="1">
-  Systolic Arrays  ·  HLS  ·  CAN Bus  ·  DMA  ·  STA
-  
+<text x="28" y="268" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffffff" fill-opacity="0.9">
+  Under Review: Rocket Chip &middot; OpenTitan &middot; VeeR &middot; CV32E40P &middot; Ibex
 </text>
-<text x="28" y="290" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#f4f4f5" fill-opacity="0.45" opacity="1">
-  LLM / RAG Acceleration  ·  Wi-Fi 7  ·  MLO  ·  ns-3
-  
+<text x="28" y="290" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#f4f4f5" fill-opacity="0.6">
+  Skills: SystemVerilog &middot; Chisel &middot; UVM &middot; C/C++ &middot; RISC-V Arch
 </text>
-<text x="28" y="316" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#f4f4f5" fill-opacity="0.28" opacity="1">
-  B.TECH ECM  ·  VIT CHENNAI  ·  INDIA
-  
+<text x="28" y="316" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#f4f4f5" fill-opacity="0.28">
+  B.TECH ECM  &middot;  VIT CHENNAI  &middot;  INDIA
 </text>
 
 <!-- Divider -->
@@ -114,17 +109,33 @@
 <!-- Terminal scroll -->
 <g opacity="1">
   
-  <text x="28" y="430" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#cc3d10" letter-spacing="2">$ SYNTHESIZE --TARGET ZYNQ-7000 --OPT TIMING</text>
-  <rect x="28" y="436" width="430" height="76" fill="#0a0a0a" stroke="#cc3d10" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="28" y="430" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#ff6a33" letter-spacing="2">$ gh pr list --author "devtyagi3909" --state merged,open</text>
+  <rect x="28" y="436" width="450" height="86" fill="#0a0a0a" stroke="#ff6a33" stroke-width="1" stroke-opacity="0.4"/>
   <g transform="translate(28,436)">
-    <g clip-path="url(#tc)" mask="url(#tm)">
-      <g transform="translate(0,0)">
-        
-        <text x="8" y="18" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#cc3d10" fill-opacity="0.85" xml:space="preserve">[SYNTH] Parsing RTL...  [INFO] Vivado synthesis...  [INFO] CLBs:1247 DSPs:14  [OK] 250MHz WNS:+0.42ns  [OK] DMA: 1GB/s AXI4  [PASS] UVM: 100% coverage  [PASS] RV32I ISA suite  [OK] OoO 7-stage Tomasulo  [SYNTH] Parsing RTL...</text>
-        <text x="8" y="38" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#1e4db7" fill-opacity="0.8" xml:space="preserve">[SIM] AXI4-Lite VIP: 1024 txn 0 errors  [PASS] AMBA SVA checks  [SIM] MAC 8x8 matmul 64cy  [INFO] DNN acc=94.2%  [PASS] ROB precise exceptions  [SIM] AXI4-Lite VIP...</text>
-        <text x="8" y="58" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#f4f4f5" fill-opacity="0.28" xml:space="preserve">&gt;&gt;&gt; model.fit(epochs=50)  loss:0.843-&gt;0.061  val_acc:0.942  [OK] densenet121.h5  &gt;&gt;&gt; zynq_dma.run()  throughput=1.02GB/s</text>
-      </g>
-    </g>
+    <!-- Line 1 -->
+    <text x="12" y="20" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#10b981" font-weight="700" opacity="0">
+      [MERGED] openhwgroup/cva6#3518: fix rvfi bounds
+      <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.5s" fill="freeze"/>
+    </text>
+    <!-- Line 2 -->
+    <text x="12" y="38" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#10b981" font-weight="700" opacity="0">
+      [MERGED] pulp-platform/riscv-dbg#204: fix hartsel
+      <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.5s" fill="freeze"/>
+    </text>
+    <!-- Line 3 -->
+    <text x="12" y="56" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#fbbf24" font-weight="700" opacity="0">
+      [OPEN] chipsalliance/rocket-chip#3823: hedeleg mask
+      <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.5s" fill="freeze"/>
+    </text>
+    <!-- Line 4 -->
+    <text x="12" y="74" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#fbbf24" font-weight="700" opacity="0">
+      [OPEN] riscv-software-src/riscv-isa-sim#2411: smdbltrp
+      <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3.5s" fill="freeze"/>
+    </text>
+    <!-- Cursor -->
+    <rect x="350" y="65" width="6" height="12" fill="#ff6a33" opacity="0">
+      <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite" begin="4s"/>
+    </rect>
   </g>
 </g>
 
