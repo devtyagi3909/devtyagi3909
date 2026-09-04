@@ -75,19 +75,19 @@
 
 <!-- Stack lines: use fill + fill-opacity NOT rgba() -->
 <text x="28" y="224" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffffff" fill-opacity="1" font-weight="700">
-  Architectural Contributor @ OpenHW Group &middot; chipsalliance &middot; lowRISC
+  Architectural Contributor @ OpenHW Group · chipsalliance · lowRISC
 </text>
 <text x="28" y="246" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffffff" fill-opacity="0.9">
-  Merged Patches: CVA6 &middot; RISC-V Debug &middot; Spike Simulator
+  Merged Patches: CVA6 · RISC-V Debug · Spike Simulator
 </text>
 <text x="28" y="268" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffffff" fill-opacity="0.9">
-  Under Review: Rocket Chip &middot; OpenTitan &middot; VeeR &middot; CV32E40P &middot; Ibex
+  Under Review: Rocket Chip · OpenTitan · VeeR · CV32E40P · Ibex
 </text>
 <text x="28" y="290" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#f4f4f5" fill-opacity="0.6">
-  Skills: SystemVerilog &middot; Chisel &middot; UVM &middot; C/C++ &middot; RISC-V Arch
+  Skills: SystemVerilog · Chisel · UVM · C/C++ · RISC-V Arch
 </text>
 <text x="28" y="316" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#f4f4f5" fill-opacity="0.28">
-  B.TECH ECM  &middot;  VIT CHENNAI  &middot;  INDIA
+  B.TECH ECM  ·  VIT CHENNAI  ·  INDIA
 </text>
 
 <!-- Divider -->
