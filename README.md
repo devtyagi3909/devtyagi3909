@@ -32,6 +32,24 @@
 
 ---
 
+
+---
+
+<div align="left">
+
+### 🏆 Upstream RISC-V & Silicon Contributions
+*Recruiters / Hiring Managers: Below is a curated list of my verified architectural and verification patches merged into Tier-1 open-source silicon repositories.*
+
+* **[MERGED] `openhwgroup/cva6`**: [Fix out-of-bounds loop in RVFI tracer](https://github.com/openhwgroup/cva6/pull/3518) — *Patched a critical RTL verification array-bounds bug in the Linux-booting CVA6 core (Thales).*
+* **[MERGED] `pulp-platform/riscv-dbg`**: [Fix multi-hart hartsel latching](https://github.com/pulp-platform/riscv-dbg/pull/204) — *Enforced spec-compliant `hartsel` latching during abstract command execution for the PULP Platform RISC-V debug module (ETH Zurich).*
+* **[OPEN] `chipsalliance/rocket-chip`**: [Fix hedeleg hypervisor mask](https://github.com/chipsalliance/rocket-chip/pull/3823) — *Patched a RISC-V hypervisor virtualization violation in Scala/Chisel where hardware incorrectly masked software check exceptions (UC Berkeley).*
+* **[OPEN] `openhwgroup/cv32e40p`**: [Fix mstatus forwarding pipeline hazard](https://github.com/openhwgroup/cv32e40p/pull/1070) — *Resolved an EX/WB stage pipeline hazard where stale floating-point status bits could corrupt instructions.*
+* **[OPEN] `lowRISC/opentitan`**: [Fix haltreq/resumereq masked reads](https://github.com/lowRISC/opentitan/pull/31209) — *Corrected debug module CSR read behavior to comply with RISC-V debug specification v0.13.2 (Google).*
+* **[OPEN] `chipsalliance/Cores-VeeR-EH1`**: [Fix PIC threshold reset](https://github.com/chipsalliance/Cores-VeeR-EH1/pull/136) — *Patched the Programmable Interrupt Controller to correctly reset threshold registers (Western Digital).*
+
+</div>
+
+
 ![SystemVerilog](https://img.shields.io/badge/SystemVerilog-cc3d10?style=flat-square&logoColor=white)
 ![Verilog](https://img.shields.io/badge/Verilog-1e4db7?style=flat-square&logoColor=white)
 ![C](https://img.shields.io/badge/C-f4f4f5?style=flat-square&logo=c&logoColor=050505)
