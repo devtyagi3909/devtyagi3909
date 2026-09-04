@@ -2,7 +2,7 @@
 <defs>
   <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0%" stop-color="#cc3d10"/>
-    <stop offset="100%" stop-color="#050505" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#050505" stop-opacity="1"/>
   </linearGradient>
   <linearGradient id="vfade" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0%" stop-color="#000"/>
@@ -49,17 +49,17 @@
 <!-- ============ LEFT TEXT PANEL ============ -->
 
 <!-- Accent bar -->
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.02;0.06;1" dur="22s" fill="freeze"/>
+<g opacity="1">
   <rect x="28" y="54" width="64" height="2" fill="#cc3d10"/>
 </g>
 
 <!-- Eyebrow label -->
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.04;0.09;1" dur="22s" fill="freeze"/>
+<g opacity="1">
   <text x="28" y="78" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#cc3d10" letter-spacing="3">FPGA / RTL DESIGN ENGINEER</text>
 </g>
 
 <!-- Name with glitch shadows -->
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.06;0.12;1" dur="22s" fill="freeze"/>
+<g opacity="1">
   <text x="24" y="162" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="56" fill="#cc3d10" font-weight="700" letter-spacing="-2" opacity="0.22">Dev Tyagi</text>
   <text x="32" y="162" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="56" fill="#1e4db7" font-weight="700" letter-spacing="-2" opacity="0.22">Dev Tyagi</text>
   <text x="28" y="162" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="56" fill="#f4f4f5" font-weight="700" letter-spacing="-2">Dev Tyagi</text>
@@ -67,55 +67,55 @@
 </g>
 
 <!-- Role -->
-<text x="28" y="196" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#f4f4f5" letter-spacing="1" opacity="0">
+<text x="28" y="196" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#f4f4f5" letter-spacing="1" opacity="1">
   FPGA  &#183;  AI Accelerator  &#183;  RTL Engineer
-  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.12;0.17;1" dur="22s" fill="freeze"/>
+  
 </text>
 
 <!-- Stack lines -->
-<text x="28" y="224" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="rgba(244,244,245,0.6)" opacity="0">
+<text x="28" y="224" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="rgba(244,244,245,0.6)" opacity="1">
   Verilog  &#183;  SystemVerilog  &#183;  C  &#183;  Python  &#183;  RISC-V
-  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.17;0.22;1" dur="22s" fill="freeze"/>
+  
 </text>
-<text x="28" y="246" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="rgba(244,244,245,0.5)" opacity="0">
+<text x="28" y="246" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="rgba(244,244,245,0.5)" opacity="1">
   AXI4  &#183;  UVM  &#183;  SVA  &#183;  Zynq-7000  &#183;  UltraScale+
-  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.22;0.27;1" dur="22s" fill="freeze"/>
+  
 </text>
-<text x="28" y="268" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="rgba(244,244,245,0.5)" opacity="0">
+<text x="28" y="268" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="rgba(244,244,245,0.5)" opacity="1">
   Systolic Arrays  &#183;  HLS  &#183;  CAN Bus  &#183;  DMA  &#183;  STA
-  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.27;0.32;1" dur="22s" fill="freeze"/>
+  
 </text>
-<text x="28" y="290" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="rgba(244,244,245,0.45)" opacity="0">
+<text x="28" y="290" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="rgba(244,244,245,0.45)" opacity="1">
   LLM / RAG Acceleration  &#183;  Wi-Fi 7  &#183;  MLO  &#183;  ns-3
-  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.32;0.36;1" dur="22s" fill="freeze"/>
+  
 </text>
-<text x="28" y="316" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="rgba(244,244,245,0.28)" opacity="0">
+<text x="28" y="316" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="rgba(244,244,245,0.28)" opacity="1">
   B.TECH ECM  &#183;  VIT CHENNAI  &#183;  INDIA
-  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.36;0.40;1" dur="22s" fill="freeze"/>
+  
 </text>
 
 <!-- Orange rule -->
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.40;0.44;1" dur="22s" fill="freeze"/>
+<g opacity="1">
   <line x1="28" y1="340" x2="590" y2="340" stroke="#cc3d10" stroke-width="2" opacity="0.8"/>
 </g>
 
 <!-- Status dot + text -->
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.42;0.46;1" dur="22s" fill="freeze"/>
+<g opacity="1">
   <circle cx="34" cy="368" r="5" fill="#cc3d10">
-    <animate attributeName="opacity" values="1;.2;1" dur="2.6s" repeatCount="indefinite"/>
+    
   </circle>
   <text x="48" y="373" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#f4f4f5" font-weight="700">Open to internships &amp; contract work in hardware/AI</text>
   <text x="28" y="396" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="rgba(244,244,245,0.35)" letter-spacing="1">FPGA &#183; EMBEDDED AI &#183; RISC-V &#183; RTL DESIGN &#183; RESEARCH</text>
 </g>
 
 <!-- Terminal scroll -->
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.46;0.51;1" dur="22s" fill="freeze"/>
+<g opacity="1">
 <g transform="translate(28,420)">
   <text x="0" y="10" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#cc3d10" letter-spacing="2">$ SYNTHESIZE --TARGET ZYNQ-7000 --OPT TIMING</text>
   <rect x="0" y="16" width="430" height="76" fill="#0a0a0a" stroke="#cc3d10" stroke-width="1" stroke-opacity="0.4"/>
   <g clip-path="url(#tc)" mask="url(#tm)">
     <g transform="translate(0,16)">
-      <animateTransform attributeName="transform" type="translate" values="0 16;-820 16" dur="64s" repeatCount="indefinite"/>
+      
       <text x="8" y="18" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#cc3d10" opacity="0.8" xml:space="preserve">[SYNTH] Parsing RTL...  [INFO] Vivado synthesis...  [INFO] CLBs:1247 DSPs:14 BRAMs:32  [OK] Timing closed @ 250MHz  WNS:+0.42ns  [OK] DMA: 1GB/s AXI4  [PASS] UVM: 100% coverage  [INFO] RV32I ISA suite passed  [OK] OoO core: 7-stage Tomasulo  [SYNTH] Parsing RTL...</text>
       <text x="8" y="36" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#1e4db7" opacity="0.75" xml:space="preserve">[SIM] AXI4-Lite VIP: 1024 rand txn — 0 errors  [PASS] AMBA SVA checks passed  [SIM] Systolic MAC: 8x8 matmul 64 cycles  [INFO] DNN: acc=94.2% lat=2.3ms  [PASS] ROB commit: precise exceptions ok  [SIM] AXI4-Lite VIP...</text>
       <text x="8" y="54" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="rgba(244,244,245,0.28)" xml:space="preserve">&gt;&gt;&gt; model.fit(X_train,y_train,epochs=50)  Epoch 1/50 loss:0.8432  Epoch 25/50 loss:0.1203  Epoch 50/50 loss:0.0612  val_acc:0.942  [OK] densenet121.h5  &gt;&gt;&gt; zynq_dma.run()</text>
@@ -125,7 +125,7 @@
 </g>
 
 <!-- ============ RIGHT CODE PANEL ============ -->
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.50;0.57;1" dur="22s" fill="freeze"/>
+<g opacity="1">
 <g transform="translate(634,28)">
   <rect x="0" y="0" width="574" height="356" fill="#0a0a0a" stroke="#cc3d10" stroke-width="1" stroke-opacity="0.5"/>
   <!-- Title bar -->
@@ -143,7 +143,7 @@
   <!-- Scrolling code -->
   <g clip-path="url(#cc)" mask="url(#cm)">
   <g transform="translate(0,30)">
-    <animateTransform attributeName="transform" type="translate" values="0 30;0 -680" dur="34s" repeatCount="indefinite"/>
+    
     <!-- Line numbers -->
     <text font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#cc3d10" opacity="0.3">
       <tspan x="8" y="14">1</tspan><tspan x="8" dy="17">2</tspan><tspan x="8" dy="17">3</tspan><tspan x="8" dy="17">4</tspan><tspan x="8" dy="17">5</tspan><tspan x="8" dy="17">6</tspan><tspan x="8" dy="17">7</tspan><tspan x="8" dy="17">8</tspan><tspan x="8" dy="17">9</tspan><tspan x="5" dy="17">10</tspan><tspan x="5" dy="17">11</tspan><tspan x="5" dy="17">12</tspan><tspan x="5" dy="17">13</tspan><tspan x="5" dy="17">14</tspan><tspan x="5" dy="17">15</tspan><tspan x="5" dy="17">16</tspan><tspan x="5" dy="17">17</tspan><tspan x="5" dy="17">18</tspan><tspan x="5" dy="17">19</tspan><tspan x="5" dy="17">20</tspan><tspan x="5" dy="17">21</tspan><tspan x="5" dy="17">22</tspan><tspan x="5" dy="17">23</tspan><tspan x="5" dy="17">24</tspan><tspan x="5" dy="17">25</tspan><tspan x="5" dy="17">26</tspan><tspan x="5" dy="17">27</tspan><tspan x="5" dy="17">28</tspan><tspan x="5" dy="17">29</tspan><tspan x="5" dy="17">30</tspan><tspan x="5" dy="17">31</tspan><tspan x="5" dy="17">32</tspan><tspan x="5" dy="17">33</tspan><tspan x="5" dy="17">34</tspan><tspan x="5" dy="17">35</tspan><tspan x="5" dy="17">36</tspan><tspan x="5" dy="17">37</tspan><tspan x="5" dy="17">38</tspan><tspan x="5" dy="17">39</tspan><tspan x="5" dy="17">40</tspan><tspan x="5" dy="17">41</tspan><tspan x="5" dy="17">42</tspan><tspan x="5" dy="17">43</tspan><tspan x="5" dy="17">44</tspan><tspan x="5" dy="17">45</tspan>
@@ -199,7 +199,7 @@
 </g>
 
 <!-- ============ RIGHT WAVEFORM PANEL ============ -->
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.57;0.65;1" dur="22s" fill="freeze"/>
+<g opacity="1">
 <g transform="translate(634,402)">
   <rect x="0" y="0" width="574" height="170" fill="#0a0a0a" stroke="#cc3d10" stroke-width="1" stroke-opacity="0.5"/>
   <rect x="0" y="0" width="574" height="28" fill="#0d0d0d"/>
@@ -214,7 +214,7 @@
   <text x="5"  y="160" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="rgba(244,244,245,0.38)">irq</text>
   <g clip-path="url(#wc)">
     <g>
-      <animateTransform attributeName="transform" type="translate" values="0 0;-48 0" dur="1.4s" repeatCount="indefinite"/>
+      
       <!-- aclk -->
       <path d="M54,60 L54,40 L78,40 L78,60 L102,60 L102,40 L126,40 L126,60 L150,60 L150,40 L174,40 L174,60 L198,60 L198,40 L222,40 L222,60 L246,60 L246,40 L270,40 L270,60 L294,60 L294,40 L318,40 L318,60 L342,60 L342,40 L366,40 L366,60 L390,60 L390,40 L414,40 L414,60 L438,60 L438,40 L462,40 L462,60 L486,60 L486,40 L510,40 L510,60 L534,60 L534,40 L558,40 L558,60 L582,60 L582,40 L606,40 L606,60" stroke="#cc3d10" stroke-width="1.6" fill="none" opacity="0.9"/>
       <!-- aresetn -->
@@ -229,7 +229,7 @@
   </g>
   <!-- Cursor line -->
   <line x1="240" y1="29" x2="240" y2="169" stroke="#cc3d10" stroke-width="1" stroke-dasharray="3,3" opacity="0.45">
-    <animateTransform attributeName="transform" type="translate" values="0 0;48 0;0 0" dur="4s" repeatCount="indefinite"/>
+    
   </line>
 </g>
 </g>
