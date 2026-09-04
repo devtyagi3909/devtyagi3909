@@ -25,7 +25,7 @@
         
       </rect>
     </g>
-    <text x="125.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="0">JAN
+    <text x="125.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="1">JAN
     </text>
     <g>
       <rect x="185" y="280" width="60" height="0" fill="#1e4db7" fill-opacity="0.15" stroke="#1e4db7" stroke-width="1.5">
@@ -63,7 +63,7 @@
         
       </rect>
     </g>
-    <text x="215.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="0">FEB
+    <text x="215.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="1">FEB
     </text>
     <g>
       <rect x="275" y="280" width="60" height="0" fill="#1e4db7" fill-opacity="0.15" stroke="#1e4db7" stroke-width="1.5">
@@ -106,7 +106,7 @@
         
       </rect>
     </g>
-    <text x="305.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="0">MAR
+    <text x="305.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="1">MAR
     </text>
     <g>
       <rect x="365" y="280" width="60" height="0" fill="#ff6a33" fill-opacity="0.15" stroke="#ff6a33" stroke-width="1.5">
@@ -164,7 +164,7 @@
         
       </rect>
     </g>
-    <text x="395.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="0">APR
+    <text x="395.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="1">APR
     </text>
     <g>
       <rect x="455" y="280" width="60" height="0" fill="#ff6a33" fill-opacity="0.15" stroke="#ff6a33" stroke-width="1.5">
@@ -246,7 +246,7 @@
         
       </rect>
     </g>
-    <text x="485.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="0">MAY
+    <text x="485.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="1">MAY
     </text>
     <g>
       <rect x="545" y="280" width="60" height="0" fill="#ff6a33" fill-opacity="0.15" stroke="#ff6a33" stroke-width="1.5">
@@ -329,7 +329,7 @@
         
       </rect>
     </g>
-    <text x="575.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="0">JUN
+    <text x="575.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="1">JUN
     </text>
     <g>
       <rect x="635" y="280" width="60" height="0" fill="#ff6a33" fill-opacity="0.15" stroke="#ff6a33" stroke-width="1.5">
@@ -416,7 +416,7 @@
         
       </rect>
     </g>
-    <text x="665.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="0">JUL
+    <text x="665.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="1">JUL
     </text>
     <g>
       <rect x="725" y="280" width="60" height="0" fill="#1e4db7" fill-opacity="0.15" stroke="#1e4db7" stroke-width="1.5">
@@ -494,7 +494,7 @@
         
       </rect>
     </g>
-    <text x="755.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="0">AUG
+    <text x="755.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="1">AUG
     </text>
     <g>
       <rect x="815" y="280" width="60" height="0" fill="#1e4db7" fill-opacity="0.15" stroke="#1e4db7" stroke-width="1.5">
@@ -532,7 +532,7 @@
         
       </rect>
     </g>
-    <text x="845.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="0">SEP
+    <text x="845.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="1">SEP
     </text>
     <g>
       <rect x="905" y="280" width="60" height="0" fill="#ff6a33" fill-opacity="0.15" stroke="#ff6a33" stroke-width="1.5">
@@ -570,7 +570,7 @@
         
       </rect>
     </g>
-    <text x="935.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="0">OCT
+    <text x="935.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="1">OCT
     </text>
     <g>
       <rect x="995" y="280" width="60" height="0" fill="#ff6a33" fill-opacity="0.15" stroke="#ff6a33" stroke-width="1.5">
@@ -657,7 +657,7 @@
         
       </rect>
     </g>
-    <text x="1025.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="0">NOV
+    <text x="1025.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="1">NOV
     </text>
     <g>
       <rect x="1085" y="280" width="60" height="0" fill="#ff6a33" fill-opacity="0.15" stroke="#ff6a33" stroke-width="1.5">
@@ -735,7 +735,7 @@
         
       </rect>
     </g>
-    <text x="1115.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="0">DEC
+    <text x="1115.0" y="305" fill="#ffffff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle" fill-opacity="1">DEC
     </text>
   </g>
   <line x1="40" y1="280" x2="40" y2="280" stroke="#ff6a33" stroke-width="2">

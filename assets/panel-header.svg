@@ -2,7 +2,7 @@
 <defs>
   <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0%" stop-color="#ff6a33"/>
-    <stop offset="100%" stop-color="#050505" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#050505" stop-opacity="1"/>
   </linearGradient>
   <linearGradient id="vfade" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0%" stop-color="#000"/>
@@ -49,17 +49,17 @@
 <!-- ============ LEFT TEXT PANEL ============ -->
 
 <!-- Accent bar -->
-<g opacity="0">
+<g opacity="1">
   <rect x="28" y="54" width="64" height="2" fill="#ff6a33"/>
 </g>
 
 <!-- Eyebrow label -->
-<g opacity="0">
+<g opacity="1">
   <text x="28" y="78" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#ff6a33" letter-spacing="3">FPGA / RTL DESIGN ENGINEER</text>
 </g>
 
 <!-- Name with glitch shadows -->
-<g opacity="0">
+<g opacity="1">
   <text x="24" y="162" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="56" fill="#ff6a33" font-weight="700" letter-spacing="-2" opacity="0.22">Dev Tyagi</text>
   <text x="32" y="162" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="56" fill="#1e4db7" font-weight="700" letter-spacing="-2" opacity="0.22">Dev Tyagi</text>
   <text x="28" y="162" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="56" fill="#ffffff" font-weight="700" letter-spacing="-2">Dev Tyagi</text>
@@ -67,40 +67,40 @@
 </g>
 
 <!-- Role -->
-<text x="28" y="196" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#ffffff" letter-spacing="1" opacity="0">
+<text x="28" y="196" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#ffffff" letter-spacing="1" opacity="1">
   FPGA  &#183;  AI Accelerator  &#183;  RTL Engineer
   
 </text>
 
 <!-- Stack lines -->
-<text x="28" y="224" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="rgba(244,244,245,0.6)" opacity="0">
+<text x="28" y="224" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="rgba(244,244,245,0.6)" opacity="1">
   Verilog  &#183;  SystemVerilog  &#183;  C  &#183;  Python  &#183;  RISC-V
   
 </text>
-<text x="28" y="246" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="rgba(244,244,245,0.5)" opacity="0">
+<text x="28" y="246" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="rgba(244,244,245,0.5)" opacity="1">
   AXI4  &#183;  UVM  &#183;  SVA  &#183;  Zynq-7000  &#183;  UltraScale+
   
 </text>
-<text x="28" y="268" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="rgba(244,244,245,0.5)" opacity="0">
+<text x="28" y="268" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="rgba(244,244,245,0.5)" opacity="1">
   Systolic Arrays  &#183;  HLS  &#183;  CAN Bus  &#183;  DMA  &#183;  STA
   
 </text>
-<text x="28" y="290" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="rgba(244,244,245,0.45)" opacity="0">
+<text x="28" y="290" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="rgba(244,244,245,0.45)" opacity="1">
   LLM / RAG Acceleration  &#183;  Wi-Fi 7  &#183;  MLO  &#183;  ns-3
   
 </text>
-<text x="28" y="316" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="rgba(244,244,245,0.28)" opacity="0">
+<text x="28" y="316" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="rgba(244,244,245,0.28)" opacity="1">
   B.TECH ECM  &#183;  VIT CHENNAI  &#183;  INDIA
   
 </text>
 
 <!-- Orange rule -->
-<g opacity="0">
+<g opacity="1">
   <line x1="28" y1="340" x2="590" y2="340" stroke="#ff6a33" stroke-width="2" opacity="0.8"/>
 </g>
 
 <!-- Status dot + text -->
-<g opacity="0">
+<g opacity="1">
   <circle cx="34" cy="368" r="5" fill="#ff6a33">
     
   </circle>
@@ -109,7 +109,7 @@
 </g>
 
 <!-- Terminal scroll -->
-<g opacity="0">
+<g opacity="1">
 <g transform="translate(28,420)">
   <text x="0" y="10" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#ff6a33" letter-spacing="2">$ SYNTHESIZE --TARGET ZYNQ-7000 --OPT TIMING</text>
   <rect x="0" y="16" width="430" height="76" fill="#0a0a0a" stroke="#ff6a33" stroke-width="1" stroke-opacity="0.4"/>
@@ -125,7 +125,7 @@
 </g>
 
 <!-- ============ RIGHT CODE PANEL ============ -->
-<g opacity="0">
+<g opacity="1">
 <g transform="translate(634,28)">
   <rect x="0" y="0" width="574" height="356" fill="#0a0a0a" stroke="#ff6a33" stroke-width="1" stroke-opacity="0.5"/>
   <!-- Title bar -->
@@ -199,7 +199,7 @@
 </g>
 
 <!-- ============ RIGHT WAVEFORM PANEL ============ -->
-<g opacity="0">
+<g opacity="1">
 <g transform="translate(634,402)">
   <rect x="0" y="0" width="574" height="170" fill="#0a0a0a" stroke="#ff6a33" stroke-width="1" stroke-opacity="0.5"/>
   <rect x="0" y="0" width="574" height="28" fill="#0d0d0d"/>
