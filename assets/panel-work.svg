@@ -1,117 +1,117 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 480" width="1240" height="480" role="img" aria-label="Dev Tyagi Work">
 <rect width="1240" height="480" fill="#050505"/>
-<rect x="0" y="0" width="3" height="480" fill="#cc3d10" fill-opacity="0.75"/>
-<rect x="1237" y="0" width="3" height="480" fill="#cc3d10" fill-opacity="0.3"/>
-<rect x="0" y="0" width="1240" height="2" fill="#cc3d10" fill-opacity="0.5"/>
-<rect x="0" y="478" width="1240" height="2" fill="#cc3d10" fill-opacity="0.5"/>
+<rect x="0" y="0" width="3" height="480" fill="#ff6a33" fill-opacity="0.75"/>
+<rect x="1237" y="0" width="3" height="480" fill="#ff6a33" fill-opacity="0.9"/>
+<rect x="0" y="0" width="1240" height="2" fill="#ff6a33" fill-opacity="0.9"/>
+<rect x="0" y="478" width="1240" height="2" fill="#ff6a33" fill-opacity="0.9"/>
 
 <!-- Left WORK EXPEREINCE -->
 <g opacity="1">
-  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.05;0.1;1" dur="10s" fill="freeze"/>
-  <text x="28" y="24" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#cc3d10" letter-spacing="3">EXPERIENCE</text>
-  <rect x="28" y="32" width="60" height="2" fill="#cc3d10"/>
+  
+  <text x="28" y="24" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#ff6a33" letter-spacing="3">EXPERIENCE</text>
+  <rect x="28" y="32" width="60" height="2" fill="#ff6a33"/>
 </g>
 
 <!-- IIT Palakkad -->
 <g opacity="1">
-  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1;0.2;1" dur="10s" fill="freeze"/>
-  <rect x="28" y="50" width="3" height="100" fill="#cc3d10"/>
-  <text x="44" y="65" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#f4f4f5" font-weight="700">FPGA Research Intern</text>
-  <text x="44" y="85" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#cc3d10" letter-spacing="2">IIT PALAKKAD</text>
-  <text x="590" y="65" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#f4f4f5" fill-opacity="0.4" text-anchor="end">2025 — PRESENT</text>
-  <text x="44" y="105" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#f4f4f5" fill-opacity="0.7">Neural network inference on Zynq-7000 SoC</text>
-  <text x="44" y="125" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#f4f4f5" fill-opacity="0.7">HLS-based architecture exploration</text>
-  <text x="44" y="145" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#f4f4f5" fill-opacity="0.7">PS-PL interface design</text>
+  
+  <rect x="28" y="50" width="3" height="100" fill="#ff6a33"/>
+  <text x="44" y="65" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#ffffff" font-weight="700">FPGA Research Intern</text>
+  <text x="44" y="85" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#ff6a33" letter-spacing="2">IIT PALAKKAD</text>
+  <text x="590" y="65" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#ffffff" fill-opacity="0.9" text-anchor="end">2025 — PRESENT</text>
+  <text x="44" y="105" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffffff" fill-opacity="0.7">Neural network inference on Zynq-7000 SoC</text>
+  <text x="44" y="125" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffffff" fill-opacity="0.7">HLS-based architecture exploration</text>
+  <text x="44" y="145" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffffff" fill-opacity="0.7">PS-PL interface design</text>
 </g>
 
 <!-- Vicharak -->
 <g opacity="1">
-  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2;0.3;1" dur="10s" fill="freeze"/>
-  <rect x="28" y="170" width="3" height="85" fill="#cc3d10" fill-opacity="0.6"/>
-  <text x="44" y="185" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#f4f4f5" font-weight="700">Contract RTL Engineer</text>
-  <text x="44" y="205" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#cc3d10" letter-spacing="2">VICHARAK</text>
-  <text x="590" y="185" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#f4f4f5" fill-opacity="0.4" text-anchor="end">2024 — 2025</text>
-  <text x="44" y="225" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#f4f4f5" fill-opacity="0.6">RISC-V processor porting to Shrike SBC</text>
-  <text x="44" y="245" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#f4f4f5" fill-opacity="0.6">SPI memory subsystems · ForgeFPGA SLG47910 integration</text>
+  
+  <rect x="28" y="170" width="3" height="85" fill="#ff6a33" fill-opacity="0.9"/>
+  <text x="44" y="185" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#ffffff" font-weight="700">Contract RTL Engineer</text>
+  <text x="44" y="205" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#ff6a33" letter-spacing="2">VICHARAK</text>
+  <text x="590" y="185" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#ffffff" fill-opacity="0.9" text-anchor="end">2024 — 2025</text>
+  <text x="44" y="225" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#ffffff" fill-opacity="0.9">RISC-V processor porting to Shrike SBC</text>
+  <text x="44" y="245" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#ffffff" fill-opacity="0.9">SPI memory subsystems · ForgeFPGA SLG47910 integration</text>
 </g>
 
 <!-- Chakaralaya -->
 <g opacity="1">
-  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3;0.4;1" dur="10s" fill="freeze"/>
-  <rect x="28" y="275" width="3" height="40" fill="#cc3d10" fill-opacity="0.3"/>
-  <text x="44" y="290" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#f4f4f5" font-weight="700">ML / Data Intern</text>
-  <text x="44" y="310" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#cc3d10" letter-spacing="2">CHAKARALAYA ANALYTICS</text>
-  <text x="590" y="290" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#f4f4f5" fill-opacity="0.4" text-anchor="end">2024</text>
+  
+  <rect x="28" y="275" width="3" height="40" fill="#ff6a33" fill-opacity="0.9"/>
+  <text x="44" y="290" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#ffffff" font-weight="700">ML / Data Intern</text>
+  <text x="44" y="310" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#ff6a33" letter-spacing="2">CHAKARALAYA ANALYTICS</text>
+  <text x="590" y="290" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#ffffff" fill-opacity="0.9" text-anchor="end">2024</text>
 </g>
 
 <!-- Open Source -->
 <g opacity="1">
-  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4;0.5;1" dur="10s" fill="freeze"/>
-  <rect x="28" y="335" width="3" height="40" fill="#cc3d10" fill-opacity="0.2"/>
-  <text x="44" y="350" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#f4f4f5" font-weight="700">Open Source</text>
-  <text x="44" y="370" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#f4f4f5" fill-opacity="0.6">ConstraintForge · FPGA hackathons · RTL tooling</text>
+  
+  <rect x="28" y="335" width="3" height="40" fill="#ff6a33" fill-opacity="0.9"/>
+  <text x="44" y="350" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#ffffff" font-weight="700">Open Source</text>
+  <text x="44" y="370" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#ffffff" fill-opacity="0.9">ConstraintForge · FPGA hackathons · RTL tooling</text>
 </g>
 
 <!-- Right HARDWARE -->
-<line x1="615" y1="20" x2="615" y2="400" stroke="#cc3d10" stroke-opacity="0.2" stroke-width="1"/>
+<line x1="615" y1="20" x2="615" y2="400" stroke="#ff6a33" stroke-opacity="0.2" stroke-width="1"/>
 
 <g opacity="1">
-  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.05;0.1;1" dur="10s" fill="freeze"/>
-  <text x="632" y="24" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#cc3d10" letter-spacing="3">HARDWARE</text>
-  <rect x="632" y="32" width="60" height="2" fill="#cc3d10"/>
+  
+  <text x="632" y="24" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#ff6a33" letter-spacing="3">HARDWARE</text>
+  <rect x="632" y="32" width="60" height="2" fill="#ff6a33"/>
 </g>
 
 <!-- P1 -->
 <g opacity="1">
-  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2;0.3;1" dur="10s" fill="freeze"/>
-  <rect x="632" y="50" width="580" height="95" fill="#cc3d10" fill-opacity="0.05" stroke="#cc3d10" stroke-width="1" stroke-opacity="0.3"/>
-  <rect x="642" y="60" width="160" height="18" fill="#cc3d10" fill-opacity="0.2"/>
-  <text x="648" y="72" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#cc3d10" letter-spacing="1">1ST PLACE + JURY AWARD</text>
-  <text x="642" y="95" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#f4f4f5" font-weight="700">Out-of-Order Superscalar RISC-V Processor</text>
-  <text x="642" y="115" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#f4f4f5" fill-opacity="0.6">Tomasulo algorithm, ROB, CDB broadcast, 7-stage pipeline, 250 MHz, Xilinx UltraScale+</text>
-  <text x="642" y="135" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#f4f4f5" fill-opacity="0.4">SanDisk Hardware Hackathon</text>
+  
+  <rect x="632" y="50" width="580" height="95" fill="#ff6a33" fill-opacity="0.05" stroke="#ff6a33" stroke-width="1" stroke-opacity="0.3"/>
+  <rect x="642" y="60" width="160" height="18" fill="#ff6a33" fill-opacity="0.9"/>
+  <text x="648" y="72" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#ff6a33" letter-spacing="1">1ST PLACE + JURY AWARD</text>
+  <text x="642" y="95" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#ffffff" font-weight="700">Out-of-Order Superscalar RISC-V Processor</text>
+  <text x="642" y="115" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#ffffff" fill-opacity="0.9">Tomasulo algorithm, ROB, CDB broadcast, 7-stage pipeline, 250 MHz, Xilinx UltraScale+</text>
+  <text x="642" y="135" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#ffffff" fill-opacity="0.9">SanDisk Hardware Hackathon</text>
 </g>
 
 <!-- P2 -->
 <g opacity="1">
-  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3;0.4;1" dur="10s" fill="freeze"/>
+  
   <rect x="632" y="155" width="580" height="85" fill="#1e4db7" fill-opacity="0.05" stroke="#1e4db7" stroke-width="1" stroke-opacity="0.3"/>
-  <rect x="642" y="165" width="80" height="18" fill="#1e4db7" fill-opacity="0.2"/>
+  <rect x="642" y="165" width="80" height="18" fill="#1e4db7" fill-opacity="0.9"/>
   <text x="648" y="177" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#1e4db7" letter-spacing="1">2ND PLACE</text>
-  <text x="642" y="200" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#f4f4f5" font-weight="700">AXI4 High-Throughput DMA Engine</text>
-  <text x="642" y="220" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#f4f4f5" fill-opacity="0.6">1 GB/s sustained, AXI4-MM + AXI-Stream, interrupt-driven, PYNQ-Z2</text>
-  <text x="1200" y="200" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#f4f4f5" fill-opacity="0.4" text-anchor="end">FPGA Makeathon</text>
+  <text x="642" y="200" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#ffffff" font-weight="700">AXI4 High-Throughput DMA Engine</text>
+  <text x="642" y="220" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#ffffff" fill-opacity="0.9">1 GB/s sustained, AXI4-MM + AXI-Stream, interrupt-driven, PYNQ-Z2</text>
+  <text x="1200" y="200" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#ffffff" fill-opacity="0.9" text-anchor="end">FPGA Makeathon</text>
 </g>
 
 <!-- P3 -->
 <g opacity="1">
-  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4;0.5;1" dur="10s" fill="freeze"/>
-  <rect x="632" y="250" width="580" height="60" fill="#f4f4f5" fill-opacity="0.02" stroke="#f4f4f5" stroke-width="1" stroke-opacity="0.1"/>
-  <text x="642" y="275" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#f4f4f5" font-weight="700">AXI4-Lite Verification IP</text>
-  <text x="642" y="295" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#f4f4f5" fill-opacity="0.6">UVM testbench, SVA assertions, 100% functional coverage</text>
+  
+  <rect x="632" y="250" width="580" height="60" fill="#ffffff" fill-opacity="0.02" stroke="#ffffff" stroke-width="1" stroke-opacity="0.1"/>
+  <text x="642" y="275" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#ffffff" font-weight="700">AXI4-Lite Verification IP</text>
+  <text x="642" y="295" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#ffffff" fill-opacity="0.9">UVM testbench, SVA assertions, 100% functional coverage</text>
 </g>
 
 <!-- P4 -->
 <g opacity="1">
-  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5;0.6;1" dur="10s" fill="freeze"/>
-  <rect x="632" y="320" width="580" height="65" fill="#f4f4f5" fill-opacity="0.02" stroke="#f4f4f5" stroke-width="1" stroke-opacity="0.1"/>
-  <rect x="642" y="330" width="80" height="15" fill="#f4f4f5" fill-opacity="0.1"/>
-  <text x="648" y="340" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8" fill="#f4f4f5" fill-opacity="0.7">OPEN SOURCE</text>
-  <text x="642" y="360" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#f4f4f5" font-weight="700">ConstraintForge</text>
-  <text x="642" y="375" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#f4f4f5" fill-opacity="0.6">14+ interfaces, 13 boards, Xilinx/Gowin/Lattice/Intel · devtyagi3909.github.io/constraintforge</text>
+  
+  <rect x="632" y="320" width="580" height="65" fill="#ffffff" fill-opacity="0.02" stroke="#ffffff" stroke-width="1" stroke-opacity="0.1"/>
+  <rect x="642" y="330" width="80" height="15" fill="#ffffff" fill-opacity="0.9"/>
+  <text x="648" y="340" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8" fill="#ffffff" fill-opacity="0.7">OPEN SOURCE</text>
+  <text x="642" y="360" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#ffffff" font-weight="700">ConstraintForge</text>
+  <text x="642" y="375" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#ffffff" fill-opacity="0.9">14+ interfaces, 13 boards, Xilinx/Gowin/Lattice/Intel · devtyagi3909.github.io/constraintforge</text>
 </g>
 
 <!-- Connect Bottom block -->
-<line x1="28" y1="420" x2="1212" y2="420" stroke="#cc3d10" stroke-opacity="0.3" stroke-width="1"/>
+<line x1="28" y1="420" x2="1212" y2="420" stroke="#ff6a33" stroke-opacity="0.3" stroke-width="1"/>
 <g opacity="1">
-  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6;0.7;1" dur="10s" fill="freeze"/>
-  <text x="28" y="445" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#cc3d10" letter-spacing="3">CONNECT</text>
-  <circle cx="95" cy="442" r="4" fill="#cc3d10">
-    <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
+  
+  <text x="28" y="445" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#ff6a33" letter-spacing="3">CONNECT</text>
+  <circle cx="95" cy="442" r="4" fill="#ff6a33">
+    
   </circle>
-  <text x="110" y="445" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#f4f4f5">devtyagi3909@gmail.com</text>
-  <text x="285" y="445" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#f4f4f5" fill-opacity="0.5">·</text>
-  <text x="300" y="445" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#f4f4f5">linkedin.com/in/dev-tyagi3909</text>
-  <text x="28" y="465" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#f4f4f5" fill-opacity="0.4" letter-spacing="1">OPEN TO FPGA/RTL INTERNSHIPS AND CONTRACT WORK</text>
+  <text x="110" y="445" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffffff">devtyagi3909@gmail.com</text>
+  <text x="285" y="445" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffffff" fill-opacity="0.9">·</text>
+  <text x="300" y="445" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffffff">linkedin.com/in/dev-tyagi3909</text>
+  <text x="28" y="465" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#ffffff" fill-opacity="0.9" letter-spacing="1">OPEN TO FPGA/RTL INTERNSHIPS AND CONTRACT WORK</text>
 </g>
 </svg>
