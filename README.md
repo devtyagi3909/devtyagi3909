@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/panel-v3.svg?v=9" width="100%" alt="Dev Tyagi"/>
+<img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/panel-v3.svg?v=10" width="100%" alt="Dev Tyagi"/>
 
 <br/><br/>
 
-<a href="https://www.linkedin.com/in/dev-tyagi3909/"><img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/btn-linkedin.svg?v=9" alt="LinkedIn"/></a>
+<a href="https://www.linkedin.com/in/dev-tyagi3909/"><img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/btn-linkedin.svg?v=10" alt="LinkedIn"/></a>
 &nbsp;
-<a href="mailto:devtyagi3909@gmail.com"><img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/btn-email.svg?v=9" alt="Email"/></a>
+<a href="mailto:devtyagi3909@gmail.com"><img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/btn-email.svg?v=10" alt="Email"/></a>
 &nbsp;
-<a href="https://github.com/devtyagi3909?tab=repositories"><img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/btn-github.svg?v=9" alt="Repositories"/></a>
+<a href="https://github.com/devtyagi3909?tab=repositories"><img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/btn-github.svg?v=10" alt="Repositories"/></a>
 &nbsp;&nbsp;&nbsp;
 <img src="https://komarev.com/ghpvc/?username=devtyagi3909&base=15554&style=flat-square&color=cc3d10&label=PROFILE+VIEWS&labelColor=050505" alt="Profile Views"/>
 
@@ -16,18 +16,18 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/panel-work.svg?v=9" width="100%" alt="Work and Hardware"/>
+<img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/panel-work.svg?v=10" width="100%" alt="Work and Hardware"/>
 
 ---
 
-<img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/panel-3d-city.svg?v=9" width="100%" alt="Merge Skyline"/>
+<img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/panel-3d-city.svg?v=10" width="100%" alt="Merge Skyline"/>
 
 
 ---
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/output/snake.svg?v=9"/>
-  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/output/snake.svg?v=9" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/output/snake.svg?v=10"/>
+  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/output/snake.svg?v=10" width="100%"/>
 </picture>
 
 ---
