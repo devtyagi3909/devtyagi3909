@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 600" width="1240" height="600" role="img" aria-label="Dev Tyagi">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Dev Tyagi">
 <defs>
   <linearGradient id="vfade" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0%" stop-color="#000000"/>
@@ -19,7 +19,7 @@
   <clipPath id="wc"><rect x="686" y="430" width="510" height="128"/></clipPath>
 </defs>
 
-<rect width="1240" height="600" fill="#050505"/>
+<rect width="600" height="600" fill="#050505"/>
 
 <!-- Scan lines: use fill-opacity not rgba -->
 <line x1="0" y1="80"  x2="1240" y2="80"  stroke="#cc3d10" stroke-width="0.5" stroke-opacity="0.025"/>
@@ -32,9 +32,9 @@
 
 <!-- Borders -->
 <rect x="0"    y="0" width="3"    height="600" fill="#cc3d10" fill-opacity="0.75"/>
-<rect x="1237" y="0" width="3"    height="600" fill="#cc3d10" fill-opacity="0.9"/>
-<rect x="0"    y="0" width="1240" height="2"   fill="#cc3d10" fill-opacity="0.9"/>
-<rect x="0"  y="598" width="1240" height="2"   fill="#cc3d10" fill-opacity="0.9"/>
+<rect x="597" y="0" width="3"    height="600" fill="#cc3d10" fill-opacity="0.9"/>
+<rect x="0"    y="0" width="600" height="2"   fill="#cc3d10" fill-opacity="0.9"/>
+<rect x="0"  y="598" width="600" height="2"   fill="#cc3d10" fill-opacity="0.9"/>
 
 <!-- Corner brackets -->
 <g stroke="#cc3d10" stroke-width="1.5" fill="none" stroke-opacity="0.6">
@@ -136,75 +136,6 @@
     <rect x="350" y="65" width="6" height="12" fill="#ff6a33" opacity="0">
       <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite" begin="4s"/>
     </rect>
-  </g>
-</g>
-
-<!-- ====== RIGHT CODE PANEL ====== -->
-<g opacity="1">
-  
-  <rect x="634" y="28" width="574" height="356" fill="#0a0a0a" stroke="#cc3d10" stroke-width="1" stroke-opacity="0.5"/>
-  <rect x="634" y="28" width="574" height="30" fill="#0d0d0d"/>
-  <line x1="634" y1="58" x2="1208" y2="58" stroke="#cc3d10" stroke-width="1" stroke-opacity="0.5"/>
-  <circle cx="650" cy="43" r="4.5" fill="#cc3d10" fill-opacity="0.75"/>
-  <circle cx="664" cy="43" r="4.5" fill="#cc3d10" fill-opacity="0.35"/>
-  <circle cx="678" cy="43" r="4.5" fill="#cc3d10" fill-opacity="0.15"/>
-  <text x="696" y="47" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#f4f4f5" fill-opacity="0.9">axi4_dma_engine.sv</text>
-  <text x="1040" y="47" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#cc3d10" fill-opacity="0.65">ZYNQ-7000</text>
-  <rect x="634" y="58" width="36" height="326" fill="#080808"/>
-  <line x1="670" y1="58" x2="670" y2="384" stroke="#cc3d10" stroke-width="0.5" stroke-opacity="0.3"/>
-
-  <g transform="translate(634,58)">
-    <g clip-path="url(#cc)" mask="url(#cm)">
-      <g transform="translate(0,0)">
-        
-        <!-- Line numbers -->
-        <text font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#cc3d10" fill-opacity="0.9">
-          <tspan x="8" y="14">1</tspan><tspan x="8" dy="17">2</tspan><tspan x="8" dy="17">3</tspan><tspan x="8" dy="17">4</tspan><tspan x="8" dy="17">5</tspan><tspan x="8" dy="17">6</tspan><tspan x="8" dy="17">7</tspan><tspan x="8" dy="17">8</tspan><tspan x="8" dy="17">9</tspan><tspan x="5" dy="17">10</tspan><tspan x="5" dy="17">11</tspan><tspan x="5" dy="17">12</tspan><tspan x="5" dy="17">13</tspan><tspan x="5" dy="17">14</tspan><tspan x="5" dy="17">15</tspan><tspan x="5" dy="17">16</tspan><tspan x="5" dy="17">17</tspan><tspan x="5" dy="17">18</tspan><tspan x="5" dy="17">19</tspan><tspan x="5" dy="17">20</tspan><tspan x="5" dy="17">21</tspan><tspan x="5" dy="17">22</tspan><tspan x="5" dy="17">23</tspan><tspan x="5" dy="17">24</tspan><tspan x="5" dy="17">25</tspan><tspan x="5" dy="17">26</tspan><tspan x="5" dy="17">27</tspan><tspan x="5" dy="17">28</tspan><tspan x="5" dy="17">29</tspan><tspan x="5" dy="17">30</tspan><tspan x="5" dy="17">31</tspan><tspan x="5" dy="17">32</tspan><tspan x="5" dy="17">33</tspan><tspan x="5" dy="17">34</tspan><tspan x="5" dy="17">35</tspan><tspan x="5" dy="17">36</tspan><tspan x="5" dy="17">37</tspan><tspan x="5" dy="17">38</tspan><tspan x="5" dy="17">39</tspan><tspan x="5" dy="17">40</tspan><tspan x="5" dy="17">41</tspan><tspan x="5" dy="17">42</tspan>
-        </text>
-        <!-- Code -->
-        <text font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5">
-          <tspan x="44" y="14" fill="#cc3d10">// AXI4 DMA Engine -- Zynq-7000  1GB/s burst</tspan>
-          <tspan x="44" dy="17" fill="#f4f4f5" fill-opacity="0.9">// interrupt-driven  AXI4-MM + AXI-Stream</tspan>
-          <tspan x="44" dy="17"/>
-          <tspan x="44" dy="17" fill="#1e4db7">module </tspan><tspan fill="#f4f4f5">axi4_dma_engine #(</tspan>
-          <tspan x="44" dy="17" fill="#cc3d10">  parameter </tspan><tspan fill="#f4f4f5">DATA_W    = 64,</tspan>
-          <tspan x="44" dy="17" fill="#cc3d10">  parameter </tspan><tspan fill="#f4f4f5">BURST_LEN = 256,</tspan>
-          <tspan x="44" dy="17" fill="#cc3d10">  parameter </tspan><tspan fill="#f4f4f5">ADDR_W    = 32</tspan>
-          <tspan x="44" dy="17" fill="#f4f4f5">) (</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#f4f4f5">wire              aclk, aresetn,</tspan>
-          <tspan x="44" dy="17" fill="#f4f4f5" fill-opacity="0.9">  // AXI4-MM Master write channel</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#f4f4f5">wire [ADDR_W-1:0] m_axi_awaddr,</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#f4f4f5">wire [7:0]        m_axi_awlen,</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#f4f4f5">wire [DATA_W-1:0] m_axi_wdata,</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#f4f4f5">wire              m_axi_wvalid,</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#f4f4f5">wire              m_axi_wready,</tspan>
-          <tspan x="44" dy="17" fill="#f4f4f5" fill-opacity="0.9">  // AXI-Stream slave</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#f4f4f5">wire [DATA_W-1:0] s_axis_tdata,</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#f4f4f5">wire              s_axis_tvalid,</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#f4f4f5">wire              irq</tspan>
-          <tspan x="44" dy="17" fill="#f4f4f5">);</tspan>
-          <tspan x="44" dy="17"/>
-          <tspan x="44" dy="17" fill="#f4f4f5" fill-opacity="0.9">  // outstanding transaction tracker</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  reg </tspan><tspan fill="#f4f4f5">[7:0] txn_cnt;</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  always </tspan><tspan fill="#f4f4f5">@(posedge aclk)</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">    if    </tspan><tspan fill="#f4f4f5">(!aresetn) txn_cnt &lt;= 8&apos;d0;</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">    else if </tspan><tspan fill="#f4f4f5">(issue)    txn_cnt &lt;= txn_cnt + 1;</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">    else if </tspan><tspan fill="#f4f4f5">(done)     txn_cnt &lt;= txn_cnt - 1;</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  assign </tspan><tspan fill="#f4f4f5">irq = irq_r;</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">endmodule</tspan>
-          <tspan x="44" dy="22" fill="#cc3d10">// OoO Superscalar RISC-V -- SanDisk 1st Place</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">module </tspan><tspan fill="#f4f4f5">rob_entry (</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#f4f4f5">wire [4:0]  tag,</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#f4f4f5">wire [31:0] result,</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  input  </tspan><tspan fill="#f4f4f5">wire        complete,</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  output </tspan><tspan fill="#f4f4f5">wire        commit</tspan>
-          <tspan x="44" dy="17" fill="#f4f4f5">);</tspan>
-          <tspan x="44" dy="17" fill="#f4f4f5" fill-opacity="0.9">  // Tomasulo ROB CDB 7-stage 250 MHz</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">  assign </tspan><tspan fill="#f4f4f5">commit = complete &amp;&amp; (tag == head);</tspan>
-          <tspan x="44" dy="17" fill="#1e4db7">endmodule</tspan>
-        </text>
-      </g>
-    </g>
   </g>
 </g>
 

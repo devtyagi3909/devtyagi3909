@@ -15,6 +15,10 @@
 <img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/panel-work.svg?v=12" width="100%" alt="Work and Hardware"/>
 
 ---
+<img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/panel-3d-city.svg?v=13" width="100%" alt="Merge Skyline"/>
+
+---
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/output/snake.svg?v=11"/>
   <img alt="Contribution Snake" src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/output/snake.svg?v=11" width="100%"/>
