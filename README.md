@@ -12,11 +12,7 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/panel-work.svg?v=11" width="100%" alt="Work and Hardware"/>
-
----
-
-<img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/panel-3d-city.svg?v=11" width="100%" alt="Merge Skyline"/>
+<img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/panel-work.svg?v=12" width="100%" alt="Work and Hardware"/>
 
 ---
 <picture>
@@ -26,13 +22,15 @@
 
 ---
 
+![PyTorch](https://img.shields.io/badge/PyTorch-cc3d10?style=flat-square&logo=pytorch&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-1e4db7?style=flat-square&logo=nvidia&logoColor=white)
+![vLLM](https://img.shields.io/badge/vLLM-050505?style=flat-square&logoColor=cc3d10)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-f4f4f5?style=flat-square&logo=huggingface&logoColor=050505)
+![Python](https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=cc3d10)
+![C++](https://img.shields.io/badge/C++-1e4db7?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![SystemVerilog](https://img.shields.io/badge/SystemVerilog-cc3d10?style=flat-square&logoColor=white)
 ![Verilog](https://img.shields.io/badge/Verilog-1e4db7?style=flat-square&logoColor=white)
-![C](https://img.shields.io/badge/C-f4f4f5?style=flat-square&logo=c&logoColor=050505)
-![Python](https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=cc3d10)
 ![RISC-V](https://img.shields.io/badge/RISC--V-cc3d10?style=flat-square&logoColor=white)
 ![AXI4](https://img.shields.io/badge/AXI4-1e4db7?style=flat-square&logoColor=white)
-![UVM](https://img.shields.io/badge/UVM-050505?style=flat-square&logoColor=cc3d10)
-![Vivado](https://img.shields.io/badge/Vivado-cc3d10?style=flat-square&logoColor=white)
 
 </div>
