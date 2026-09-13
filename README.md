@@ -1,21 +1,34 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/panel-v3.svg?v=14" width="100%" alt="Dev Tyagi"/>
+<h1><code>neofetch --user devtyagi3909</code></h1>
 
-<a href="https://www.linkedin.com/in/dev-tyagi3909/"><img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/btn-linkedin.svg?v=14" alt="LinkedIn"/></a>
-&nbsp;
-<a href="mailto:devtyagi3909@gmail.com"><img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/btn-email.svg?v=14" alt="Email"/></a>
-&nbsp;
-<a href="https://github.com/devtyagi3909?tab=repositories"><img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/btn-github.svg?v=14" alt="Repositories"/></a>
-&nbsp;&nbsp;&nbsp;
-<img src="https://komarev.com/ghpvc/?username=devtyagi3909&base=15554&style=flat-square&color=cc3d10&label=PROFILE+VIEWS&labelColor=050505" alt="Profile Views"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="neofetch.svg">
+  <source media="(prefers-color-scheme: light)" srcset="neofetch.svg">
+  <img alt="neofetch ASCII art terminal aesthetic" src="neofetch.svg" width="800">
+</picture>
+
+### 🚀 About Me
+- 🧠 Pivoted from **RTL/FPGA Engineering** to **AI Engineering**.
+- 🤖 Building robust Neural Networks, fine-tuning LLMs, and scaling AI infrastructure.
+- ⚡ Currently working with **PyTorch, JAX, CUDA, and vLLM**.
+- 🛠️ Merging hardware-level intuition with high-level AI concepts.
+
+<a href="https://www.linkedin.com/in/dev-tyagi3909/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:devtyagi3909@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://github.com/devtyagi3909"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 
 ---
 
-<img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/panel-work.svg?v=14" width="100%" alt="Work and Hardware"/>
+### 🛠️ Tech Stack
 
----
-<img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/panel-3d-city.svg?v=14" width="100%" alt="Merge Skyline"/>
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![JAX](https://img.shields.io/badge/JAX-000000?style=flat-square&logo=google&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![vLLM](https://img.shields.io/badge/vLLM-050505?style=flat-square&logoColor=cc3d10)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-FF9D00?style=flat-square&logo=huggingface&logoColor=white)
 
 ---
 
@@ -24,18 +37,6 @@
   <img alt="Contribution Snake" src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/output/snake.svg?v=14" width="100%"/>
 </picture>
 
----
-
-![PyTorch](https://img.shields.io/badge/PyTorch-cc3d10?style=flat-square&logo=pytorch&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-1e4db7?style=flat-square&logo=nvidia&logoColor=white)
-![vLLM](https://img.shields.io/badge/vLLM-050505?style=flat-square&logoColor=cc3d10)
-![Node.js](https://img.shields.io/badge/Node.js-f4f4f5?style=flat-square&logo=nodedotjs&logoColor=050505)
-![TypeScript](https://img.shields.io/badge/TypeScript-1e4db7?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=cc3d10)
-![C++](https://img.shields.io/badge/C++-1e4db7?style=flat-square&logo=c%2B%2B&logoColor=white)
-![SystemVerilog](https://img.shields.io/badge/SystemVerilog-cc3d10?style=flat-square&logoColor=white)
-![Verilog](https://img.shields.io/badge/Verilog-1e4db7?style=flat-square&logoColor=white)
-![RISC-V](https://img.shields.io/badge/RISC--V-cc3d10?style=flat-square&logoColor=white)
-![AXI4](https://img.shields.io/badge/AXI4-1e4db7?style=flat-square&logoColor=white)
+<img src="https://komarev.com/ghpvc/?username=devtyagi3909&base=15554&style=flat-square&color=cc3d10&label=PROFILE+VIEWS&labelColor=050505" alt="Profile Views"/>
 
 </div>
