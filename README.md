@@ -8,7 +8,7 @@
 &nbsp;
 <a href="https://github.com/devtyagi3909?tab=repositories"><img src="https://raw.githubusercontent.com/devtyagi3909/devtyagi3909/main/assets/btn-github.svg?v=15" alt="Repositories"/></a>
 &nbsp;&nbsp;&nbsp;
-<img src="https://komarev.com/ghpvc/?username=devtyagi3909&base=15554&style=flat-square&color=cc3d10&label=PROFILE+VIEWS&labelColor=050505" alt="Profile Views"/>
+
 
 ---
 
