@@ -15,7 +15,7 @@
 > breaking and optimizing execution paths between silicon pipelines and gpu inference runtimes.
 
 ```text
-status: active // bankai mode // vit chennai // devtyagi3909@gmail.com
+mail: devtyagi3909@gmail.com
 ```
 
 <p align="center">
