@@ -63,9 +63,9 @@
   <!-- Manga Panel Outer Border -->
   <rect x="1" y="1" width="918" height="198" fill="none" stroke="#30363D" stroke-width="1.5" rx="6" />
 
-  <!-- Kanji Watermark: 卍解 (Bankai) - Original Stylized Geometry -->
-  <g opacity="0.08" transform="translate(680, 25)">
-    <text x="0" y="110" font-size="120" font-weight="900" fill="#FF2E4D" font-family="'Noto Sans JP', 'Hiragino Kaku Gothic Pro', 'Apple Color Emoji', sans-serif">卍解</text>
+  <!-- Background Geometric Watermark: BANKAI in Monospace Vector -->
+  <g opacity="0.06" transform="translate(600, 30)">
+    <text x="0" y="105" font-size="88" font-weight="900" fill="#FF2E4D" letter-spacing="8" class="shinigami-mono">BANKAI</text>
   </g>
 
   <!-- Circuit Trace Lines as Sword Cuts -->

@@ -150,6 +150,6 @@ flowchart LR
 ---
 
 <p align="center">
-  <code>[ dev tyagi &middot; terminal shinigami &middot; 卍解 ]</code><br/>
+  <code>[ dev tyagi &middot; terminal shinigami &middot; bankai ]</code><br/>
   <sub>vit chennai &middot; <a href="mailto:devtyagi3909@gmail.com">devtyagi3909@gmail.com</a></sub>
 </p>

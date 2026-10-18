@@ -14,9 +14,9 @@
   <line x1="0" y1="12" x2="900" y2="12" stroke="url(#div-slash)" stroke-width="1.5" />
   
   <!-- Diagonal Slash Notch in Center -->
-  <polygon points="440,6 460,6 450,18 430,18" fill="#FF2E4D" fill-opacity="0.25" />
-  <line x1="440" y1="5" x2="460" y2="19" stroke="#FF2E4D" stroke-width="2" />
+  <polygon points="440,6 460,6 450,18 430,18" fill="#FF2E4D" fill-opacity="0.3" />
+  <line x1="438" y1="5" x2="458" y2="19" stroke="#FF2E4D" stroke-width="2" />
   
-  <!-- Kanji: 斬 (Zan) -->
-  <text x="444" y="15" fill="#E6EDF3" font-size="10" font-weight="900" font-family="'Noto Sans JP', monospace" opacity="0.9">斬</text>
+  <!-- Central Geometric Pulse Marker -->
+  <polygon points="450,9 453,12 450,15 447,12" fill="#FFFFFF" />
 </svg>
