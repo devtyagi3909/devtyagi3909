@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="./assets/hero-shinigami.svg" width="100%" alt="dev tyagi // bankai" />
+  <img src="./assets/hero-telemetry.svg" width="100%" alt="dev tyagi // hardware &amp; runtime telemetry" />
 </p>
 
 <p align="center">
-  <img src="./assets/terminal-boot.svg" width="100%" alt="shinigami boot terminal" />
+  <img src="./assets/terminal-boot.svg" width="100%" alt="systems telemetry boot" />
 </p>
 
 <p align="center">

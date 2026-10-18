@@ -43,7 +43,7 @@ def wrap_snake(input_path, output_path):
   <line x1="1212" y1="326" x2="1198" y2="326"/>
 </g>
 <!-- Header -->
-<text x="28" y="24" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#FF2E4D" letter-spacing="3">SHINIGAMI DIE // CONTRIBUTION ACTIVITY</text>
+<text x="28" y="24" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#FF2E4D" letter-spacing="3">SILICON DIE // CONTRIBUTION TELEMETRY</text>
 <text x="1212" y="24" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#FF2E4D" letter-spacing="3" text-anchor="end">REAL-TIME</text>
 <rect x="28" y="30" width="1184" height="1" fill="#FF2E4D" fill-opacity="0.2"/>
 

@@ -32,7 +32,7 @@
   <circle cx="16" cy="13" r="4.5" fill="#FF2E4D" />
   <circle cx="30" cy="13" r="4.5" fill="#30363D" />
   <circle cx="44" cy="13" r="4.5" fill="#21262D" />
-  <text x="60" y="17" fill="#8B949E" font-size="10" font-weight="600" class="term-font">shinigami-core // tty0 -- bankai init</text>
+  <text x="60" y="17" fill="#8B949E" font-size="10" font-weight="600" class="term-font">dev@node-01 // pts/0 -- system init</text>
 
   <!-- Terminal Boot Lines -->
   <g transform="translate(20, 48)" class="term-font" font-size="11">
@@ -63,10 +63,10 @@
     <!-- Line 4 -->
     <g transform="translate(0, 72)" class="line-4">
       <text x="0" y="0" fill="#8B949E">[0.003909]</text>
-      <text x="75" y="0" fill="#FF2E4D" font-weight="700">bankai:</text>
-      <text x="140" y="0" fill="#00FF9C" font-weight="700">mode unlocked // zero-drift deterministic execution ............</text>
-      <text x="740" y="0" fill="#FF2E4D" font-weight="700">[ACTIVE]</text>
-      <rect x="806" y="-10" width="7" height="12" fill="#00FF9C" class="cursor" />
+      <text x="75" y="0" fill="#FF2E4D" font-weight="700">engine:</text>
+      <text x="140" y="0" fill="#00FF9C" font-weight="700">deterministic graph replay // zero-stale reads .............</text>
+      <text x="740" y="0" fill="#00FF9C" font-weight="700">[OK]</text>
+      <rect x="782" y="-10" width="7" height="12" fill="#00FF9C" class="cursor" />
     </g>
   </g>
 </svg>

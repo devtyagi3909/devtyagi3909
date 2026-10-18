@@ -25,7 +25,7 @@
   </defs>
 
   <style>
-    .shinigami-mono { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace; }
+    .telemetry-mono { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace; }
     
     @keyframes slash-pulse {
       0%, 100% { opacity: 0.85; filter: drop-shadow(0 0 2px #FF2E4D); }
@@ -63,11 +63,6 @@
   <!-- Manga Panel Outer Border -->
   <rect x="1" y="1" width="918" height="198" fill="none" stroke="#30363D" stroke-width="1.5" rx="6" />
 
-  <!-- Background Geometric Watermark: BANKAI in Monospace Vector -->
-  <g opacity="0.06" transform="translate(600, 30)">
-    <text x="0" y="105" font-size="88" font-weight="900" fill="#FF2E4D" letter-spacing="8" class="shinigami-mono">BANKAI</text>
-  </g>
-
   <!-- Circuit Trace Lines as Sword Cuts -->
   <path d="M 0 160 L 320 80 L 920 80" fill="none" stroke="#21262D" stroke-width="1.2" />
   <path d="M 80 200 L 400 110 L 920 110" fill="none" stroke="#30363D" stroke-width="1" class="circuit-trace" />
@@ -86,28 +81,28 @@
   <!-- Header Status Bar -->
   <g transform="translate(32, 22)">
     <circle cx="6" cy="6" r="3.5" fill="#FF2E4D" class="crimson-dot" />
-    <text x="18" y="10" fill="#FF2E4D" font-size="10" font-weight="700" letter-spacing="1.5" class="shinigami-mono">BANKAI // TERMINAL SHINIGAMI</text>
-    <text x="630" y="10" fill="#8B949E" font-size="9.5" font-weight="600" class="shinigami-mono">TARGET: SILICON ──► KERNEL ──► INFERENCE</text>
+    <text x="18" y="10" fill="#FF2E4D" font-size="10" font-weight="700" letter-spacing="1.5" class="telemetry-mono">CORE // HARDWARE &amp; RUNTIME TELEMETRY</text>
+    <text x="630" y="10" fill="#8B949E" font-size="9.5" font-weight="600" class="telemetry-mono">TARGET: SILICON ──► KERNEL ──► INFERENCE</text>
   </g>
 
   <!-- Identity Section -->
   <g transform="translate(32, 54)">
     <!-- Identity Name -->
-    <text x="0" y="44" fill="#E6EDF3" font-size="36" font-weight="900" letter-spacing="2.5" class="shinigami-mono">dev tyagi</text>
+    <text x="0" y="44" fill="#E6EDF3" font-size="36" font-weight="900" letter-spacing="2.5" class="telemetry-mono">dev tyagi</text>
 
     <!-- Subtitle Pill -->
     <rect x="235" y="20" width="195" height="24" rx="3" fill="#FF2E4D" fill-opacity="0.12" stroke="#FF2E4D" stroke-width="1" />
-    <text x="246" y="36" fill="#FF2E4D" font-size="10.5" font-weight="700" letter-spacing="0.8" class="shinigami-mono">SYSTEMS &amp; AI INFRA</text>
+    <text x="246" y="36" fill="#FF2E4D" font-size="10.5" font-weight="700" letter-spacing="0.8" class="telemetry-mono">SYSTEMS &amp; AI INFRA</text>
 
     <!-- Tagline -->
-    <text x="0" y="78" fill="#8B949E" font-size="12" font-weight="500" class="shinigami-mono">superscalar out-of-order silicon <tspan fill="#FF2E4D">──►</tspan> gpu runtime internals <tspan fill="#FF2E4D">──►</tspan> custom kernels</text>
+    <text x="0" y="78" fill="#8B949E" font-size="12" font-weight="500" class="telemetry-mono">superscalar out-of-order silicon <tspan fill="#FF2E4D">──►</tspan> gpu runtime internals <tspan fill="#FF2E4D">──►</tspan> custom kernels</text>
   </g>
 
   <!-- Bottom Proof / Telemetry Strip -->
   <g transform="translate(32, 156)">
     <rect x="0" y="0" width="856" height="24" rx="3" fill="#161B22" stroke="#30363D" stroke-width="1" />
-    <text x="14" y="16" fill="#FF2E4D" font-size="9.5" font-weight="700" letter-spacing="1" class="shinigami-mono">UPSTREAM:</text>
-    <text x="92" y="16" fill="#E6EDF3" font-size="9.5" font-weight="500" class="shinigami-mono">vllm (#61486, #56559) · sglang (#45031, #44571) · cva6 · riscv-dbg (#206)</text>
-    <text x="704" y="16" fill="#00FF9C" font-size="9.5" font-weight="700" letter-spacing="0.5" class="shinigami-mono">&#9733; 1st sandisk hackathon</text>
+    <text x="14" y="16" fill="#FF2E4D" font-size="9.5" font-weight="700" letter-spacing="1" class="telemetry-mono">UPSTREAM:</text>
+    <text x="92" y="16" fill="#E6EDF3" font-size="9.5" font-weight="500" class="telemetry-mono">vllm (#61486, #56559) · sglang (#45031, #44571) · cva6 · riscv-dbg (#206)</text>
+    <text x="704" y="16" fill="#00FF9C" font-size="9.5" font-weight="700" letter-spacing="0.5" class="telemetry-mono">&#9733; 1st sandisk hackathon</text>
   </g>
 </svg>
