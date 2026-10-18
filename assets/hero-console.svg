@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280">
+  <defs>
+    <!-- Background Grid -->
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#161e2e" stroke-width="0.8" />
+    </pattern>
+
+    <!-- Glowing Filters -->
+    <filter id="glow-green" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Linear Gradients -->
+    <linearGradient id="header-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff9c" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#00ff9c" />
+    </linearGradient>
+
+    <linearGradient id="node-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0b1120" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace; }
+    
+    @keyframes pulse-status {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.9); }
+    }
+    
+    @keyframes scanline {
+      0% { transform: translateY(0); opacity: 0.15; }
+      50% { opacity: 0.4; }
+      100% { transform: translateY(270px); opacity: 0.15; }
+    }
+
+    @keyframes dashflow {
+      from { stroke-dashoffset: 40; }
+      to { stroke-dashoffset: 0; }
+    }
+
+    @keyframes packet-l1-l2 {
+      0% { cx: 310px; opacity: 0; }
+      20% { opacity: 1; }
+      80% { opacity: 1; }
+      100% { cx: 380px; opacity: 0; }
+    }
+
+    @keyframes packet-l2-l3 {
+      0% { cx: 620px; opacity: 0; }
+      20% { opacity: 1; }
+      80% { opacity: 1; }
+      100% { cx: 690px; opacity: 0; }
+    }
+
+    .status-dot {
+      transform-origin: 32px 30px;
+      animation: pulse-status 2s infinite ease-in-out;
+    }
+
+    .scan-bar {
+      animation: scanline 6s linear infinite;
+    }
+
+    .flow-line {
+      stroke-dasharray: 6 4;
+      animation: dashflow 1.2s linear infinite;
+    }
+
+    .packet-1 {
+      animation: packet-l1-l2 1.8s infinite cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .packet-2 {
+      animation: packet-l2-l3 1.8s infinite cubic-bezier(0.4, 0, 0.2, 1);
+      animation-delay: 0.9s;
+    }
+  </style>
+
+  <!-- Console Background -->
+  <rect x="0" y="0" width="1000" height="280" fill="#070a12" rx="10" />
+  <rect x="0" y="0" width="1000" height="280" fill="url(#grid)" rx="10" />
+  
+  <!-- Outer Console Frame -->
+  <rect x="1" y="1" width="998" height="278" fill="none" stroke="#1e293b" stroke-width="1.5" rx="10" />
+
+  <!-- Corner HUD Brackets -->
+  <path d="M 5 25 L 5 5 L 25 5" fill="none" stroke="#00ff9c" stroke-width="2.5" />
+  <path d="M 975 5 L 995 5 L 995 25" fill="none" stroke="#00ff9c" stroke-width="2.5" />
+  <path d="M 5 255 L 5 275 L 25 275" fill="none" stroke="#00ff9c" stroke-width="2.5" />
+  <path d="M 975 275 L 995 275 L 995 255" fill="none" stroke="#00ff9c" stroke-width="2.5" />
+
+  <!-- Animated Scanner Bar -->
+  <line x1="5" y1="5" x2="995" y2="5" stroke="#38bdf8" stroke-width="1.5" class="scan-bar" />
+
+  <!-- Top Telemetry Header Bar -->
+  <rect x="20" y="18" width="960" height="26" fill="#0d1424" rx="4" stroke="#1e293b" stroke-width="1" />
+  <circle cx="34" cy="31" r="4.5" fill="#00ff9c" class="status-dot" filter="url(#glow-green)" />
+  <text x="48" y="35" fill="#00ff9c" font-size="11" font-weight="700" letter-spacing="1.5" class="mono">STATUS: OPERATIONAL // SYSTEM TELEMETRY ACTIVE</text>
+  <text x="640" y="35" fill="#64748b" font-size="10.5" font-weight="600" letter-spacing="1" class="mono">NODE: SILICON-TO-AGENT // LATENCY: OPTIMAL</text>
+
+  <!-- Identity Block -->
+  <g transform="translate(30, 62)">
+    <text x="0" y="34" fill="#f8fafc" font-size="32" font-weight="900" letter-spacing="3" class="mono">DEV TYAGI</text>
+    <rect x="185" y="15" width="220" height="22" fill="#00ff9c" fill-opacity="0.1" rx="4" stroke="#00ff9c" stroke-width="1" />
+    <text x="195" y="30" fill="#00ff9c" font-size="11" font-weight="700" letter-spacing="1" class="mono">SYSTEMS &amp; AI INFRA ENGINEER</text>
+    <text x="0" y="56" fill="#94a3b8" font-size="12" font-weight="500" letter-spacing="0.8" class="mono">Full-Stack Compute Architecture // Silicon Pipelines ──► Runtime Kernels ──► Deterministic Agents</text>
+  </g>
+
+  <!-- 3-Node Compute Architecture Dataflow -->
+  <g transform="translate(30, 134)">
+    <!-- Node 1: L1 SILICON -->
+    <rect x="0" y="0" width="280" height="84" rx="6" fill="url(#node-grad)" stroke="#1e293b" stroke-width="1.2" />
+    <rect x="0" y="0" width="280" height="22" rx="6" fill="#0d1527" stroke="#1e293b" stroke-width="1" />
+    <circle cx="14" cy="11" r="3" fill="#f97316" />
+    <text x="24" y="15" fill="#f97316" font-size="10" font-weight="700" letter-spacing="1.2" class="mono">L1 // SILICON &amp; RTL</text>
+    <text x="12" y="42" fill="#f8fafc" font-size="12" font-weight="700" class="mono">Superscalar OoO RISC-V Core</text>
+    <text x="12" y="58" fill="#94a3b8" font-size="10.5" class="mono">Tomasulo Algorithm · Dual RAT · CDB</text>
+    <text x="12" y="73" fill="#64748b" font-size="9.5" class="mono">Zynq-7000 FPGA · AXI4 DMA · CVA6</text>
+
+    <!-- Connector L1 -> L2 -->
+    <path d="M 280 42 L 350 42" fill="none" stroke="#38bdf8" stroke-width="2" class="flow-line" />
+    <polygon points="348,38 355,42 348,46" fill="#38bdf8" />
+    <circle cy="42" r="3" fill="#38bdf8" class="packet-1" filter="url(#glow-cyan)" />
+
+    <!-- Node 2: L2 INFERENCE RUNTIME -->
+    <rect x="350" y="0" width="280" height="84" rx="6" fill="url(#node-grad)" stroke="#38bdf8" stroke-width="1.4" filter="url(#glow-cyan)" fill-opacity="0.95" />
+    <rect x="350" y="0" width="280" height="22" rx="6" fill="#0d1f33" stroke="#38bdf8" stroke-width="1" />
+    <circle cx="364" cy="11" r="3" fill="#38bdf8" />
+    <text x="374" y="15" fill="#38bdf8" font-size="10" font-weight="700" letter-spacing="1.2" class="mono">L2 // INFERENCE &amp; KERNELS</text>
+    <text x="362" y="42" fill="#f8fafc" font-size="12" font-weight="700" class="mono">vLLM &amp; SGLang Runtime Internals</text>
+    <text x="362" y="58" fill="#94a3b8" font-size="10.5" class="mono">CUDA/ROCm Graphs · Piecewise Replay</text>
+    <text x="362" y="73" fill="#38bdf8" font-size="9.5" class="mono">xgrammar Lazy Load · NVFP4 Marlin GEMM</text>
+
+    <!-- Connector L2 -> L3 -->
+    <path d="M 630 42 L 700 42" fill="none" stroke="#00ff9c" stroke-width="2" class="flow-line" />
+    <polygon points="698,38 705,42 698,46" fill="#00ff9c" />
+    <circle cy="42" r="3" fill="#00ff9c" class="packet-2" filter="url(#glow-green)" />
+
+    <!-- Node 3: L3 AGENTIC ORCHESTRATION -->
+    <rect x="700" y="0" width="270" height="84" rx="6" fill="url(#node-grad)" stroke="#1e293b" stroke-width="1.2" />
+    <rect x="700" y="0" width="270" height="22" rx="6" fill="#091c18" stroke="#1e293b" stroke-width="1" />
+    <circle cx="714" cy="11" r="3" fill="#00ff9c" />
+    <text x="724" y="15" fill="#00ff9c" font-size="10" font-weight="700" letter-spacing="1.2" class="mono">L3 // AGENTIC SYSTEMS</text>
+    <text x="712" y="42" fill="#f8fafc" font-size="12" font-weight="700" class="mono">Deterministic Control Loops</text>
+    <text x="712" y="58" fill="#94a3b8" font-size="10.5" class="mono">Constrained Decoding · Tool State DAG</text>
+    <text x="712" y="73" fill="#64748b" font-size="9.5" class="mono">Type-Safe Dispatch · Fault-Tolerant Loops</text>
+  </g>
+
+  <!-- Bottom Console Telemetry Ticker -->
+  <g transform="translate(20, 236)">
+    <rect x="0" y="0" width="960" height="28" fill="#0a0f1d" rx="4" stroke="#1e293b" stroke-width="1" />
+    <text x="16" y="18" fill="#38bdf8" font-size="11" font-weight="700" letter-spacing="1.2" class="mono">UPSTREAM:</text>
+    <text x="96" y="18" fill="#f8fafc" font-size="11" font-weight="500" class="mono">vLLM (#61486, #56559) · SGLang (#45031, #44571) · CVA6 · PULP-Platform (#206) · VeeR-EH1 (#136)</text>
+    <text x="800" y="18" fill="#f97316" font-size="10.5" font-weight="700" letter-spacing="0.8" class="mono">★ 1st SanDisk Hackathon</text>
+  </g>
+</svg>

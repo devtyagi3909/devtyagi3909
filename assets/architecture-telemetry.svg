@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" width="1000" height="220">
+  <defs>
+    <!-- Background Grid -->
+    <pattern id="arch-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#131a29" stroke-width="0.7" />
+    </pattern>
+
+    <!-- Glow Filters -->
+    <filter id="glow-cyan-arch" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glow-green-arch" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Node Gradients -->
+    <linearGradient id="arch-node-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .arch-mono { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace; }
+
+    @keyframes stream-forward {
+      from { stroke-dashoffset: 48; }
+      to { stroke-dashoffset: 0; }
+    }
+
+    @keyframes stream-feedback {
+      from { stroke-dashoffset: 0; }
+      to { stroke-dashoffset: 48; }
+    }
+
+    @keyframes pulse-flow {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; }
+    }
+
+    .pipeline-wire {
+      stroke-dasharray: 6 4;
+      animation: stream-forward 1.2s linear infinite;
+    }
+
+    .feedback-wire {
+      stroke-dasharray: 6 4;
+      animation: stream-feedback 1.8s linear infinite;
+    }
+
+    .pulse-node {
+      animation: pulse-flow 2.5s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="0" y="0" width="1000" height="220" fill="#070a12" rx="10" />
+  <rect x="0" y="0" width="1000" height="220" fill="url(#arch-grid)" rx="10" />
+  <rect x="1" y="1" width="998" height="218" fill="none" stroke="#1e293b" stroke-width="1.2" rx="10" />
+
+  <!-- Section Title & Telemetry Header -->
+  <g transform="translate(24, 18)">
+    <circle cx="6" cy="7" r="4" fill="#38bdf8" />
+    <text x="18" y="11" fill="#38bdf8" font-size="11" font-weight="700" letter-spacing="1.5" class="arch-mono">RUNTIME ARCHITECTURE // DETERMINISTIC AGENTIC INFERENCE PIPELINE</text>
+    <text x="680" y="11" fill="#64748b" font-size="10" font-weight="600" class="arch-mono">EXECUTION: ZERO-DRIFT // OVERLAP: FULL</text>
+  </g>
+
+  <!-- Forward Flow Connecting Lines -->
+  <!-- 1 -> 2 -->
+  <path d="M 185 85 L 215 85" fill="none" stroke="#38bdf8" stroke-width="2" class="pipeline-wire" />
+  <polygon points="213,81 220,85 213,89" fill="#38bdf8" />
+
+  <!-- 2 -> 3 -->
+  <path d="M 380 85 L 410 85" fill="none" stroke="#38bdf8" stroke-width="2" class="pipeline-wire" />
+  <polygon points="408,81 415,85 408,89" fill="#38bdf8" />
+
+  <!-- 3 -> 4 -->
+  <path d="M 580 85 L 610 85" fill="none" stroke="#00ff9c" stroke-width="2" class="pipeline-wire" />
+  <polygon points="608,81 615,85 608,89" fill="#00ff9c" />
+
+  <!-- 4 -> 5 -->
+  <path d="M 780 85 L 810 85" fill="none" stroke="#00ff9c" stroke-width="2" class="pipeline-wire" />
+  <polygon points="808,81 815,85 808,89" fill="#00ff9c" />
+
+  <!-- Feedback Loop: 5 -> 2 (Self-Healing / Fallback Recovery) -->
+  <path d="M 890 128 L 890 178 L 300 178 L 300 128" fill="none" stroke="#f59e0b" stroke-width="1.6" class="feedback-wire" />
+  <polygon points="296,132 300,124 304,132" fill="#f59e0b" />
+  <rect x="520" y="168" width="160" height="20" rx="3" fill="#090d16" stroke="#f59e0b" stroke-width="0.8" />
+  <text x="528" y="182" fill="#f59e0b" font-size="9" font-weight="700" letter-spacing="0.8" class="arch-mono">RETRY &amp; FAULT RECOVERY LOOP</text>
+
+  <!-- 5 Nodes Pipeline -->
+  <g transform="translate(24, 42)">
+    <!-- Node 1: Intent Parser -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="160" height="86" rx="6" fill="url(#arch-node-bg)" stroke="#1e293b" stroke-width="1.2" />
+      <rect x="0" y="0" width="160" height="20" rx="6" fill="#0b1329" stroke="#1e293b" stroke-width="1" />
+      <text x="8" y="14" fill="#38bdf8" font-size="9.5" font-weight="700" letter-spacing="1" class="arch-mono">01 // INTENT PARSER</text>
+      <text x="8" y="38" fill="#f8fafc" font-size="11" font-weight="700" class="arch-mono">Schema &amp; Context</text>
+      <text x="8" y="54" fill="#94a3b8" font-size="9.5" class="arch-mono">• Grammar Compilation</text>
+      <text x="8" y="68" fill="#94a3b8" font-size="9.5" class="arch-mono">• Type Constraints</text>
+      <rect x="8" y="73" width="70" height="8" rx="2" fill="#00ff9c" fill-opacity="0.2" />
+      <text x="82" y="80" fill="#00ff9c" font-size="7.5" font-weight="700" class="arch-mono">&lt; 0.4ms</text>
+    </g>
+
+    <!-- Node 2: DAG Planner -->
+    <g transform="translate(195, 0)">
+      <rect x="0" y="0" width="160" height="86" rx="6" fill="url(#arch-node-bg)" stroke="#1e293b" stroke-width="1.2" />
+      <rect x="0" y="0" width="160" height="20" rx="6" fill="#0b1329" stroke="#1e293b" stroke-width="1" />
+      <text x="8" y="14" fill="#38bdf8" font-size="9.5" font-weight="700" letter-spacing="1" class="arch-mono">02 // DAG PLANNER</text>
+      <text x="8" y="38" fill="#f8fafc" font-size="11" font-weight="700" class="arch-mono">Deterministic State</text>
+      <text x="8" y="54" fill="#94a3b8" font-size="9.5" class="arch-mono">• Step Dependency Graph</text>
+      <text x="8" y="68" fill="#94a3b8" font-size="9.5" class="arch-mono">• Tool Dispatch Guard</text>
+      <text x="8" y="80" fill="#38bdf8" font-size="8" font-weight="700" class="arch-mono">STATEFUL / LOCK-FREE</text>
+    </g>
+
+    <!-- Node 3: xgrammar Constrained Decoder -->
+    <g transform="translate(390, 0)">
+      <rect x="0" y="0" width="165" height="86" rx="6" fill="url(#arch-node-bg)" stroke="#00ff9c" stroke-width="1.4" filter="url(#glow-green-arch)" fill-opacity="0.95" />
+      <rect x="0" y="0" width="165" height="20" rx="6" fill="#06241a" stroke="#00ff9c" stroke-width="1" />
+      <text x="8" y="14" fill="#00ff9c" font-size="9.5" font-weight="700" letter-spacing="1" class="arch-mono">03 // xgrammar ENGINE</text>
+      <text x="8" y="38" fill="#f8fafc" font-size="11" font-weight="700" class="arch-mono">Constrained Logits</text>
+      <text x="8" y="54" fill="#94a3b8" font-size="9.5" class="arch-mono">• Token Mask Bitvectors</text>
+      <text x="8" y="68" fill="#94a3b8" font-size="9.5" class="arch-mono">• Zero Lazy-Load Drift</text>
+      <text x="8" y="80" fill="#00ff9c" font-size="8" font-weight="700" class="arch-mono">vLLM #56559 ACCEL</text>
+    </g>
+
+    <!-- Node 4: vLLM Piecewise Graph Runner -->
+    <g transform="translate(590, 0)">
+      <rect x="0" y="0" width="165" height="86" rx="6" fill="url(#arch-node-bg)" stroke="#00ff9c" stroke-width="1.4" filter="url(#glow-green-arch)" fill-opacity="0.95" />
+      <rect x="0" y="0" width="165" height="20" rx="6" fill="#06241a" stroke="#00ff9c" stroke-width="1" />
+      <text x="8" y="14" fill="#00ff9c" font-size="9.5" font-weight="700" letter-spacing="1" class="arch-mono">04 // vLLM RUNTIME</text>
+      <text x="8" y="38" fill="#f8fafc" font-size="11" font-weight="700" class="arch-mono">Piecewise Replay</text>
+      <text x="8" y="54" fill="#94a3b8" font-size="9.5" class="arch-mono">• CUDA/ROCm Graph Pieces</text>
+      <text x="8" y="68" fill="#94a3b8" font-size="9.5" class="arch-mono">• Stale-Read Free Tail</text>
+      <text x="8" y="80" fill="#00ff9c" font-size="8" font-weight="700" class="arch-mono">ROCm Qwen4Exp #61486</text>
+    </g>
+
+    <!-- Node 5: Verification & Dispatch Loop -->
+    <g transform="translate(790, 0)">
+      <rect x="0" y="0" width="160" height="86" rx="6" fill="url(#arch-node-bg)" stroke="#1e293b" stroke-width="1.2" />
+      <rect x="0" y="0" width="160" height="20" rx="6" fill="#0b1329" stroke="#1e293b" stroke-width="1" />
+      <text x="8" y="14" fill="#38bdf8" font-size="9.5" font-weight="700" letter-spacing="1" class="arch-mono">05 // VERIFIER &amp; IO</text>
+      <text x="8" y="38" fill="#f8fafc" font-size="11" font-weight="700" class="arch-mono">Automated Assert</text>
+      <text x="8" y="54" fill="#94a3b8" font-size="9.5" class="arch-mono">• Output Contract Verify</text>
+      <text x="8" y="68" fill="#94a3b8" font-size="9.5" class="arch-mono">• Sandboxed Tool Exec</text>
+      <text x="8" y="80" fill="#f59e0b" font-size="8" font-weight="700" class="arch-mono">STRICT / FAULT-TOLERANT</text>
+    </g>
+  </g>
+</svg>
