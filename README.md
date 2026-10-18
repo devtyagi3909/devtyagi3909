@@ -34,8 +34,8 @@
 
 ### // what i do
 
-- **gpu inference &amp; custom kernels**: hacking on vllm and sglang internals &mdash; piecewise rocm/cuda graph capture, marlin nvfp4 w4a16 gemm fallbacks on sm80-sm90, triton kernels, and structured decoding engines.
-- **silicon &amp; microarchitecture**: designing synthesizable risc-v cores from scratch &mdash; tomasulo dynamic scheduling, dual-allocation register alias tables (rat), reservation stations, and common data bus (cdb) forwarding.
-- **hardware-accelerated edge systems**: heterogeneous fpga + arm co-design &mdash; axi4 dma streaming, custom dsp accelerators on zynq-7000, and bare-metal stm32/nrf firmware under hard timing constraints.
+- **gpu inference**: upstream fixes in vllm and sglang. rocm piecewise graph capture, nvfp4 marlin scale underflow on sm80-sm90, vision weight loading on qwen3.5-vl, and cold-start time from eager xgrammar imports.
+- **silicon**: built a 2-wide out-of-order rv32i core from scratch. tomasulo scheduling, dual rat, reservation stations, cdb broadcast, 7-stage pipeline, uvm testbench. 1st place at the sandisk hardware hackathon.
+- **fpga + edge**: zynq-7000 designs with axi4 dma streaming (rf signal classification, int4 weight decompression), plus bare-metal firmware on stm32 and nrf.
 
 
