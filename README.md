@@ -10,13 +10,7 @@
   <img src="./assets/slash-divider.svg" width="100%" alt="divider" />
 </p>
 
-### // one-liner &amp; status
 
-> breaking and optimizing execution paths between silicon pipelines and gpu inference runtimes.
-
-```text
-mail: devtyagi3909@gmail.com
-```
 
 <p align="center">
   <a href="https://github.com/devtyagi3909"><img src="https://img.shields.io/badge/github-devtyagi3909-0D1117?style=flat-square&amp;logo=github&amp;logoColor=E6EDF3&amp;labelColor=161B22&amp;color=FF2E4D" alt="github" /></a>
