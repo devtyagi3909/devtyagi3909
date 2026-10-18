@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 200" width="920" height="200">
+  <defs>
+    <!-- Background Wafer/Die Grid -->
+    <pattern id="wafer-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#161B22" stroke-width="0.8" />
+    </pattern>
+
+    <!-- Crimson Slash Gradients -->
+    <linearGradient id="slash-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF2E4D" stop-opacity="0" />
+      <stop offset="45%" stop-color="#FF2E4D" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1" />
+      <stop offset="55%" stop-color="#FF2E4D" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#8B1D2C" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Crimson Glow Filter -->
+    <filter id="crimson-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .shinigami-mono { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace; }
+    
+    @keyframes slash-pulse {
+      0%, 100% { opacity: 0.85; filter: drop-shadow(0 0 2px #FF2E4D); }
+      50% { opacity: 1; filter: drop-shadow(0 0 8px #FF2E4D); }
+    }
+
+    @keyframes trace-flow {
+      from { stroke-dashoffset: 60; }
+      to { stroke-dashoffset: 0; }
+    }
+
+    @keyframes status-blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.25; }
+    }
+
+    .slash-edge {
+      animation: slash-pulse 2.2s infinite ease-in-out;
+    }
+
+    .circuit-trace {
+      stroke-dasharray: 6 4;
+      animation: trace-flow 1.5s linear infinite;
+    }
+
+    .crimson-dot {
+      animation: status-blink 1.8s infinite ease-in-out;
+    }
+  </style>
+
+  <!-- Dark Canvas Base (#0D1117) -->
+  <rect x="0" y="0" width="920" height="200" fill="#0D1117" rx="6" />
+  <rect x="0" y="0" width="920" height="200" fill="url(#wafer-grid)" rx="6" />
+
+  <!-- Manga Panel Outer Border -->
+  <rect x="1" y="1" width="918" height="198" fill="none" stroke="#30363D" stroke-width="1.5" rx="6" />
+
+  <!-- Kanji Watermark: 卍解 (Bankai) - Original Stylized Geometry -->
+  <g opacity="0.08" transform="translate(680, 25)">
+    <text x="0" y="110" font-size="120" font-weight="900" fill="#FF2E4D" font-family="'Noto Sans JP', 'Hiragino Kaku Gothic Pro', 'Apple Color Emoji', sans-serif">卍解</text>
+  </g>
+
+  <!-- Circuit Trace Lines as Sword Cuts -->
+  <path d="M 0 160 L 320 80 L 920 80" fill="none" stroke="#21262D" stroke-width="1.2" />
+  <path d="M 80 200 L 400 110 L 920 110" fill="none" stroke="#30363D" stroke-width="1" class="circuit-trace" />
+  <path d="M 520 0 L 620 90 L 920 90" fill="none" stroke="#FF2E4D" stroke-opacity="0.25" stroke-width="1" />
+
+  <!-- Primary Diagonal Sword Slash Shape -->
+  <polygon points="180,0 220,0 740,200 700,200" fill="#FF2E4D" fill-opacity="0.06" />
+  <line x1="200" y1="0" x2="720" y2="200" stroke="url(#slash-grad)" stroke-width="2.5" class="slash-edge" filter="url(#crimson-glow)" />
+
+  <!-- Corner Brackets (Manga / HUD Styling) -->
+  <path d="M 8 24 L 8 8 L 24 8" fill="none" stroke="#FF2E4D" stroke-width="2" />
+  <path d="M 896 8 L 912 8 L 912 24" fill="none" stroke="#FF2E4D" stroke-width="2" />
+  <path d="M 8 176 L 8 192 L 24 192" fill="none" stroke="#FF2E4D" stroke-width="2" />
+  <path d="M 896 192 L 912 192 L 912 176" fill="none" stroke="#FF2E4D" stroke-width="2" />
+
+  <!-- Header Status Bar -->
+  <g transform="translate(32, 22)">
+    <circle cx="6" cy="6" r="3.5" fill="#FF2E4D" class="crimson-dot" />
+    <text x="18" y="10" fill="#FF2E4D" font-size="10" font-weight="700" letter-spacing="1.5" class="shinigami-mono">BANKAI // TERMINAL SHINIGAMI</text>
+    <text x="630" y="10" fill="#8B949E" font-size="9.5" font-weight="600" class="shinigami-mono">TARGET: SILICON ──► KERNEL ──► INFERENCE</text>
+  </g>
+
+  <!-- Identity Section -->
+  <g transform="translate(32, 54)">
+    <!-- Identity Name -->
+    <text x="0" y="44" fill="#E6EDF3" font-size="36" font-weight="900" letter-spacing="2.5" class="shinigami-mono">dev tyagi</text>
+
+    <!-- Subtitle Pill -->
+    <rect x="235" y="20" width="195" height="24" rx="3" fill="#FF2E4D" fill-opacity="0.12" stroke="#FF2E4D" stroke-width="1" />
+    <text x="246" y="36" fill="#FF2E4D" font-size="10.5" font-weight="700" letter-spacing="0.8" class="shinigami-mono">SYSTEMS &amp; AI INFRA</text>
+
+    <!-- Tagline -->
+    <text x="0" y="78" fill="#8B949E" font-size="12" font-weight="500" class="shinigami-mono">superscalar out-of-order silicon <tspan fill="#FF2E4D">──►</tspan> gpu runtime internals <tspan fill="#FF2E4D">──►</tspan> custom kernels</text>
+  </g>
+
+  <!-- Bottom Proof / Telemetry Strip -->
+  <g transform="translate(32, 156)">
+    <rect x="0" y="0" width="856" height="24" rx="3" fill="#161B22" stroke="#30363D" stroke-width="1" />
+    <text x="14" y="16" fill="#FF2E4D" font-size="9.5" font-weight="700" letter-spacing="1" class="shinigami-mono">UPSTREAM:</text>
+    <text x="92" y="16" fill="#E6EDF3" font-size="9.5" font-weight="500" class="shinigami-mono">vllm (#61486, #56559) · sglang (#45031, #44571) · cva6 · riscv-dbg (#206)</text>
+    <text x="704" y="16" fill="#00FF9C" font-size="9.5" font-weight="700" letter-spacing="0.5" class="shinigami-mono">&#9733; 1st sandisk hackathon</text>
+  </g>
+</svg>

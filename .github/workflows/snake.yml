@@ -22,7 +22,7 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake-raw.svg?palette=github-dark&color_snake=#cc3d10&color_dots=#0a0a0a,#1e4db7,#8a290b,#cc3d10,#ff6230
+            dist/snake-raw.svg?palette=github-dark&color_snake=#FF2E4D&color_dots=#0D1117,#161B22,#30363D,#8B1D2C,#FF2E4D
 
       - name: Wrap Snake in FPGA Die
         run: |
