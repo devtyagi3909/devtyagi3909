@@ -24,14 +24,14 @@
 ### // flagship projects
 
 <p align="center">
-  <a href="https://github.com/devtyagi3909/superjoin-fact-layer"><img src="./assets/card-superjoin.svg" width="32.5%" alt="superjoin-fact-layer" /></a>
+  <a href="https://github.com/devtyagi3909/factforge"><img src="./assets/card-factforge.svg" width="32.5%" alt="factforge" /></a>
   <a href="https://github.com/devtyagi3909/tool-call-bench"><img src="./assets/card-toolbench.svg" width="32.5%" alt="tool-call-bench" /></a>
   <a href="https://github.com/devtyagi3909/support-triage-mcp"><img src="./assets/card-supportfde.svg" width="32.5%" alt="support-triage-mcp" /></a>
 </p>
 
 | project | focus &amp; problem | verified evals &amp; metrics | live links |
 | :--- | :--- | :--- | :--- |
-| **[`superjoin-fact-layer`](https://github.com/devtyagi3909/superjoin-fact-layer)** | automated fact extraction, source PDF grounding &amp; cross-document contradiction detection for financial filings | **100% verbatim excerpt grounding** · 94.2% token reduction vs pairwise prompting · O(M log N) incremental retrieval | [live demo](https://github.com/devtyagi3909/superjoin-fact-layer#demo) &middot; [eval report](https://github.com/devtyagi3909/superjoin-fact-layer/tree/main/evals) &middot; [loom walkthrough](https://github.com/devtyagi3909/superjoin-fact-layer#walkthrough) |
+| **[`factforge`](https://github.com/devtyagi3909/factforge)** | automated fact extraction, source PDF grounding &amp; cross-document contradiction detection for financial filings | **100% verbatim excerpt grounding** · 94.2% token reduction vs pairwise prompting · O(M log N) incremental retrieval | [live demo](https://github.com/devtyagi3909/factforge#demo) &middot; [eval report](https://github.com/devtyagi3909/factforge/tree/main/evals) &middot; [loom walkthrough](https://github.com/devtyagi3909/factforge#walkthrough) |
 | **[`tool-call-bench`](https://github.com/devtyagi3909/tool-call-bench)** | benchmark evaluating tool-calling &amp; structured-output reliability across providers (schema violations, malformed arguments, boundary leaks, retries) | **0.8% failure on sonnet-3.5 vs 7.4% on gpt-4o-mini** · measured token retry overhead · benchmark harness via LiteLLM | [results table](https://github.com/devtyagi3909/tool-call-bench#benchmark-results) &middot; [repro harness](https://github.com/devtyagi3909/tool-call-bench) &middot; [blog post](https://github.com/devtyagi3909/tool-call-bench/blob/main/BLOG.md) |
 | **[`support-triage-mcp`](https://github.com/devtyagi3909/support-triage-mcp)** | forward-deployed style triage agent for messy customer support data (emails, webhooks) with MCP server tools (CRM lookup, Postgres query, Stripe refund gate) | **91.4% intent routing precision** · sub-2s end-to-end latency · Langfuse execution audit trail | [live api](https://github.com/devtyagi3909/support-triage-mcp#api) &middot; [customer discovery](https://github.com/devtyagi3909/support-triage-mcp#customer-discovery) &middot; [loom walkthrough](https://github.com/devtyagi3909/support-triage-mcp#demo) |
 
