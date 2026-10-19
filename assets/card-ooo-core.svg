@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 160" width="380" height="160">
+  <defs>
+    <pattern id="card-grid-1" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#161B22" stroke-width="0.7" />
+    </pattern>
+  </defs>
+  <style>
+    .card-mono { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace; }
+  </style>
+
+  <!-- Card Background -->
+  <rect x="0" y="0" width="380" height="160" fill="#0D1117" rx="6" />
+  <rect x="0" y="0" width="380" height="160" fill="url(#card-grid-1)" rx="6" />
+  <rect x="1" y="1" width="378" height="158" fill="none" stroke="#30363D" stroke-width="1.2" rx="6" />
+
+  <!-- Corner Brackets -->
+  <path d="M 6 18 L 6 6 L 18 6" fill="none" stroke="#FF2E4D" stroke-width="1.8" />
+  <path d="M 374 6 L 362 6 L 362 18" fill="none" stroke="#FF2E4D" stroke-width="1.8" />
+  <path d="M 6 142 L 6 154 L 18 154" fill="none" stroke="#FF2E4D" stroke-width="1.8" />
+  <path d="M 374 154 L 362 154 L 362 142" fill="none" stroke="#FF2E4D" stroke-width="1.8" />
+
+  <!-- Top Category Line -->
+  <g transform="translate(20, 24)">
+    <circle cx="4" cy="4" r="3" fill="#FF2E4D" />
+    <text x="14" y="7" fill="#FF2E4D" font-size="9" font-weight="700" letter-spacing="1.2" class="card-mono">SILICON // MICROARCHITECTURE</text>
+    <text x="340" y="7" fill="#8B949E" font-size="8.5" font-weight="600" class="card-mono" text-anchor="end">01</text>
+  </g>
+
+  <!-- Repo Title -->
+  <text x="20" y="56" fill="#E6EDF3" font-size="18" font-weight="800" letter-spacing="1" class="card-mono">riscv-ooo-core</text>
+
+  <!-- Architecture summary -->
+  <text x="20" y="76" fill="#8B949E" font-size="11" font-weight="500" class="card-mono">2-wide superscalar out-of-order rv32i</text>
+  <text x="20" y="93" fill="#6E7681" font-size="10" font-weight="500" class="card-mono">tomasulo scheduler · dual-alloc rat · rob retirement</text>
+
+  <!-- Metric / Badge Pill -->
+  <g transform="translate(20, 108)">
+    <rect x="0" y="0" width="220" height="18" rx="3" fill="#00FF9C" fill-opacity="0.1" stroke="#00FF9C" stroke-width="0.8" />
+    <text x="8" y="12" fill="#00FF9C" font-size="9" font-weight="700" class="card-mono">&#9733; 1st place @ sandisk hackathon</text>
+  </g>
+
+  <!-- Tech Stack Tags -->
+  <g transform="translate(20, 140)">
+    <text x="0" y="0" fill="#8B949E" font-size="9.5" font-weight="600" class="card-mono">SystemVerilog · RV32I · UVM · Vivado</text>
+  </g>
+</svg>

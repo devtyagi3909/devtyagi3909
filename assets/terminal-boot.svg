@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 150" width="880" height="150">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 126" width="880" height="126">
   <defs>
     <!-- Terminal Grid Pattern -->
     <pattern id="term-grid" width="16" height="16" patternUnits="userSpaceOnUse">
@@ -8,44 +8,34 @@
 
   <style>
     .term-font { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace; }
-
-    @keyframes line-appear-1 { 0%, 10% { opacity: 0; } 15%, 100% { opacity: 1; } }
-    @keyframes line-appear-2 { 0%, 35% { opacity: 0; } 40%, 100% { opacity: 1; } }
-    @keyframes line-appear-3 { 0%, 60% { opacity: 0; } 65%, 100% { opacity: 1; } }
-    @keyframes line-appear-4 { 0%, 80% { opacity: 0; } 85%, 100% { opacity: 1; } }
     @keyframes blink-cursor { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
-
-    .line-1 { animation: line-appear-1 4s ease-in-out infinite; }
-    .line-2 { animation: line-appear-2 4s ease-in-out infinite; }
-    .line-3 { animation: line-appear-3 4s ease-in-out infinite; }
-    .line-4 { animation: line-appear-4 4s ease-in-out infinite; }
-    .cursor { animation: blink-cursor 0.8s infinite; }
+    .cursor { animation: blink-cursor 0.9s infinite; }
   </style>
 
   <!-- Container Box -->
-  <rect x="0" y="0" width="880" height="150" fill="#0D1117" rx="6" />
-  <rect x="0" y="0" width="880" height="150" fill="url(#term-grid)" rx="6" />
-  <rect x="1" y="1" width="878" height="148" fill="none" stroke="#30363D" stroke-width="1.2" rx="6" />
+  <rect x="0" y="0" width="880" height="126" fill="#0D1117" rx="6" />
+  <rect x="0" y="0" width="880" height="126" fill="url(#term-grid)" rx="6" />
+  <rect x="1" y="1" width="878" height="124" fill="none" stroke="#30363D" stroke-width="1.2" rx="6" />
 
   <!-- Window Header -->
   <rect x="1" y="1" width="878" height="26" fill="#161B22" rx="6" />
   <circle cx="16" cy="13" r="4.5" fill="#FF2E4D" />
   <circle cx="30" cy="13" r="4.5" fill="#30363D" />
   <circle cx="44" cy="13" r="4.5" fill="#21262D" />
-  <text x="60" y="17" fill="#8B949E" font-size="10" font-weight="600" class="term-font">dev@node-01 // pts/0 -- system init</text>
+  <text x="60" y="17" fill="#8B949E" font-size="10" font-weight="600" class="term-font">dev@node-01 // pts/0 -- system telemetry</text>
 
-  <!-- Terminal Boot Lines -->
+  <!-- Terminal Boot Lines (All permanently rendered to prevent GitHub caching / reduced-motion bugs) -->
   <g transform="translate(20, 48)" class="term-font" font-size="11">
     <!-- Line 1 -->
-    <g class="line-1">
+    <g transform="translate(0, 0)">
       <text x="0" y="0" fill="#8B949E">[0.000000]</text>
       <text x="75" y="0" fill="#E6EDF3">silicon:</text>
-      <text x="140" y="0" fill="#8B949E">rv32i 2-wide ooo core [tomasulo + rat] .........................</text>
+      <text x="140" y="0" fill="#8B949E">rv32i 2-wide ooo core [tomasulo + rat + rob] ...................</text>
       <text x="740" y="0" fill="#00FF9C" font-weight="700">[OK]</text>
     </g>
 
     <!-- Line 2 -->
-    <g transform="translate(0, 24)" class="line-2">
+    <g transform="translate(0, 20)">
       <text x="0" y="0" fill="#8B949E">[0.001420]</text>
       <text x="75" y="0" fill="#E6EDF3">runtime:</text>
       <text x="140" y="0" fill="#8B949E">vllm/sglang rocm+cuda piecewise graph capture .................</text>
@@ -53,17 +43,17 @@
     </g>
 
     <!-- Line 3 -->
-    <g transform="translate(0, 48)" class="line-3">
+    <g transform="translate(0, 40)">
       <text x="0" y="0" fill="#8B949E">[0.002810]</text>
-      <text x="75" y="0" fill="#E6EDF3">kernel:</text>
+      <text x="75" y="0" fill="#E6EDF3">inference:</text>
       <text x="140" y="0" fill="#8B949E">marlin nvfp4 scale underflow clamp (sm80-sm90) ................</text>
       <text x="740" y="0" fill="#00FF9C" font-weight="700">[OK]</text>
     </g>
 
     <!-- Line 4 -->
-    <g transform="translate(0, 72)" class="line-4">
+    <g transform="translate(0, 60)">
       <text x="0" y="0" fill="#8B949E">[0.003909]</text>
-      <text x="75" y="0" fill="#FF2E4D" font-weight="700">engine:</text>
+      <text x="75" y="0" fill="#FF2E4D" font-weight="700">telemetry:</text>
       <text x="140" y="0" fill="#00FF9C" font-weight="700">deterministic graph replay // zero-stale reads .............</text>
       <text x="740" y="0" fill="#00FF9C" font-weight="700">[OK]</text>
       <rect x="782" y="-10" width="7" height="12" fill="#00FF9C" class="cursor" />

@@ -1,22 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 24" width="900" height="24">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 6" width="900" height="6">
   <defs>
-    <linearGradient id="div-slash" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="div-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#30363D" stop-opacity="0" />
-      <stop offset="35%" stop-color="#30363D" />
-      <stop offset="48%" stop-color="#FF2E4D" />
-      <stop offset="50%" stop-color="#FFFFFF" />
-      <stop offset="52%" stop-color="#FF2E4D" />
-      <stop offset="65%" stop-color="#30363D" />
+      <stop offset="25%" stop-color="#30363D" stop-opacity="0.6" />
+      <stop offset="46%" stop-color="#FF2E4D" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1" />
+      <stop offset="54%" stop-color="#FF2E4D" stop-opacity="0.8" />
+      <stop offset="75%" stop-color="#30363D" stop-opacity="0.6" />
       <stop offset="100%" stop-color="#30363D" stop-opacity="0" />
     </linearGradient>
   </defs>
-
-  <line x1="0" y1="12" x2="900" y2="12" stroke="url(#div-slash)" stroke-width="1.5" />
-  
-  <!-- Diagonal Slash Notch in Center -->
-  <polygon points="440,6 460,6 450,18 430,18" fill="#FF2E4D" fill-opacity="0.3" />
-  <line x1="438" y1="5" x2="458" y2="19" stroke="#FF2E4D" stroke-width="2" />
-  
-  <!-- Central Geometric Pulse Marker -->
-  <polygon points="450,9 453,12 450,15 447,12" fill="#FFFFFF" />
+  <line x1="0" y1="3" x2="900" y2="3" stroke="url(#div-grad)" stroke-width="1.2" />
+  <rect x="442" y="2" width="16" height="2" fill="#FF2E4D" rx="1" />
+  <circle cx="450" cy="3" r="1.5" fill="#FFFFFF" />
 </svg>
