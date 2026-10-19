@@ -18,13 +18,9 @@
   <a href="https://github.com/devtyagi3909/decodeforge"><img src="./assets/card-decodeforge.svg" width="32.5%" alt="DecodeForge" /></a>
 </p>
 
----
-
 ### // focus
 
 > hardware-software co-design spanning synthesizable risc-v microarchitecture, fpga acceleration, and distributed llm inference runtimes.
-
----
 
 ### // upstream merged
 
@@ -35,19 +31,6 @@
   <a href="https://github.com/pulp-platform/riscv-dbg/pull/204"><img src="https://img.shields.io/badge/PULP%20riscv--dbg-%23204%20merged-0D1117?style=flat-square&amp;logo=github&amp;logoColor=00FF9C&amp;labelColor=161B22&amp;color=00FF9C" alt="riscv-dbg pr 204" /></a>
   <a href="https://github.com/sgl-project/sglang/pull/45031"><img src="https://img.shields.io/badge/SGLang-%2345031%20ci%20passed-0D1117?style=flat-square&amp;logo=github&amp;logoColor=38BDF8&amp;labelColor=161B22&amp;color=38BDF8" alt="sglang pr 45031" /></a>
 </p>
-
----
-
-### // experience &amp; honors
-
-```text
-• army design bureau & iit palakkad : research intern (fpga axi4-stream rf dma on zynq-7000)
-• vicharak                         : silicon & systems intern (spi controller on renesas forgefpga)
-• sandisk hardware hackathon       : 1st place + special jury award (2-wide ooo rv32i core)
-```
-
----
-
 ### // stack
 
 <p align="center">
