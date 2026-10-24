@@ -31,9 +31,9 @@
 
 | project | focus &amp; problem | verified evals &amp; metrics | live links |
 | :--- | :--- | :--- | :--- |
-| **[`factforge`](https://github.com/devtyagi3909/factforge)** | automated fact extraction, source PDF grounding &amp; cross-document contradiction detection for financial filings | **100% verbatim excerpt grounding** · 94.2% token reduction vs pairwise prompting · O(M log N) incremental retrieval | [live demo](https://github.com/devtyagi3909/factforge#demo) &middot; [eval report](https://github.com/devtyagi3909/factforge/tree/main/evals) &middot; [loom walkthrough](https://github.com/devtyagi3909/factforge#walkthrough) |
+| **[`factforge`](https://github.com/devtyagi3909/factforge)** | automated fact extraction, source PDF grounding &amp; cross-document contradiction detection for financial filings | **100% verbatim excerpt grounding** · 94.2% token reduction vs pairwise prompting · O(M log N) incremental retrieval | [live demo](https://github.com/devtyagi3909/factforge#demo) &middot; [eval report](https://github.com/devtyagi3909/factforge/tree/main/evals) |
 | **[`tool-call-bench`](https://github.com/devtyagi3909/tool-call-bench)** | benchmark evaluating tool-calling &amp; structured-output reliability across providers (schema violations, malformed arguments, boundary leaks, retries) | **0.8% failure on sonnet-3.5 vs 7.4% on gpt-4o-mini** · measured token retry overhead · benchmark harness via LiteLLM | [results table](https://github.com/devtyagi3909/tool-call-bench#benchmark-results) &middot; [repro harness](https://github.com/devtyagi3909/tool-call-bench) &middot; [blog post](https://github.com/devtyagi3909/tool-call-bench/blob/main/BLOG.md) |
-| **[`support-triage-mcp`](https://github.com/devtyagi3909/support-triage-mcp)** | forward-deployed style triage agent for messy customer support data (emails, webhooks) with MCP server tools (CRM lookup, Postgres query, Stripe refund gate) | **91.4% intent routing precision** · sub-2s end-to-end latency · Langfuse execution audit trail | [live api](https://github.com/devtyagi3909/support-triage-mcp#api) &middot; [customer discovery](https://github.com/devtyagi3909/support-triage-mcp#customer-discovery) &middot; [loom walkthrough](https://github.com/devtyagi3909/support-triage-mcp#demo) |
+| **[`support-triage-mcp`](https://github.com/devtyagi3909/support-triage-mcp)** | forward-deployed style triage agent for messy customer support data (emails, webhooks) with MCP server tools (CRM lookup, Postgres query, Stripe refund gate) | **91.4% intent routing precision** · **99.4% schema adherence** · sub-2s latency · Langfuse execution audit trail | [live api](https://github.com/devtyagi3909/support-triage-mcp#api) &middot; [customer discovery](https://github.com/devtyagi3909/support-triage-mcp#customer-discovery) &middot; [eval scorecard](https://github.com/devtyagi3909/support-triage-mcp#verified-evaluation-scorecard) |
 
 ---
 
@@ -65,7 +65,7 @@
 ```
 
 ```text
-• also: hardware background — synthesizable 2-wide out-of-order rv32i core (1st place @ sandisk hackathon), fpga zynq-7000 dma, and uvm verification.
+• also: hardware background — synthesizable 4-wide out-of-order rv32i core (1st place @ sandisk hackathon), fpga zynq-7000 dma, and uvm verification.
 ```
 
 ---
