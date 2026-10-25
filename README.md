@@ -14,6 +14,7 @@
 
 <p align="center">
   <a href="https://github.com/vllm-project/vllm/pull/56635"><img src="https://img.shields.io/badge/vLLM-%2356635%20merged%20(tool--call%20parser)-0D1117?style=flat-square&amp;logo=github&amp;logoColor=00FF9C&amp;labelColor=161B22&amp;color=00FF9C" alt="vllm pr 56635" /></a>
+  <a href="https://github.com/basetenlabs/truss/pull/2682"><img src="https://img.shields.io/badge/Truss-%232682%20merged-0D1117?style=flat-square&amp;logo=github&amp;logoColor=00FF9C&amp;labelColor=161B22&amp;color=00FF9C" alt="truss pr 2682" /></a>
   <a href="https://github.com/openhwfoundation/cva6/pull/3518"><img src="https://img.shields.io/badge/OpenHW%20CVA6-%233518%20merged-0D1117?style=flat-square&amp;logo=github&amp;logoColor=00FF9C&amp;labelColor=161B22&amp;color=00FF9C" alt="cva6 pr 3518" /></a>
   <a href="https://github.com/pulp-platform/riscv-dbg/pull/206"><img src="https://img.shields.io/badge/PULP%20riscv--dbg-%23206%20merged-0D1117?style=flat-square&amp;logo=github&amp;logoColor=00FF9C&amp;labelColor=161B22&amp;color=00FF9C" alt="riscv-dbg pr 206" /></a>
   <a href="https://github.com/pulp-platform/riscv-dbg/pull/204"><img src="https://img.shields.io/badge/PULP%20riscv--dbg-%23204%20merged-0D1117?style=flat-square&amp;logo=github&amp;logoColor=00FF9C&amp;labelColor=161B22&amp;color=00FF9C" alt="riscv-dbg pr 204" /></a>
@@ -43,7 +44,6 @@
   <a href="https://github.com/sgl-project/sglang/pull/45031"><img src="https://img.shields.io/badge/SGLang-%2345031%20ci%20passed-0D1117?style=flat-square&amp;logo=github&amp;logoColor=38BDF8&amp;labelColor=161B22&amp;color=38BDF8" alt="sglang pr 45031" /></a>
   <a href="https://github.com/sgl-project/sglang/pull/44571"><img src="https://img.shields.io/badge/SGLang-%2344571%20in%20review-0D1117?style=flat-square&amp;logo=github&amp;logoColor=38BDF8&amp;labelColor=161B22&amp;color=38BDF8" alt="sglang pr 44571" /></a>
   <a href="https://github.com/huggingface/transformers/pull/49614"><img src="https://img.shields.io/badge/Transformers-%2349614%20revisions%20ready-0D1117?style=flat-square&amp;logo=huggingface&amp;logoColor=FFD21E&amp;labelColor=161B22&amp;color=FFD21E" alt="transformers pr 49614" /></a>
-  <a href="https://github.com/basetenlabs/truss/pull/2682"><img src="https://img.shields.io/badge/Truss-%232682%20verified%20by%20maintainer-0D1117?style=flat-square&amp;logo=github&amp;logoColor=00FF9C&amp;labelColor=161B22&amp;color=00FF9C" alt="truss pr 2682" /></a>
 </p>
 
 ---
