@@ -41,6 +41,7 @@
 ### // in review (upstream)
 
 <p align="center">
+  <a href="https://github.com/unslothai/unsloth-zoo/pull/2290"><img src="https://img.shields.io/badge/Unsloth%20Zoo-%232290%20in%20review-0D1117?style=flat-square&amp;logo=github&amp;logoColor=A3E635&amp;labelColor=161B22&amp;color=A3E635" alt="unsloth zoo pr 2290" /></a>
   <a href="https://github.com/huggingface/transformers/pull/50178"><img src="https://img.shields.io/badge/Transformers-%2350178%20in%20review-0D1117?style=flat-square&amp;logo=huggingface&amp;logoColor=FFD21E&amp;labelColor=161B22&amp;color=FFD21E" alt="transformers pr 50178" /></a>
   <a href="https://github.com/pytorch/ao/pull/5041"><img src="https://img.shields.io/badge/PyTorch%20AO-%235041%20in%20review-0D1117?style=flat-square&amp;logo=pytorch&amp;logoColor=EE4C2C&amp;labelColor=161B22&amp;color=EE4C2C" alt="pytorch ao pr 5041" /></a>
   <a href="https://github.com/huggingface/transformers/pull/50176"><img src="https://img.shields.io/badge/Transformers-%2350176%20in%20review-0D1117?style=flat-square&amp;logo=huggingface&amp;logoColor=FFD21E&amp;labelColor=161B22&amp;color=FFD21E" alt="transformers pr 50176" /></a>
