@@ -41,6 +41,7 @@
 ### // in review (upstream)
 
 <p align="center">
+  <a href="https://github.com/sgl-project/sglang/pull/47534"><img src="https://img.shields.io/badge/SGLang-%2347534%20in%20review-0D1117?style=flat-square&amp;logo=github&amp;logoColor=38BDF8&amp;labelColor=161B22&amp;color=38BDF8" alt="sglang pr 47534" /></a>
   <a href="https://github.com/sgl-project/sglang/pull/47506"><img src="https://img.shields.io/badge/SGLang-%2347506%20in%20review-0D1117?style=flat-square&amp;logo=github&amp;logoColor=38BDF8&amp;labelColor=161B22&amp;color=38BDF8" alt="sglang pr 47506" /></a>
   <a href="https://github.com/unslothai/unsloth-zoo/pull/2290"><img src="https://img.shields.io/badge/Unsloth%20Zoo-%232290%20in%20review-0D1117?style=flat-square&amp;logo=github&amp;logoColor=A3E635&amp;labelColor=161B22&amp;color=A3E635" alt="unsloth zoo pr 2290" /></a>
   <a href="https://github.com/huggingface/transformers/pull/50178"><img src="https://img.shields.io/badge/Transformers-%2350178%20in%20review-0D1117?style=flat-square&amp;logo=huggingface&amp;logoColor=FFD21E&amp;labelColor=161B22&amp;color=FFD21E" alt="transformers pr 50178" /></a>
