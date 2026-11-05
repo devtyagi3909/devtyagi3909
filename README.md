@@ -21,21 +21,27 @@
   <a href="https://github.com/pulp-platform/riscv-dbg/pull/204"><img src="https://img.shields.io/badge/PULP%20riscv--dbg-%23204%20merged-0D1117?style=flat-square&amp;logo=github&amp;logoColor=00FF9C&amp;labelColor=161B22&amp;color=00FF9C" alt="riscv-dbg pr 204" /></a>
 </p>
 
+- **[`unslothai/unsloth-zoo #2290`](https://github.com/unslothai/unsloth-zoo/pull/2290)**: Precomputed Transformers v5 check in `GptOssTopKRouter` forward loop to eliminate runtime version parsing overhead in MoE routing.
+- **[`vllm-project/vllm #56635`](https://github.com/vllm-project/vllm/pull/56635)**: Isolated reasoning boundary tokens (`<think>`, `</think>`) in streaming `ParserEngine`, eliminating tool-call argument contamination on reasoning models.
+- **[`basetenlabs/truss #2682`](https://github.com/basetenlabs/truss/pull/2682)**: Upstream runtime model serialization and container packaging fix.
+- **[`openhwfoundation/cva6 #3518`](https://github.com/openhwfoundation/cva6/pull/3518)**: Instruction pipeline verification and testbench retirement sequence fixes.
+
 ---
 
 ### // flagship projects
 
 <p align="center">
-  <a href="https://github.com/devtyagi3909/factforge"><img src="./assets/card-factforge.svg" width="32.5%" alt="factforge" /></a>
-  <a href="https://github.com/devtyagi3909/tool-call-bench"><img src="./assets/card-toolbench.svg" width="32.5%" alt="tool-call-bench" /></a>
   <a href="https://github.com/devtyagi3909/support-triage-mcp"><img src="./assets/card-supportfde.svg" width="32.5%" alt="support-triage-mcp" /></a>
+  <a href="https://github.com/devtyagi3909/tool-call-bench"><img src="./assets/card-toolbench.svg" width="32.5%" alt="tool-call-bench" /></a>
+  <a href="https://github.com/devtyagi3909/factforge"><img src="./assets/card-factforge.svg" width="32.5%" alt="factforge" /></a>
 </p>
 
 | project | focus &amp; problem | verified evals &amp; metrics | live links |
 | :--- | :--- | :--- | :--- |
-| **[`factforge`](https://github.com/devtyagi3909/factforge)** | automated fact extraction, source PDF grounding &amp; cross-document contradiction detection for financial filings | **100.0% verbatim excerpt grounding** · 94.2% token reduction vs pairwise prompting · O(M log N) incremental retrieval | [architecture](https://github.com/devtyagi3909/factforge/blob/main/README.md#approach--technical-architecture) &middot; [eval report](https://github.com/devtyagi3909/factforge/blob/main/EVALS.md) &middot; [api server](https://github.com/devtyagi3909/factforge/blob/main/api_server.py) |
-| **[`tool-call-bench`](https://github.com/devtyagi3909/tool-call-bench)** | benchmark evaluating tool-calling &amp; structured-output reliability across providers (schema violations, malformed arguments, boundary leaks, retries) | **0.8% failure on sonnet-3.5 vs 7.4% on gpt-4o-mini** · measured token retry overhead · benchmark harness via LiteLLM | [results table](https://github.com/devtyagi3909/tool-call-bench/blob/main/README.md#benchmark-results) &middot; [repro harness](https://github.com/devtyagi3909/tool-call-bench/blob/main/harness.py) &middot; [blog post](https://github.com/devtyagi3909/tool-call-bench/blob/main/BLOG.md) |
 | **[`support-triage-mcp`](https://github.com/devtyagi3909/support-triage-mcp)** | forward-deployed style triage agent for messy customer support data (emails, webhooks) with MCP server tools (CRM lookup, Postgres query, Stripe refund gate) | **99.4% schema adherence** · **91.4% intent routing precision** · sub-2s latency · Langfuse audit trail | [pipeline server](https://github.com/devtyagi3909/support-triage-mcp/blob/main/server.py) &middot; [eval harness](https://github.com/devtyagi3909/support-triage-mcp/blob/main/evals/eval_triage.py) &middot; [test corpus](https://github.com/devtyagi3909/support-triage-mcp/blob/main/data/messy_tickets.json) |
+| **[`tool-call-bench`](https://github.com/devtyagi3909/tool-call-bench)** | benchmark evaluating tool-calling &amp; structured-output reliability across providers (schema violations, malformed arguments, boundary leaks, retries) | **0.8% failure on sonnet-3.5 vs 7.4% on gpt-4o-mini** · measured token retry overhead · benchmark harness via LiteLLM | [results table](https://github.com/devtyagi3909/tool-call-bench/blob/main/README.md#benchmark-results) &middot; [repro harness](https://github.com/devtyagi3909/tool-call-bench/blob/main/harness.py) &middot; [blog post](https://github.com/devtyagi3909/tool-call-bench/blob/main/BLOG.md) |
+| **[`decodeforge`](https://github.com/devtyagi3909/decodeforge)** | high-throughput grammar compiler &amp; constrained decoding runtime for production LLM serving pipelines | **O(1) sub-token bitmask filtering** · sub-microsecond logit pruning · zero GPU decode stalls | [architecture](https://github.com/devtyagi3909/decodeforge#architecture) &middot; [spec](https://github.com/devtyagi3909/decodeforge#features) &middot; [quickstart](https://github.com/devtyagi3909/decodeforge#quickstart) |
+| **[`factforge`](https://github.com/devtyagi3909/factforge)** | automated fact extraction, source PDF grounding &amp; cross-document contradiction detection for financial filings | **100.0% verbatim excerpt grounding** · 94.2% token reduction vs pairwise prompting · O(M log N) incremental retrieval | [architecture](https://github.com/devtyagi3909/factforge/blob/main/README.md#approach--technical-architecture) &middot; [eval report](https://github.com/devtyagi3909/factforge/blob/main/EVALS.md) &middot; [api server](https://github.com/devtyagi3909/factforge/blob/main/api_server.py) |
 
 ---
 
