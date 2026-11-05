@@ -10,7 +10,7 @@
   <img src="./assets/slash-divider.svg" width="100%" alt="divider" />
 </p>
 
-### // upstream merged (verified)
+###  upstream merged 
 
 <p align="center">
   <a href="https://github.com/unslothai/unsloth-zoo/pull/2290"><img src="https://img.shields.io/badge/Unsloth%20Zoo-%232290%20merged%20(transformers%20v5%20router)-0D1117?style=flat-square&amp;logo=github&amp;logoColor=00FF9C&amp;labelColor=161B22&amp;color=00FF9C" alt="unsloth zoo pr 2290" /></a>
