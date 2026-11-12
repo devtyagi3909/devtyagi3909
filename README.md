@@ -13,17 +13,21 @@
 ###  upstream merged 
 
 <p align="center">
-  <a href="https://github.com/unslothai/unsloth-zoo/pull/2290"><img src="https://img.shields.io/badge/Unsloth%20Zoo-%232290%20merged%20(transformers%20v5%20router)-0D1117?style=flat-square&amp;logo=github&amp;logoColor=00FF9C&amp;labelColor=161B22&amp;color=00FF9C" alt="unsloth zoo pr 2290" /></a>
+  <a href="https://github.com/pydantic/pydantic-ai/pull/13268"><img src="https://img.shields.io/badge/PydanticAI-%2313268%20merged%20(tool%20args%20validation)-0D1117?style=flat-square&amp;logo=pydantic&amp;logoColor=E92063&amp;labelColor=161B22&amp;color=E92063" alt="pydantic-ai pr 13268" /></a>
   <a href="https://github.com/vllm-project/vllm/pull/56635"><img src="https://img.shields.io/badge/vLLM-%2356635%20merged%20(tool--call%20parser)-0D1117?style=flat-square&amp;logo=github&amp;logoColor=00FF9C&amp;labelColor=161B22&amp;color=00FF9C" alt="vllm pr 56635" /></a>
+  <a href="https://github.com/vllm-project/vllm/pull/67224"><img src="https://img.shields.io/badge/vLLM-%2367224%20(topk%20sampler%20kernel)-0D1117?style=flat-square&amp;logo=vllm&amp;logoColor=6366F1&amp;labelColor=161B22&amp;color=6366F1" alt="vllm pr 67224" /></a>
   <a href="https://github.com/basetenlabs/truss/pull/2682"><img src="https://img.shields.io/badge/Truss-%232682%20merged-0D1117?style=flat-square&amp;logo=github&amp;logoColor=00FF9C&amp;labelColor=161B22&amp;color=00FF9C" alt="truss pr 2682" /></a>
+  <a href="https://github.com/unslothai/unsloth-zoo/pull/2290"><img src="https://img.shields.io/badge/Unsloth%20Zoo-%232290%20merged-0D1117?style=flat-square&amp;logo=github&amp;logoColor=00FF9C&amp;labelColor=161B22&amp;color=00FF9C" alt="unsloth zoo pr 2290" /></a>
   <a href="https://github.com/openhwfoundation/cva6/pull/3518"><img src="https://img.shields.io/badge/OpenHW%20CVA6-%233518%20merged-0D1117?style=flat-square&amp;logo=github&amp;logoColor=00FF9C&amp;labelColor=161B22&amp;color=00FF9C" alt="cva6 pr 3518" /></a>
   <a href="https://github.com/pulp-platform/riscv-dbg/pull/206"><img src="https://img.shields.io/badge/PULP%20riscv--dbg-%23206%20merged-0D1117?style=flat-square&amp;logo=github&amp;logoColor=00FF9C&amp;labelColor=161B22&amp;color=00FF9C" alt="riscv-dbg pr 206" /></a>
   <a href="https://github.com/pulp-platform/riscv-dbg/pull/204"><img src="https://img.shields.io/badge/PULP%20riscv--dbg-%23204%20merged-0D1117?style=flat-square&amp;logo=github&amp;logoColor=00FF9C&amp;labelColor=161B22&amp;color=00FF9C" alt="riscv-dbg pr 204" /></a>
 </p>
 
-- **[`unslothai/unsloth-zoo #2290`](https://github.com/unslothai/unsloth-zoo/pull/2290)**: Precomputed Transformers v5 check in `GptOssTopKRouter` forward loop to eliminate runtime version parsing overhead in MoE routing.
+- **[`pydantic/pydantic-ai #13268`](https://github.com/pydantic/pydantic-ai/pull/13268)**: Closed tool argument validation bypass in `BaseToolCallPart.args_as_dict` under `python -O` (assert stripping), preventing unvalidated non-object payloads from corrupting downstream agent tool execution.
+- **[`vllm-project/vllm #67224`](https://github.com/vllm-project/vllm/pull/67224)**: Established bitwise-deterministic index ordering in `top_k_per_row_prefill` CUDA kernel via composite 64-bit key radix sort in CUB, cooperative `BlockScan` row scan, and tiled rank merge for $topK > 2048$, eliminating bf16 numerical drift in downstream FlashInfer attention.
 - **[`vllm-project/vllm #56635`](https://github.com/vllm-project/vllm/pull/56635)**: Isolated reasoning boundary tokens (`<think>`, `</think>`) in streaming `ParserEngine`, eliminating tool-call argument contamination on reasoning models.
-- **[`basetenlabs/truss #2682`](https://github.com/basetenlabs/truss/pull/2682)**: Upstream runtime model serialization and container packaging fix.
+- **[`basetenlabs/truss #2682`](https://github.com/basetenlabs/truss/pull/2682)**: Intercepted `ModelNotReady` to return structured 503 JSON responses, eliminating container crash-loops and ensuring graceful model warm-up in production.
+- **[`unslothai/unsloth-zoo #2290`](https://github.com/unslothai/unsloth-zoo/pull/2290)**: Precomputed Transformers v5 check in `GptOssTopKRouter` forward loop to eliminate runtime version parsing overhead in MoE routing.
 - **[`openhwfoundation/cva6 #3518`](https://github.com/openhwfoundation/cva6/pull/3518)**: Instruction pipeline verification and testbench retirement sequence fixes.
 
 ---
