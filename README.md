@@ -32,7 +32,7 @@
 
 ---
 
-### // flagship projects
+## // flagship projects
 
 <p align="center">
   <a href="https://github.com/devtyagi3909/support-triage-mcp"><img src="./assets/card-supportfde.svg" width="32.5%" alt="support-triage-mcp" /></a>
