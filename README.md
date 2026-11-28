@@ -2,7 +2,7 @@
   <img src="./assets/hero-telemetry.svg" width="100%" alt="dev tyagi // applied ai engineer" />
 </p>
 
-<p align="center">
+<p align="center">#
   <img src="./assets/terminal-boot.svg" width="100%" alt="applied ai telemetry" />
 </p>
 
